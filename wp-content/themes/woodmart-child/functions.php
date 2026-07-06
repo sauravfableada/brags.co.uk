@@ -21,6 +21,7 @@ require_once get_stylesheet_directory() . '/functions/vendor_registration_approv
 require_once get_stylesheet_directory() . '/functions/Finance.php';
 require_once get_stylesheet_directory() . '/functions/login-otp.php';
 require_once get_stylesheet_directory() . '/functions/CustomerQuestionsAnswers.php';
+require_once get_stylesheet_directory() . '/API/authorization/customer/customer_auth.php';
 
 
 

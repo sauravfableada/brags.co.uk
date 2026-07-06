@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brags - Customer API Reference</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #080c14;
+            --bg-sidebar: #0b0f19;
+            --bg-card: #111625;
+            --bg-element: #1a2035;
+            --bg-element-hover: #222a45;
+            
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+
+            --color-post: #3b82f6;
+            --color-post-bg: #2563eb;
+            --color-get: #10b981;
+            --color-get-bg: #10b981;
+            
+            --color-success: #10b981;
+            --color-error: #ef4444;
+
+            --border-color: rgba(255, 255, 255, 0.05);
+            --radius-lg: 12px;
+            --radius-md: 8px;
+            --radius-sm: 4px;
+            
+            --font-sans: 'Plus Jakarta Sans', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Sidebar styling */
+        aside {
+            width: 300px;
+            background-color: var(--bg-sidebar);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+
+        .brand-section {
+            padding: 24px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-icon {
+            color: #3b82f6;
+            font-weight: 800;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .brand-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        .brand-subtitle {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            padding: 0 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .search-container {
+            padding: 0 20px 16px 20px;
+        }
+
+        .search-input {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 10px 14px;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        .search-input:focus {
+            border-color: #3b82f6;
+            background-color: var(--bg-element);
+        }
+
+        .nav-menu {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0 12px 24px 12px;
+        }
+
+        .nav-category-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin: 20px 8px 8px 8px;
+            font-weight: 700;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            margin-bottom: 4px;
+        }
+
+        .nav-item:hover {
+            background-color: rgba(255, 255, 255, 0.02);
+            color: var(--text-primary);
+        }
+
+        .nav-item.active {
+            background-color: rgba(59, 130, 246, 0.08);
+            color: #60a5fa;
+            font-weight: 600;
+        }
+
+        .badge {
+            font-size: 0.65rem;
+            font-weight: 800;
+            padding: 3px 6px;
+            border-radius: var(--radius-sm);
+            text-transform: uppercase;
+            min-width: 42px;
+            text-align: center;
+        }
+
+        .badge-post {
+            background-color: rgba(37, 99, 235, 0.15);
+            color: #3b82f6;
+        }
+
+        .badge-get {
+            background-color: rgba(16, 185, 129, 0.15);
+            color: #10b981;
+        }
+
+        /* Main area */
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+            background-color: var(--bg-base);
+            padding: 40px 60px;
+        }
+
+        .header-section {
+            margin-bottom: 32px;
+        }
+
+        .page-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 8px;
+        }
+
+        .page-subtitle {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 800px;
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+
+        .base-urls {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .base-url-box {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .base-url-label {
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-right: 6px;
+        }
+
+        .base-url-value {
+            font-family: var(--font-mono);
+            color: #60a5fa;
+        }
+
+        /* Container Card */
+        .api-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .api-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        .route-info {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .method-badge {
+            font-size: 0.8rem;
+            font-weight: 800;
+            padding: 6px 12px;
+            border-radius: var(--radius-md);
+            color: #fff;
+        }
+
+        .method-badge.post {
+            background-color: var(--color-post-bg);
+        }
+
+        .method-badge.get {
+            background-color: var(--color-get-bg);
+        }
+
+        .route-path {
+            font-family: var(--font-mono);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .endpoint-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* Headers section */
+        .headers-box {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .headers-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+
+        .headers-pills {
+            display: flex;
+            gap: 12px;
+        }
+
+        .header-pill {
+            background-color: var(--bg-element);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 8px 14px;
+            font-size: 0.8rem;
+            font-family: var(--font-mono);
+        }
+
+        .header-pill span:first-child {
+            color: var(--text-muted);
+            margin-right: 4px;
+        }
+
+        .header-pill span:last-child {
+            color: #60a5fa;
+            font-weight: 500;
+        }
+
+        /* Request Body */
+        .section-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .table-container {
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.85rem;
+        }
+
+        th {
+            background-color: rgba(255, 255, 255, 0.01);
+            padding: 14px 16px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border-color);
+            vertical-align: top;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .param-field {
+            font-family: var(--font-mono);
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .param-type {
+            font-family: var(--font-mono);
+            color: var(--text-muted);
+        }
+
+        .param-req {
+            font-weight: 600;
+        }
+
+        .req-yes {
+            color: var(--color-error);
+        }
+
+        .req-no {
+            color: var(--text-muted);
+        }
+
+        .param-desc {
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        /* Responses */
+        .responses-container {
+            margin-top: 12px;
+        }
+
+        .response-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .tab-btn {
+            background-color: var(--bg-element);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 8px 16px;
+            border-radius: var(--radius-md);
+            cursor: pointer;
+            font-family: var(--font-sans);
+            font-size: 0.8rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-primary);
+            background-color: var(--bg-element-hover);
+        }
+
+        .tab-btn.active {
+            background-color: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+
+        .tab-btn.active.err-tab {
+            background-color: rgba(239, 68, 68, 0.15);
+            color: #f87171;
+            border-color: rgba(239, 68, 68, 0.3);
+        }
+
+        .code-box {
+            position: relative;
+            background-color: #05080f;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            overflow: auto;
+        }
+
+        pre {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: #34d399;
+            margin: 0;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background-color: var(--bg-element);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 6px 10px;
+            border-radius: var(--radius-sm);
+            cursor: pointer;
+            font-size: 0.75rem;
+            font-family: var(--font-sans);
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .copy-btn:hover {
+            background-color: var(--bg-element-hover);
+            color: var(--text-primary);
+        }
+
+        /* Try it out section */
+        .try-it-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            margin-bottom: 50px;
+        }
+
+        .try-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        @media (max-width: 768px) {
+            .try-form {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .form-row {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .form-row.full-width {
+            grid-column: span 2;
+        }
+
+        @media (max-width: 768px) {
+            .form-row.full-width {
+                grid-column: span 1;
+            }
+        }
+
+        .form-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .form-input {
+            background-color: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 12px;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .form-input:focus {
+            border-color: #3b82f6;
+        }
+
+        .submit-btn-row {
+            grid-column: span 2;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 12px;
+        }
+
+        @media (max-width: 768px) {
+            .submit-btn-row {
+                grid-column: span 1;
+            }
+        }
+
+        .send-btn {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            border: none;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: var(--radius-md);
+            font-family: var(--font-sans);
+            font-weight: 700;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .send-btn:hover {
+            opacity: 0.9;
+        }
+
+        .live-response-container {
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside>
+        <div class="brand-section">
+            <span class="brand-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2zm0 3.99L19.53 19H4.47L12 5.99zM11 16h2v2h-2zm0-6h2v4h-2z"/></svg>
+                Fab Food .
+            </span>
+        </div>
+        
+        <div class="brand-subtitle">API Reference</div>
+        
+        <div class="search-container">
+            <input type="text" class="search-input" id="search-bar" placeholder="Filter endpoints..." onkeyup="filterEndpoints()">
+        </div>
+
+        <div class="nav-menu">
+            <div class="nav-category-title">Authentication</div>
+            
+            <a href="#" class="nav-item active" id="nav-register" onclick="showEndpoint('register', this)">
+                <span class="badge badge-post">POST</span>
+                <span>/customer/register</span>
+            </a>
+            
+            <a href="#" class="nav-item" id="nav-login" onclick="showEndpoint('login', this)">
+                <span class="badge badge-post">POST</span>
+                <span>/customer/login</span>
+            </a>
+            
+            <a href="#" class="nav-item" id="nav-forgot-password" onclick="showEndpoint('forgot-password', this)">
+                <span class="badge badge-post">POST</span>
+                <span>/customer/forgot-password</span>
+            </a>
+            
+            <a href="#" class="nav-item" id="nav-change-password" onclick="showEndpoint('change-password', this)">
+                <span class="badge badge-post">POST</span>
+                <span>/customer/change-password</span>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Main -->
+    <main>
+        <div class="header-section">
+            <h1 class="page-title" id="page-main-title">Customer API Reference</h1>
+            <p class="page-subtitle" id="page-main-desc">Detailed documentation of customer registration, login credentials verification, lost password recovery, and password updates.</p>
+            
+            <div class="base-urls">
+                <div class="base-url-box">
+                    <span class="base-url-label">Base URL:</span>
+                    <span class="base-url-value">http://localhost/brags.co.uk/wp-json</span>
+                </div>
+                <div class="base-url-box">
+                    <span class="base-url-label">Base URL:</span>
+                    <span class="base-url-value">https://brags.co.uk/wp-json</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Selected Endpoint Detail Card -->
+        <div class="api-card">
+            <div class="api-card-header">
+                <div class="route-info">
+                    <span class="method-badge post" id="card-method">POST</span>
+                    <span class="route-path" id="card-route">/customer/register</span>
+                </div>
+            </div>
+
+            <p class="endpoint-desc" id="card-description">
+                Registers a new Customer (User role) and automatically establishes profile parameters.
+            </p>
+
+            <div class="headers-box">
+                <div class="headers-title">Headers</div>
+                <div class="headers-pills">
+                    <div class="header-pill">
+                        <span>Accept:</span><span>application/json</span>
+                    </div>
+                    <div class="header-pill">
+                        <span>Content-Type:</span><span>application/json</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="section-label">Request Body</div>
+                <div class="table-container">
+                    <table id="params-table">
+                        <thead>
+                            <tr>
+                                <th>Field</th>
+                                <th>Type</th>
+                                <th>Required</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- JS loaded -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="responses-container">
+                <div class="section-label">Responses</div>
+                <div class="response-tabs" id="response-tabs-container">
+                    <!-- JS loaded -->
+                </div>
+                <div class="code-box">
+                    <button class="copy-btn" onclick="copyCode()">Copy</button>
+                    <pre><code id="json-code-block"></code></pre>
+                </div>
+            </div>
+        </div>
+
+        <!-- Try It Out Card -->
+        <div class="try-it-card">
+            <h3 class="page-title" style="font-size:1.25rem; margin-bottom:16px;">Try It Out</h3>
+            <form class="try-form" id="try-form" onsubmit="handleTryIt(event)">
+                <!-- JS loaded form inputs -->
+            </form>
+            
+            <div class="live-response-container" id="live-response-container">
+                <div class="section-label" style="margin-top:20px;">Live HTTP Response</div>
+                <div class="code-box">
+                    <pre><code id="live-response-code"></code></pre>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const endpointsData = {
+            register: {
+                method: 'POST',
+                path: '/wp-json/brags/v1/customer/register',
+                description: 'Registers a new Customer (User role) and automatically establishes profile parameters.',
+                params: [
+                    { name: 'first_name', type: 'string', required: 'Yes', desc: 'First name of the customer.' },
+                    { name: 'last_name', type: 'string', required: 'Yes', desc: 'Last name of the customer.' },
+                    { name: 'email', type: 'string', required: 'Yes', desc: 'Unique email address (must not exist).' },
+                    { name: 'password', type: 'string', required: 'Yes', desc: 'Must be at least 8 characters.' },
+                    { name: 'account_type', type: 'string', required: 'Yes', desc: 'Are you an Individual or Business? Acceptable values: "individual", "business".' }
+                ],
+                responses: {
+                    '201 Created': {
+                        status: 'success',
+                        message: 'Customer registered successfully.',
+                        data: {
+                            user_id: 12,
+                            first_name: 'Alice',
+                            last_name: 'Customer',
+                            email: 'alice@example.com',
+                            role: 'customer',
+                            account_type: 'individual'
+                        }
+                    },
+                    '400 Bad Request': {
+                        status: 'error',
+                        code: 'missing_fields',
+                        message: 'First name, last name, email, password, and account type are required.'
+                    },
+                    '409 Conflict': {
+                        status: 'error',
+                        code: 'email_exists',
+                        message: 'This email address is already registered.'
+                    }
+                }
+            },
+            login: {
+                method: 'POST',
+                path: '/wp-json/brags/v1/customer/login',
+                description: 'Verifies customer login credentials. Returns full profile metadata upon success.',
+                params: [
+                    { name: 'username', type: 'string', required: 'Yes', desc: 'Email address or username.' },
+                    { name: 'password', type: 'string', required: 'Yes', desc: 'User password.' }
+                ],
+                responses: {
+                    '200 OK': {
+                        status: 'success',
+                        message: 'Login successful.',
+                        data: {
+                            user_id: 12,
+                            username: 'alice@example.com',
+                            email: 'alice@example.com',
+                            first_name: 'Alice',
+                            last_name: 'Customer',
+                            display_name: 'Alice Customer',
+                            roles: ['customer'],
+                            account_type: 'individual'
+                        }
+                    },
+                    '400 Bad Request': {
+                        status: 'error',
+                        code: 'missing_credentials',
+                        message: 'Username/email and password are required.'
+                    },
+                    '401 Unauthorized': {
+                        status: 'error',
+                        code: 'invalid_credentials',
+                        message: 'Invalid username/email or password.'
+                    },
+                    '403 Forbidden': {
+                        status: 'error',
+                        code: 'unauthorized_role',
+                        message: 'Access denied. Only customers can log in here.'
+                    }
+                }
+            },
+            'forgot-password': {
+                method: 'POST',
+                path: '/wp-json/brags/v1/customer/forgot-password',
+                description: 'Sends a secure reset password link to the customer\'s registered email address.',
+                params: [
+                    { name: 'email', type: 'string', required: 'Yes', desc: 'Username or email address.' }
+                ],
+                responses: {
+                    '200 OK': {
+                        status: 'success',
+                        message: 'Password reset link has been sent to your email.'
+                    },
+                    '400 Bad Request': {
+                        status: 'error',
+                        code: 'missing_email',
+                        message: 'Email address or username is required.'
+                    },
+                    '404 Not Found': {
+                        status: 'error',
+                        code: 'user_not_found',
+                        message: 'No user found with that email or username.'
+                    }
+                }
+            },
+            'change-password': {
+                method: 'POST',
+                path: '/wp-json/brags/v1/customer/change-password',
+                description: 'Updates password for the customer. Must supply the valid current password to authorize.',
+                params: [
+                    { name: 'user_id', type: 'integer', required: 'No', desc: 'Target user ID (falls back to active session).' },
+                    { name: 'current_password', type: 'string', required: 'Yes', desc: 'Current active password.' },
+                    { name: 'new_password', type: 'string', required: 'Yes', desc: 'New password value.' }
+                ],
+                responses: {
+                    '200 OK': {
+                        status: 'success',
+                        message: 'Password changed successfully.'
+                    },
+                    '400 Bad Request': {
+                        status: 'error',
+                        code: 'missing_fields',
+                        message: 'User identity, current password, and new password are required.'
+                    },
+                    '401 Unauthorized': {
+                        status: 'error',
+                        code: 'incorrect_password',
+                        message: 'The current password you entered is incorrect.'
+                    },
+                    '404 Not Found': {
+                        status: 'error',
+                        code: 'user_not_found',
+                        message: 'User not found.'
+                    }
+                }
+            }
+        };
+
+        let activeEndpoint = 'register';
+        let activeResponse = '';
+
+        function showEndpoint(key, el) {
+            activeEndpoint = key;
+            const data = endpointsData[key];
+
+            // Toggle active menu class
+            document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+            if (el) el.classList.add('active');
+
+            // Card routes
+            document.getElementById('card-method').innerText = data.method;
+            document.getElementById('card-route').innerText = data.path;
+            document.getElementById('card-description').innerText = data.description;
+
+            // Fill parameters table
+            const tbody = document.querySelector('#params-table tbody');
+            tbody.innerHTML = '';
+            data.params.forEach(param => {
+                const tr = document.createElement('tr');
+                const reqText = param.required === 'Yes' ? 'Yes' : 'No';
+                const reqClass = param.required === 'Yes' ? 'req-yes' : 'req-no';
+                tr.innerHTML = `
+                    <td class="param-field">${param.name}</td>
+                    <td class="param-type">${param.type}</td>
+                    <td class="param-req ${reqClass}">${reqText}</td>
+                    <td class="param-desc">${param.desc}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+
+            // Fill Response tabs
+            const tabs = document.getElementById('response-tabs-container');
+            tabs.innerHTML = '';
+            const resKeys = Object.keys(data.responses);
+            activeResponse = resKeys[0];
+
+            resKeys.forEach((k, idx) => {
+                const btn = document.createElement('button');
+                const isError = k.startsWith('4');
+                btn.className = `tab-btn ${isError ? 'err-tab' : ''} ${idx === 0 ? 'active' : ''}`;
+                btn.innerText = k;
+                btn.onclick = () => {
+                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    activeResponse = k;
+                    document.getElementById('json-code-block').innerText = JSON.stringify(data.responses[k], null, 4);
+                };
+                tabs.appendChild(btn);
+            });
+
+            document.getElementById('json-code-block').innerText = JSON.stringify(data.responses[activeResponse], null, 4);
+
+            // Fill form inputs for test request
+            const form = document.getElementById('try-form');
+            form.innerHTML = '';
+            data.params.forEach(param => {
+                const div = document.createElement('div');
+                div.className = 'form-row';
+                if (param.name === 'description' || param.desc.length > 80) {
+                    div.className += ' full-width';
+                }
+                div.innerHTML = `
+                    <label class="form-label">${param.name} (${param.type}) ${param.required === 'Yes' ? '*' : ''}</label>
+                    <input type="${param.name.includes('password') ? 'password' : 'text'}" 
+                           class="form-input" 
+                           name="${param.name}" 
+                           placeholder="Enter value..."
+                           ${param.required === 'Yes' ? 'required' : ''}>
+                `;
+                form.appendChild(div);
+            });
+
+            const submitRow = document.createElement('div');
+            submitRow.className = 'submit-btn-row';
+            submitRow.innerHTML = `<button type="submit" class="send-btn">Send request</button>`;
+            form.appendChild(submitRow);
+
+            // Clear response box
+            document.getElementById('live-response-container').style.display = 'none';
+        }
+
+        function copyCode() {
+            const txt = document.getElementById('json-code-block').innerText;
+            navigator.clipboard.writeText(txt).then(() => {
+                alert('Copied response JSON!');
+            });
+        }
+
+        function filterEndpoints() {
+            const query = document.getElementById('search-bar').value.toLowerCase();
+            document.querySelectorAll('.nav-item').forEach(item => {
+                const name = item.querySelector('span:nth-child(2)').innerText.toLowerCase();
+                if (name.includes(query)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        function handleTryIt(e) {
+            e.preventDefault();
+            const data = endpointsData[activeEndpoint];
+            const form = document.getElementById('try-form');
+            const formData = new FormData(form);
+            const body = {};
+            formData.forEach((val, k) => {
+                if (val.trim() !== '') {
+                    body[k] = val;
+                }
+            });
+
+            const localUrl = `http://localhost/brags.co.uk${data.path}`;
+            const container = document.getElementById('live-response-container');
+            const codeEl = document.getElementById('live-response-code');
+
+            container.style.display = 'block';
+            codeEl.innerText = `Connecting to ${localUrl}...`;
+
+            fetch(localUrl, {
+                method: data.method,
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(body)
+            })
+            .then(async res => {
+                const text = await res.text();
+                let json;
+                try {
+                    json = JSON.parse(text);
+                } catch(err) {
+                    json = text;
+                }
+                codeEl.innerText = `Status: ${res.status} ${res.statusText}\n\n${JSON.stringify(json, null, 4)}`;
+            })
+            .catch(err => {
+                codeEl.innerText = `Network Error: ${err.message}\n\nPlease check if your local server is running.`;
+            });
+        }
+
+        // Init
+        showEndpoint('register');
+    </script>
+</body>
+</html>

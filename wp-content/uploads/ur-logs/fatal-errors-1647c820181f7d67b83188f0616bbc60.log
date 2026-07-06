@@ -41749,3 +41749,108 @@ Message : Maximum execution time of 120 seconds exceeded
 File    : C:\xampp\htdocs\brags.co.uk\wp-content\plugins\woocommerce\src\Blocks\BlockTypes\AbstractBlock.php:66
 Status  : FAILED
 ================================================================
+2026-07-06T06:55:56+01:00 CRITICAL ================================================================
+[2026-07-06 05:55:55] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\plugins\google-listings-and-ads\src\Admin\Exports\RowBuilder\OrderItemRowBuilder.php:11
+Status  : FAILED
+================================================================
+2026-07-06T06:55:56+01:00 CRITICAL ================================================================
+[2026-07-06 05:55:56] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\plugins\google-listings-and-ads\src\Admin\Exports\RowBuilder\OrderItemRowBuilder.php:11
+Status  : FAILED
+================================================================
+2026-07-06T06:55:56+01:00 CRITICAL ================================================================
+[2026-07-06 05:55:56] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\plugins\google-listings-and-ads\src\Admin\Exports\RowBuilder\OrderItemRowBuilder.php:11
+Status  : FAILED
+================================================================
+2026-07-06T06:56:09+01:00 CRITICAL ================================================================
+[2026-07-06 05:56:09] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\themes\woodmart\inc\classes\class-theme.php:524
+Status  : FAILED
+================================================================
+2026-07-06T06:56:09+01:00 CRITICAL ================================================================
+[2026-07-06 05:56:09] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\themes\woodmart\inc\classes\class-theme.php:524
+Status  : FAILED
+================================================================
+2026-07-06T06:56:09+01:00 CRITICAL ================================================================
+[2026-07-06 05:56:09] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\themes\woodmart\inc\classes\class-theme.php:524
+Status  : FAILED
+================================================================
+2026-07-06T06:58:37+01:00 CRITICAL ================================================================
+[2026-07-06 05:58:37] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\plugins\wp-data-access\vendor\composer\ClassLoader.php:348
+Status  : FAILED
+================================================================
+2026-07-06T06:58:37+01:00 CRITICAL ================================================================
+[2026-07-06 05:58:37] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\plugins\wp-data-access\vendor\composer\ClassLoader.php:348
+Status  : FAILED
+================================================================
+2026-07-06T06:58:37+01:00 CRITICAL ================================================================
+[2026-07-06 05:58:37] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\plugins\wp-data-access\vendor\composer\ClassLoader.php:348
+Status  : FAILED
+================================================================
+2026-07-06T07:00:35+01:00 CRITICAL ================================================================
+[2026-07-06 06:00:35] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\themes\woodmart\inc\modules\layouts\elementor\cart\class-cart-table.php:14
+Status  : FAILED
+================================================================
+2026-07-06T07:00:35+01:00 CRITICAL ================================================================
+[2026-07-06 06:00:35] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\themes\woodmart\inc\modules\layouts\elementor\cart\class-cart-table.php:14
+Status  : FAILED
+================================================================
+2026-07-06T07:00:35+01:00 CRITICAL ================================================================
+[2026-07-06 06:00:35] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-content\themes\woodmart\inc\modules\layouts\elementor\cart\class-cart-table.php:14
+Status  : FAILED
+================================================================
+2026-07-06T07:16:37+01:00 CRITICAL ================================================================
+[2026-07-06 06:16:37] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-includes\Requests\src\Transport\Curl.php:514
+Status  : FAILED
+================================================================
+2026-07-06T07:16:37+01:00 CRITICAL ================================================================
+[2026-07-06 06:16:37] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-includes\Requests\src\Transport\Curl.php:514
+Status  : FAILED
+================================================================
+2026-07-06T07:16:37+01:00 CRITICAL ================================================================
+[2026-07-06 06:16:37] CRITICAL  Fatal error
+----------------------------------------------------------------
+Message : Maximum execution time of 120 seconds exceeded
+File    : C:\xampp\htdocs\brags.co.uk\wp-includes\Requests\src\Transport\Curl.php:514
+Status  : FAILED
+================================================================
