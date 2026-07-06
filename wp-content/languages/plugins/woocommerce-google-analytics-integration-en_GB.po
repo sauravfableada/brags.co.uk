@@ -1,0 +1,257 @@
+# Translation of Plugins - Google Analytics for WooCommerce - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Google Analytics for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-13 00:35:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Google Analytics for WooCommerce - Stable (latest release)\n"
+
+#. translators: %s: Product tag name
+#: includes/class-wc-abstract-google-analytics-js.php:166
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#. translators: %s: Product category name
+#: includes/class-wc-abstract-google-analytics-js.php:158
+msgid "Category: %s"
+msgstr "Category: %s"
+
+#: includes/class-wc-abstract-google-analytics-js.php:152
+msgid "Shop"
+msgstr "Shop"
+
+#: includes/abilities/class-wc-google-analytics-get-tracking-settings-ability.php:131
+msgid "The recognized prefix for the configured measurement ID, or X for an unrecognized prefix."
+msgstr "The recognised prefix for the configured measurement ID, or X for an unrecognised prefix."
+
+#: includes/abilities/class-wc-google-analytics-get-tracking-settings-ability.php:127
+msgid "The configured Google Analytics measurement or tag ID."
+msgstr "The configured Google Analytics measurement or tag ID."
+
+#: includes/abilities/class-wc-google-analytics-get-tracking-settings-ability.php:123
+msgid "Whether a Google Analytics measurement ID is configured."
+msgstr "Whether a Google Analytics measurement ID is configured."
+
+#: includes/abilities/class-wc-google-analytics-get-tracking-settings-ability.php:105
+msgid "Google Analytics for WooCommerce settings are unavailable."
+msgstr "Google Analytics for WooCommerce settings are unavailable."
+
+#: includes/abilities/class-wc-google-analytics-get-tracking-settings-ability.php:96
+msgid "Google Analytics for WooCommerce is not initialized."
+msgstr "Google Analytics for WooCommerce is not initialised."
+
+#: includes/abilities/class-wc-google-analytics-get-tracking-settings-ability.php:36
+msgid "Read the current Google Analytics for WooCommerce tracking configuration and enabled event settings."
+msgstr "Read the current Google Analytics for WooCommerce tracking configuration and enabled event settings."
+
+#: includes/abilities/class-wc-google-analytics-get-tracking-settings-ability.php:35
+msgid "Get Google Analytics tracking settings"
+msgstr "Get Google Analytics tracking settings"
+
+#. translators: 1 is the required component
+#: woocommerce-google-analytics-integration.php:161
+msgid "Google Analytics for WooCommerce requires WooCommerce version %1$s or higher."
+msgstr "Google Analytics for WooCommerce requires WooCommerce version %1$s or higher."
+
+#. translators: 1 is the required component, 2 the Woocommerce version
+#: woocommerce-google-analytics-integration.php:158
+msgid "Google Analytics for WooCommerce requires WooCommerce version %1$s or higher. You are using version %2$s"
+msgstr "Google Analytics for WooCommerce requires WooCommerce version %1$s or higher. You are using version %2$s"
+
+#: includes/class-wc-google-analytics.php:153
+msgid "Event Tracking"
+msgstr "Event Tracking"
+
+#: includes/class-wc-google-analytics.php:117
+msgid "Product SKU with prefixed (#) ID as fallback"
+msgstr "Product SKU with prefixed (#) ID as fallback"
+
+#: includes/class-wc-google-analytics.php:116
+msgid "Product ID"
+msgstr "Product ID"
+
+#: includes/class-wc-google-analytics.php:113
+msgid "Specify how your products will be identified to Google Analytics. Changing this setting may cause issues with historical data if a product was previously identified using a different structure."
+msgstr "Specify how your products will be identified to Google Analytics. Changing this setting may cause issues with historical data if a product was previously identified using a different structure."
+
+#: includes/class-wc-google-analytics.php:112
+msgid "Product Identification"
+msgstr "Product Identification"
+
+#. translators: 1) URL for Google documentation on upgrading from UA to GA4 2)
+#. URL to WooCommerce Google Analytics settings page
+#: includes/class-wc-google-analytics.php:96
+msgid "Your website is configured to use Universal Analytics which Google retired in July of 2023. Update your account using the %1$ssetup assistant%2$s and then update your %3$sWooCommerce settings%4$s."
+msgstr "Your website is configured to use Universal Analytics which Google retired in July of 2023. Update your account using the %1$ssetup assistant%2$s and then update your %3$sWooCommerce settings%4$s."
+
+#: includes/class-wc-abstract-google-analytics-js.php:664
+msgid "The formatted product identifier to use in Google Analytics events."
+msgstr "The formatted product identifier to use in Google Analytics events."
+
+#: woocommerce-google-analytics-integration.php:122
+msgid "Documentation"
+msgstr "Documentation"
+
+#. translators: 1) HTML anchor open tag 2) HTML anchor closing tag
+#: includes/class-wc-google-analytics.php:264
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. %1$sLearn more about what data is collected by Google and what you may want to include in your privacy policy%2$s."
+msgstr "By using this extension, you may be storing personal data or sharing data with an external service. %1$sLearn more about what data is collected by Google and what you may want to include in your Privacy Policy%2$s."
+
+#: includes/class-wc-abstract-google-analytics-js.php:175
+#: assets/js/build/main.js:1
+msgid "Product List"
+msgstr "Product List"
+
+#: includes/class-wc-abstract-google-analytics-js.php:172
+msgid "Search Results"
+msgstr "Search Results"
+
+#: includes/class-wc-google-analytics-task.php:50
+msgid "5 minutes"
+msgstr "5 minutes"
+
+#: includes/class-wc-google-analytics-task.php:41
+msgid "Provides the integration between WooCommerce and Google Analytics."
+msgstr "Provides the integration between WooCommerce and Google Analytics."
+
+#: includes/class-wc-google-analytics-task.php:32
+msgid "Set up Google Analytics"
+msgstr "Set up Google Analytics"
+
+#: includes/class-wc-google-analytics.php:147
+msgid "Enabling this option will allow incoming linker parameters from other websites."
+msgstr "Enabling this option will allow incoming linker parameters from other websites."
+
+#: includes/class-wc-google-analytics.php:146
+msgid "Accept Incoming Linker Parameters"
+msgstr "Accept Incoming Linker Parameters"
+
+#. translators: Read more link
+#: includes/class-wc-google-analytics.php:203
+msgid "Add a comma separated list of domains for automatic linking. %1$sRead more about Cross Domain Measurement%2$s"
+msgstr "Add a comma-separated list of domains for automatic linking. %1$sRead more about Cross Domain Measurement%2$s"
+
+#: includes/class-wc-google-analytics.php:201
+msgid "Cross Domain Tracking"
+msgstr "Cross Domain Tracking"
+
+#: includes/class-wc-google-analytics.php:124
+msgid "Log into your Google Analytics account to find your ID. e.g. <code>GT-XXXXX</code> or <code>G-XXXXX</code>"
+msgstr "Log into your Google Analytics account to find your ID. e.g. <code>GT-XXXXX</code> or <code>G-XXXXX</code>"
+
+#: includes/class-wc-google-analytics.php:123
+msgid "Google Analytics Tracking ID"
+msgstr "Google Analytics Tracking ID"
+
+#. translators: 1: href link to GA pro
+#: woocommerce-google-analytics-integration.php:212
+msgid "Add advanced tracking for your sales funnel, coupons and more. [<a href=\"%s\" target=\"_blank\">Learn more</a> &gt;]"
+msgstr "Add advanced tracking for your sales funnel, coupons and more. [<a href=\"%s\" target=\"_blank\">Learn more</a> &gt;]"
+
+#: woocommerce-google-analytics-integration.php:209
+msgid "Get detailed insights into your sales with Google Analytics Pro"
+msgstr "Get detailed insights into your sales with Google Analytics Pro"
+
+#. translators: Read more link
+#: includes/class-wc-google-analytics.php:140
+msgid "Enable this to find broken or dead links. An \"Event\" with category \"Error\" and action \"404 Not Found\" will be created in Google Analytics for each incoming pageview to a non-existing page. By setting up a \"Custom Goal\" for these events within Google Analytics you can find out where broken links originated from (the referrer). %1$sRead how to set up a goal%2$s."
+msgstr "Enable this to find broken or dead links. An \"Event\" with category \"Error\" and action \"404 Not Found\" will be created in Google Analytics for each incoming pageview to a non-existing page. By setting up a \"Custom Goal\" for these events within Google Analytics you can find out where broken links originated from (the referrer). %1$sRead how to set up a goal%2$s."
+
+#: includes/class-wc-google-analytics.php:138
+msgid "Track 404 (Not found) Errors"
+msgstr "Track 404 (Not found) Errors"
+
+#. Author URI of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#: woocommerce-google-analytics-integration.php:121
+msgid "Support"
+msgstr "Support"
+
+#: woocommerce-google-analytics-integration.php:120
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/class-wc-google-analytics.php:221
+msgid "Please note, for transaction tracking to work properly, you will need to use a payment gateway that redirects the customer back to a WooCommerce order received/thank you page."
+msgstr "Please note, for transaction tracking to work properly, you will need to use a payment gateway that redirects the customer back to a WooCommerce order received/thank you page."
+
+#: includes/class-wc-google-analytics.php:215
+msgid "Please allow Google Analytics 24 hours to start displaying results."
+msgstr "Please allow Google Analytics 24 hours to start displaying results."
+
+#: includes/class-wc-google-analytics.php:195
+msgid "Checkout Process Initiated"
+msgstr "Checkout Process Initiated"
+
+#: includes/class-wc-google-analytics.php:188
+msgid "Product Detail Views"
+msgstr "Product Detail Views"
+
+#: includes/class-wc-google-analytics.php:181
+msgid "Product Clicks from Listing Pages"
+msgstr "Product Clicks from Listing Pages"
+
+#: includes/class-wc-google-analytics.php:174
+msgid "Product Impressions from Listing Pages"
+msgstr "Product Impressions from Listing Pages"
+
+#: includes/class-wc-google-analytics.php:167
+msgid "Remove from Cart Events"
+msgstr "Remove from Basket Events"
+
+#: includes/class-wc-google-analytics.php:161
+msgid "Add to Cart Events"
+msgstr "Add to Basket Events"
+
+#: includes/class-wc-google-analytics.php:155
+msgid "This requires a payment gateway that redirects to the thank you/order received page after payment. Orders paid with gateways which do not do this will not be tracked."
+msgstr "This requires a payment gateway that redirects to the thank you/order received page after payment. Orders paid with gateways which do not do this will not be tracked."
+
+#: includes/class-wc-google-analytics.php:154
+msgid "Purchase Transactions"
+msgstr "Purchase Transactions"
+
+#. translators: Read more link
+#: includes/class-wc-google-analytics.php:132
+msgid "Set the Google Analytics code to support Display Advertising. %1$sRead more about Display Advertising%2$s."
+msgstr "Set the Google Analytics code to support Display Advertising. %1$sRead more about Display Advertising%2$s."
+
+#: includes/class-wc-google-analytics.php:130
+msgid "\"Display Advertising\" Support"
+msgstr "\"Display Advertising\" Support"
+
+#. Plugin Name of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "Google Analytics for WooCommerce"
+msgstr "Google Analytics for WooCommerce"
+
+#. Description of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "Allows Google Analytics tracking code to be inserted into WooCommerce store pages."
+msgstr "Allows Google Analytics tracking code to be inserted into WooCommerce store pages."
+
+#. Plugin URI of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "https://wordpress.org/plugins/woocommerce-google-analytics-integration/"
+msgstr "https://en-gb.wordpress.org/plugins/woocommerce-google-analytics-integration/"
+
+#. Author of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-wc-google-analytics.php:34
+msgid "Google Analytics is a free service offered by Google that generates detailed statistics about the visitors to a website."
+msgstr "Google Analytics is a free service offered by Google that generates detailed statistics about the visitors to a website."
+
+#: includes/class-wc-google-analytics.php:33
+msgid "Google Analytics"
+msgstr "Google Analytics"

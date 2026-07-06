@@ -1,0 +1,218 @@
+# Translation of Plugins - Meta for WooCommerce - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Meta for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-25 12:14:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Meta for WooCommerce - Stable (latest release)\n"
+
+#: includes/fbproductfeed.php:335
+msgid "Could not open the product catalog temporary feed file for writing"
+msgstr "Could not open the product catalogue temporary feed file for writing"
+
+#: includes/fbproductfeed.php:422
+msgid "Could not rename the product catalog feed file"
+msgstr "Could not rename the product catalogue feed file"
+
+#: includes/WPMLInjector.php:183
+msgid "Saved. An automated sync from Facebook will run every hour to update the catalog with any changes you've made."
+msgstr "Saved. An automated sync from Facebook will run every hour to update the catalogue with any changes you've made."
+
+#: includes/fbproductfeed.php:343
+msgid "Could not open the product catalog feed file for writing"
+msgstr "Could not open the product catalogue feed file for writing"
+
+#: includes/fbproductfeed.php:219
+msgid "Could not create product catalog feed directory"
+msgstr "Could not create product catalogue feed directory"
+
+#: includes/Admin.php:762
+msgid "Don't show this notice again"
+msgstr "Don't show this notice again"
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:116
+msgid "Something went wrong while uploading the product information, please try again."
+msgstr "Something went wrong while uploading the product information, please try again."
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:115
+msgid "There was an error trying to sync the products to Facebook."
+msgstr "There was an error trying to sync the products to Facebook."
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:109
+msgid "Your products will now be resynced to Facebook, this may take some time."
+msgstr "Your products will now be resynced to Facebook, this may take some time."
+
+#: includes/Admin/Settings_Screens/Shops.php:379
+msgid "Enable debug mode"
+msgstr "Enable debug mode"
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:110
+msgid ""
+"Meta for WooCommerce automatically syncs your products on create/update. Are you sure you want to force product resync?\n"
+"\n"
+"This will query all published products and may take some time. You only need to do this if your products are out of sync or some of your products did not sync."
+msgstr ""
+"Meta for WooCommerce automatically syncs your products on create/update. Are you sure you want to force product resync?\n"
+"\n"
+"This will query all published products and may take some time. You only need to do this if your products are out of sync or some of your products did not sync."
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:198
+msgid "Sync products"
+msgstr "Sync products"
+
+#: includes/Admin/Settings.php:160
+#: includes/Admin/Settings_Screens/Product_Sync.php:62
+#: includes/Admin/Settings_Screens/Product_Sync.php:63
+#: includes/Admin/Settings_Screens/Product_Sync.php:190
+#: includes/Admin/Settings_Screens/Product_Sync.php:280
+msgid "Product sync"
+msgstr "Product sync"
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:315
+msgid "Search for a product tag&hellip;"
+msgstr "Search for a product tag&hellip;"
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:307
+msgid "Exclude tags from sync"
+msgstr "Exclude tags from sync"
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:301
+msgid "Search for a product category&hellip;"
+msgstr "Search for a product category&hellip;"
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:293
+msgid "Exclude categories from sync"
+msgstr "Exclude categories from sync"
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:284
+msgid "Enable product sync"
+msgstr "Enable product sync"
+
+#. translators: Placeholder %s - <br/> tags
+#: includes/AJAX.php:334
+msgid "The categories and/or tags that you have selected to exclude from sync contain products that are currently synced to Facebook.%sTo exclude these products from the Facebook sync, click Exclude Products. To review the category / tag exclusion settings, click Cancel."
+msgstr "The categories and/or tags that you have selected to exclude from sync contain products that are currently synced to Facebook.%sTo exclude these products from the Facebook sync, click Exclude Products. To review the category / tag exclusion settings, click Cancel."
+
+#: includes/AJAX.php:269
+msgid "One or more of the selected products belongs to a category or tag that is excluded from the Facebook catalog sync. To sync these products to Facebook, please remove the category or tag exclusion from the plugin settings."
+msgstr "One or more of the selected products belongs to a category or tag that is excluded from the Facebook catalogue sync. To sync these products to Facebook, please remove the category or tag exclusion from the plugin settings."
+
+#: includes/Admin/Product_Categories.php:116
+#: includes/Admin/Settings_Screens/Product_Attributes.php:280
+#: includes/Admin/Settings_Screens/Product_Sync.php:167 includes/AJAX.php:262
+#: includes/AJAX.php:325
+msgid "Cancel"
+msgstr "Cancel"
+
+#: includes/AJAX.php:257
+msgid "Go to Settings"
+msgstr "Go to Settings"
+
+#: includes/Admin.php:1826
+msgid "Close modal panel"
+msgstr "Close modal panel"
+
+#: includes/Admin.php:1396
+msgid "Use parent image"
+msgstr "Use parent image"
+
+#: includes/Admin.php:1395
+msgid "Use variation image"
+msgstr "Use variation image"
+
+#: includes/Admin.php:1151 includes/Admin.php:1528
+msgid "Custom price for product on Facebook. Please enter in monetary decimal (.) format without thousand separators and currency symbols. If blank, product price will be used."
+msgstr "Custom price for product on Facebook. Please enter in monetary decimal (.) format without thousand separators and currency symbols. If blank, product price will be used."
+
+#. translators: Placeholders %1$s - WC currency symbol
+#: includes/Admin.php:1147 includes/Admin.php:1524
+msgid "Facebook Price (%1$s)"
+msgstr "Facebook price (%1$s)"
+
+#: includes/Admin.php:1131 includes/Admin.php:1424
+msgid "Custom Image URL"
+msgstr "Custom image URL"
+
+#: includes/Admin.php:1120 includes/Admin.php:1397
+msgid "Use custom image"
+msgstr "Use custom image"
+
+#: includes/Admin.php:1119
+msgid "Use WooCommerce image"
+msgstr "Use WooCommerce image"
+
+#: includes/Admin.php:1115 includes/Admin.php:1410
+msgid "Facebook Product Image"
+msgstr "Facebook product image"
+
+#: includes/Admin.php:1386
+msgid "Custom (plain-text only) description for product on Facebook. If blank, product description will be used. If product description is blank, shortname will be used."
+msgstr "Custom (plain-text only) description for product on Facebook. If blank, product description will be used. If product description is blank, shortname will be used."
+
+#: includes/Admin.php:1093 includes/Admin.php:1384
+msgid "Facebook Description"
+msgstr "Facebook description"
+
+#: includes/Admin.php:630
+msgid "Exclude from Facebook sync"
+msgstr "Exclude from Facebook sync"
+
+#: includes/Admin.php:629
+msgid "Include in Facebook sync"
+msgstr "Include in Facebook sync"
+
+#: includes/AJAX.php:319
+msgid "Exclude Products"
+msgstr "Exclude products"
+
+#: includes/WPMLInjector.php:189
+msgid "Save"
+msgstr "Save"
+
+#: includes/WPMLInjector.php:166
+msgid "WooCommerce Products with languages that are selected here will be visible to customers who see your Facebook Shop."
+msgstr "WooCommerce products with languages that are selected here will be visible to customers who see your Facebook shop."
+
+#: includes/WPMLInjector.php:163
+msgid "Facebook Visibility"
+msgstr "Facebook visibility"
+
+#: includes/Locale.php:181
+msgctxt "language"
+msgid "English (United States)"
+msgstr "English (United Kingdom)"
+
+#: includes/Admin.php:895 includes/Admin/Enhanced_Settings.php:116
+#: includes/Admin/Settings.php:96
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/Admin.php:1250 includes/fbproduct.php:2919
+msgid "Color"
+msgstr "Colour"
+
+#: facebook-commerce.php:279
+msgid "Meta Commerce and Dynamic Ads (Pixel) Extension"
+msgstr "Meta Commerce and Dynamic Ads (Pixel) Extension"
+
+#. Description of the plugin
+#: facebook-for-woocommerce.php
+msgid "Grow your business on Meta platforms! Use this official plugin to help sell more of your products using Facebook and Instagram. After completing the setup, you'll be ready to create ads that promote your products and you can also create a shop section on your Page where customers can browse your products."
+msgstr "Grow your business on Meta platforms! Use this official plugin to help sell more of your products using Facebook and Instagram. After completing the setup, you'll be ready to create ads that promote your products and you can also create a shop section on your Page where customers can browse your products."
+
+#: includes/Admin/Global_Attributes_Banner.php:227
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:297
+msgid "Products in any of these categories will not sync to Facebook."
+msgstr "Products in any of these categories will not sync to Facebook."
+
+#: includes/Admin/Settings_Screens/Product_Sync.php:311
+msgid "Products with any of these tags will not sync to Facebook."
+msgstr "Products with any of these tags will not sync to Facebook."

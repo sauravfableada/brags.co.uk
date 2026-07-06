@@ -1,0 +1,44 @@
+/**
+* user-registration-smallscreen.css
+* Optimises the default User Registration frontend layout when viewed on smaller screens.
+*/
+
+/**
+* Imports
+*/
+@import 'variables/variables';
+@import 'mixins/mixins';
+
+/**
+* Style begins
+**/
+@media screen and (max-width: 768px) {
+	.ur-frontend-form {
+		.ur-form-row {
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: column;
+			flex-direction: column;
+
+			.ur-form-grid{
+				width: 100% !important;
+				margin-bottom: 20px;
+
+				&:last-child {
+					margin-bottom: 0;
+					border-left: 0 none;
+				}
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	#user-registration .user-registration-MyAccount-navigation ul {
+		display: block;
+		.user-registration-MyAccount-navigation-link {
+			display: block;
+		}
+	}
+}

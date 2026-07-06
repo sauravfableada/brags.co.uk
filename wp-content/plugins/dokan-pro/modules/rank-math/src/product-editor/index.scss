@@ -1,0 +1,64 @@
+// Mirror of the `<style>` block in templates/product-seo-content.php —
+// the same minor tweaks the legacy template applies to the metabox.
+.dokan-rank-math-mount {
+    .rank-math-tooltip {
+        input {
+            display: none !important;
+        }
+    }
+
+    .rank-math-checklist {
+        li {
+            padding-left: 1.5rem !important;
+        }
+    }
+
+    #rank-math-metabox-wrapper {
+        .hidden {
+            display: none;
+        }
+
+        .rank-math-tabs {
+            .components-panel__body {
+                .advanced-robots {
+                    .components-checkbox-control {
+                        input {
+                            width: inherit !important;
+                        }
+                    }
+                }
+
+                button.rank-math-edit-snippet {
+                    margin-top: 0.5rem;
+                }
+            }
+        }
+
+        .components-notice.is-warning {
+            display: none !important;
+        }
+    }
+
+    // Schema row's edit/delete buttons inherit `.is-link` width from
+    // wp-components, which collapses them. Restore the icon-button size.
+    #rank-math-schema-item {
+        align-items: center;
+
+        .rank-math-edit-schema,
+        .rank-math-delete-schema {
+            padding: 0.25rem !important;
+            min-height: 1.5rem !important;
+            text-decoration: none !important;
+        }
+    }
+
+    // Compare-keywords trigger needs a visible click target.
+    .rank-math-compare-keywords-trigger {
+        min-width: 2.5rem;
+    }
+
+    // Adds breathing room above the "Focus Keyword" panel title.
+    .rank-math-focus-keyword > .components-panel__body-title {
+        padding: 1rem !important;
+    }
+}

@@ -1,0 +1,32 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-7.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-7.use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-7.use[3]!./modules/product-addon/src/js/vendor-dashboard/components/AddonList.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+#dokan-product-addon-data-view .dataviews-search.components-search-control .components-input-control__suffix {
+  display: inline-flex;
+  align-items: center;
+}
+#dokan-product-addon-data-view .dataviews-search.components-search-control button[aria-label="Reset search"],
+#dokan-product-addon-data-view .dataviews-search.components-search-control button[aria-label="Close search"] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #757575;
+}
+#dokan-product-addon-data-view .dataviews-search.components-search-control button[aria-label="Reset search"]:hover,
+#dokan-product-addon-data-view .dataviews-search.components-search-control button[aria-label="Close search"]:hover {
+  color: #1e1e1e;
+}
+#dokan-product-addon-data-view .dataviews-search.components-search-control button[aria-label="Reset search"] svg,
+#dokan-product-addon-data-view .dataviews-search.components-search-control button[aria-label="Close search"] svg {
+  fill: currentColor;
+  width: 16px;
+  height: 16px;
+}
+
+/*# sourceMappingURL=vendor-product-addon.css.map*/

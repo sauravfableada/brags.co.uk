@@ -1,0 +1,117 @@
+.user-registration-MyAccount-content {
+  text-align: unset !important;
+}
+
+.brand-li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.brand-li-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.status-label.pending {
+  font-size: 12px;
+  color: #fff;
+  background: red;
+  padding: 0px 3px;
+  border-radius: 3px;
+}
+
+.user-registration-MyAccount-content div#my-brands-section a.button {
+  margin-top: 0;
+  background-color: var(--btn-accented-bgcolor);
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+}
+
+.user-registration-MyAccount-content div#my-brands-section a.button:hover {
+  color: var(--btn-accented-color-hover);
+  background-color: var(--btn-accented-bgcolor-hover);
+
+}
+
+li.ur-list-item.brand-li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+div#my-brands-section div {
+  margin-bottom: 20px;
+}
+
+
+
+#user-registration .user-registration-MyAccount-content h2 {
+  margin-bottom: 0;
+}
+
+.brand-li-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.all_brand_details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 15px;
+}
+
+li.ur-list-item.brand-li div {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 766px) {
+  div#my-brands-section div {
+    display: block !important;
+  }
+
+  .all_brand_details {
+    display: block;
+    margin-left: 20px;
+  }
+
+  #user-registration.vertical .user-registration-MyAccount-content {
+    padding: 24px 20px 10px 20px !important;
+}
+
+  #user-registration.vertical {
+    flex-direction: column;
+  }
+
+  #user-registration.vertical .user-registration-MyAccount-content {
+    padding: 24px 20px;
+  }
+
+  .user-registration .all_brand_details button {
+    padding: 10px;
+  }
+
+  ul.ur-list {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  div#my-brands-section .all_brand_details div:first-child {
+    margin-bottom: 20px;
+  }
+
+  .brand-li-logo {
+    width: 80px;
+    height: 80px;
+  }
+}

@@ -1,0 +1,1 @@
+import{u as a}from"./hooks-1.0.73-CEAkKOq3.js";import{l as t}from"./lib-1.0.73-d8ML7y2m.js";var o=(r=>(r[r.TABLE=0]="TABLE",r[r.VIEW=1]="VIEW",r))(o||{});const c=()=>{const r=a(s=>s.explorer.database);return t.debug(r),r};export{o as T,c as u};

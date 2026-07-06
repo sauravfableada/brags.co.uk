@@ -1,0 +1,184 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const requestButton = document.getElementById('requestCategoryApproval');
+    const popup = document.getElementById('categoryApprovalPopup');
+    const overlay = document.getElementById('categoryApprovalOverlay');
+    const closeButton = document.getElementById('closePopup');
+    const closeButtonSecondary = document.getElementById('closePopupSecondary');
+    const form = document.getElementById('categoryApprovalForm');
+    const submitButton = document.getElementById('submitCategoryRequest');
+
+    // Function to show notifications
+    function showNotification(message, type = "success") {
+        const notification = document.createElement("div");
+        notification.className = `custom-notification ${type}`;
+        notification.textContent = message;
+
+        document.body.appendChild(notification);
+        setTimeout(() => {
+            notification.classList.add("show");
+        }, 10);
+
+        setTimeout(() => {
+            notification.classList.remove("show");
+            setTimeout(() => notification.remove(), 300);
+        }, 3000);
+    }
+
+    // Open popup
+    if (requestButton && overlay && popup){
+        requestButton.addEventListener('click', function () {
+            overlay.style.display = 'block';
+            popup.style.display = 'block';
+            setTimeout(() => popup.classList.add('show'), 10);
+        });
+    }
+    
+
+    // Close popup function
+    function closePopup() {
+        popup.classList.remove('show');
+        setTimeout(() => {
+            popup.style.display = 'none';
+            overlay.style.display = 'none';
+            form.reset();
+        }, 300);
+    }
+
+    //.addEventListener('click', closePopup);
+    closeButtonSecondary.addEventListener('click', closePopup);
+    overlay.addEventListener('click', closePopup);
+
+    function validateForm() {
+        const category = document.getElementById('category').value;
+        const fileInput = document.querySelector('input[name="category_docs[]"]');
+        let errorContainer = document.getElementById('formErrors');
+
+        if (!errorContainer) {
+            errorContainer = document.createElement('div');
+            errorContainer.id = 'formErrors';
+            errorContainer.className = 'error-container';
+            form.prepend(errorContainer);
+        }
+
+        errorContainer.innerHTML = ''; // Clear previous errors
+        let isValid = true;
+        let errorMessages = [];
+
+        if (!category) {
+            errorMessages.push("Please select a category.");
+            isValid = false;
+        }
+
+        if (!fileInput.files.length) {
+            errorMessages.push("Please upload at least one document.");
+            isValid = false;
+        } else {
+            const allowedExtensions = ['image/jpeg', 'image/png', 'application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'];
+            const maxFiles = 10;
+
+            if (fileInput.files.length > maxFiles) {
+                errorMessages.push(`You can upload a maximum of ${maxFiles} files.`);
+                isValid = false;
+            }
+
+            for (const file of fileInput.files) {
+                if (!allowedExtensions.includes(file.type)) {
+                    errorMessages.push(`Invalid file type: ${file.name}. Allowed types: JPEG, PNG, PDF, DOC, DOCX.`);
+                    isValid = false;
+                }
+            }
+        }
+
+        if (!isValid) {
+            errorContainer.innerHTML = errorMessages.map(msg => `<p class="error-message">${msg}</p>`).join('');
+            showNotification("Form validation failed. Please check your inputs.", "error");
+        }
+
+        return isValid;
+    }
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        if (!validateForm()) return;
+
+        submitButton.disabled = true;
+        submitButton.textContent = "Submitting...";
+
+        const formData = new FormData(form);
+        formData.append('action', 'category_approval_request');
+
+        fetch(ajaxurl, {
+            method: 'POST',
+            body: formData,
+        })
+        .then(response => response.text())
+        .then(data => {
+            showNotification("Request submitted successfully!", "success");
+            setTimeout(() => location.reload(), 1000);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            showNotification("Failed to submit request. Please try again.", "error");
+            submitButton.disabled = false;
+            submitButton.textContent = "Submit Request";
+        });
+    });
+
+    // Handle Edit Request
+    document.querySelectorAll('.edit-btn').forEach(button => {
+        button.addEventListener('click', function () {
+            const requestId = this.getAttribute('data-id');
+            document.getElementById(`edit-form-${requestId}`).style.display = 'block';
+        });
+    });
+
+    // Handle Delete Request
+    document.querySelectorAll('.delete-btn').forEach(button => {
+        button.addEventListener('click', function () {
+            const requestId = this.getAttribute('data-id');
+            if (confirm("Are you sure you want to delete this request?")) {
+                fetch(ajaxurl, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: `action=delete_category_request&id=${requestId}`
+                })
+                .then(response => response.text())
+                .then(data => {
+                    showNotification("Request deleted successfully!", "success");
+                    document.getElementById(`request-${requestId}`).remove();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    showNotification("Failed to delete request.", "error");
+                });
+            }
+        });
+    });
+
+    // Handle Edit Form Submission
+    document.querySelectorAll('.edit-category-form').forEach(form => {
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            const requestId = this.getAttribute('data-id');
+
+            const formData = new FormData(this);
+            formData.append('action', 'edit_category_request');
+            formData.append('id', requestId);
+
+            fetch(ajaxurl, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.text())
+            .then(data => {
+                showNotification("Request updated successfully!", "success");
+                setTimeout(() => location.reload(), 1000);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showNotification("Failed to update request.", "error");
+            });
+        });
+    });
+});

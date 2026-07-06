@@ -1,0 +1,503 @@
+.user-registration-page {
+	&.user-registration-modal-open {
+		overflow: hidden; // Hide scrollbar on body when modal is open.
+
+		.user-registration-modal {
+			max-width: 100%;
+		}
+	}
+}
+
+.user-registration-modal-link:hover {
+	cursor: pointer;
+}
+
+.user-registration-modal {
+	display: flex;
+	place-content: center;
+	position: fixed;
+	top: 50px;
+	left: 0;
+	right: 0;
+	max-height: 90%;
+	width: 100%;
+	margin: 0 auto !important;
+	overflow-x: hidden;
+	overflow-y: auto;
+	z-index: 999;
+
+	.user-registration-modal__backdrop {
+		position: fixed;
+		left: 0;
+		top: 0;
+		background-color: transparentize($gray_base, 0.5);
+		min-width: 100%;
+		min-height: 100%;
+		z-index: 1;
+	}
+
+	.user-registration-modal__content {
+		background: $white;
+		position: relative;
+		width: auto;
+		margin: 16px;
+		border-radius: 8px;
+		z-index: 99999;
+		box-shadow: 0 3px 25px 0px transparentize($gray_base, 0.6);
+
+		@media (min-width: 576px) {
+			max-width: 500px;
+			margin: auto;
+		}
+
+		&.user-registration-modal__content--xl,
+		&.user-registration-modal__content--lg {
+			@media (min-width: 992px) {
+				max-width: 800px;
+			}
+		}
+
+		&.user-registration-modal__content--xl {
+			@media (min-width: 1200px) {
+				max-width: 1140px;
+			}
+		}
+	}
+
+	.user-registration-modal__header {
+		display: flex;
+		padding: 16px;
+		border-bottom: 1px solid $border-color;
+
+		.user-registration-modal__title {
+			font-size: 20px;
+			line-height: 1.4;
+			margin: 0;
+			padding: 0;
+		}
+
+		.user-registration-modal__close-icon {
+			position: relative;
+			display: block;
+			width: 32px;
+			height: 32px;
+			flex: 0 0 32px;
+			cursor: pointer;
+			margin-left: auto;
+
+			&::before,
+			&::after {
+				content: "";
+				height: 2px;
+				width: 16px;
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+				background: $color_gray_three;
+			}
+
+			&::before {
+				transform: rotate(45deg);
+			}
+
+			&::after {
+				transform: rotate(135deg);
+			}
+		}
+	}
+
+	.user-registration-modal__body {
+		position: relative;
+		padding: 16px;
+		max-height: 67vh;
+		overflow-y: scroll;
+
+		// Customize UR form for modal
+		#user-registration,
+		.user-registration,
+		.login {
+			margin: 0;
+			padding: 0;
+			border: none;
+		}
+	}
+
+	.user-registration-modal__footer {
+		padding: 16px;
+		border-top: 1px solid $border-color;
+
+		& * {
+			margin: 4px;
+		}
+	}
+}
+
+// Customize Sweet alert
+.swal2-container {
+	.user-registration-swal2-modal {
+		padding: 40px;
+
+		.swal2-input {
+			@extend .ur-input !optional;
+			font-size: 16px;
+		}
+
+		.swal2-animate-success-icon {
+
+			& [class^="swal2-success-line"],
+			& [class^="swal2-success-circular-line"] {
+				animation: none;
+			}
+		}
+	}
+
+	.swal2-header {
+		.swal2-icon {
+			width: 28px;
+			height: 28px;
+			line-height: 56px;
+			margin: 0 auto;
+			border-width: 2px;
+			border-radius: 50%;
+
+			&-content {
+				font-size: 20px;
+			}
+
+			.swal2-x-mark {
+				& [class^="swal2-x-mark-line"] {
+					height: 3px;
+					width: 28px;
+					top: 50%;
+					left: 0;
+					right: 0;
+					margin: 0 auto;
+
+					&[class$="left"] {
+						transform: translateY(-50%) rotate(45deg);
+					}
+
+					&[class$="right"] {
+						transform: translateY(-50%) rotate(-45deg);
+					}
+				}
+			}
+
+			&.swal2-success {
+				& [class^="swal2-success-line"] {
+					height: 3px;
+
+					&[class$="tip"] {
+						width: 16px;
+						top: 56%;
+						left: 10px;
+					}
+
+					&[class$="long"] {
+						top: 47%;
+						width: 32px;
+						right: 6px;
+					}
+				}
+
+				& [class^="swal2-success-circular-line"] {
+					height: 64px;
+					width: 32px;
+
+					&[class$="left"] {
+						top: -75px;
+						left: 27px;
+					}
+
+					&[class$="right"] {
+						top: -26px;
+						left: 82px;
+					}
+				}
+
+				.swal2-success-ring {
+					top: -3px;
+					left: -2px;
+					border-width: 2px;
+				}
+
+				.swal2-success-fix {
+					height: 64px;
+					left: 2px;
+					right: 0px;
+					margin: 0 auto;
+					top: -2px;
+					bottom: 0;
+					width: 6px;
+				}
+			}
+
+			&::before {
+				font-size: 40px;
+			}
+		}
+
+		.swal2-title {
+			color: $gray_base;
+			font-size: 16px;
+			line-height: 24px;
+			font-weight: $medium;
+			flex-wrap: wrap;
+			margin-bottom: 16px;
+
+			img {
+				width: 20px;
+				height: 20px;
+			}
+
+			.dashicons {
+				color: $red;
+				font-size: 28px;
+				width: 56px;
+				height: 56px;
+				line-height: 56px;
+				margin: 0 auto 16px;
+				border: 2px solid $red;
+				border-radius: 50%;
+			}
+		}
+	}
+
+	&__title {
+		line-height: 1.35;
+		display: block;
+	}
+
+	.swal2-content {
+		color: $color_gray_one;
+		font-size: 1em;
+		line-height: 1.5;
+	}
+
+	.swal2-actions {
+		button {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+
+	// Centered Style
+	&--centered {
+		.swal2-title {
+			flex-direction: column;
+		}
+	}
+
+	// }
+}
+
+//Modal z-index fix
+.user-registration-modal-open {
+	.wp-block-cover {
+		z-index: 99;
+	}
+}
+
+// Swal2 Popup CSS
+.user-registration,
+.user-registration-page {
+	.swal2-container {
+		.swal2-popup {
+			width: 400px;
+			border-radius: $border_radius_5;
+			padding: 0;
+			margin: auto;
+
+			.swal2-header {
+				padding: $spacing_20px;
+
+				gap: $spacing_12px;
+				border-bottom: $border_width solid $border-color;
+				margin-bottom: $spacing_20px;
+				padding-bottom: $spacing_16px;
+				flex-direction: row;
+
+				.swal2-title {
+					display: flex !important;
+					align-items: center;
+					gap: $spacing_12px;
+					border-bottom: $border_width solid #e1e1e1;
+					padding-bottom: $spacing_16px;
+					width: 100%;
+					margin-bottom: 0;
+
+					flex: 1;
+					border-bottom: 0;
+					padding-bottom: 0;
+
+					.dashicons {
+						font-size: 18px;
+						width: 28px;
+						height: 28px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin: 0;
+					}
+
+					.user-registration-swal2-modal__title {
+						font-size: 16px;
+						line-height: 24px;
+						font-weight: $medium;
+						color: $grey-500;
+					}
+				}
+			}
+
+			.swal2-content {
+				padding-left: $spacing_20px;
+				padding-right: $spacing_20px;
+				margin-top: 0;
+				text-align: left;
+				font-size: 14px;
+				line-height: 24px;
+				color: $grey-400;
+
+				&:has(.membership-upgrade-container) {
+					margin-bottom: 12px;
+				}
+
+				.swal2-html-container {
+					> div {
+						border-radius: $spacing_4px;
+						// overflow: hidden;
+
+						&.ur-embed-new-page-container,
+						&.ur-embed-select-existing-page-container {
+							justify-content: flex-start;
+						}
+					}
+
+					.action-buttons {
+						margin-left: -$spacing_20px;
+						margin-right: -$spacing_20px;
+						border-radius: 0 0 $border_radius_10 $border_radius_10;
+						padding: $spacing_16px;
+						text-align: right;
+						background: #F4F4F4;
+					}
+
+					p {
+						margin: 0;
+					}
+				}
+
+				.swal2-validation-message {
+					margin-left: 0;
+					margin-right: 0;
+					border-left: 3px solid #f27474;
+					justify-content: flex-start;
+					padding: $spacing_12px $spacing_6px $spacing_12px $spacing_6px;
+				}
+
+				.action-buttons {
+					padding: $spacing_18px $spacing_20px;
+
+					a {
+						background: #FF8C39;
+						border: #FF8C39;
+						text-decoration: none;
+						color: $white;
+					}
+				}
+			}
+
+			.swal2-actions {
+				padding: $spacing_18px $spacing_20px;
+				gap: $spacing_16px;
+				margin-top: $spacing_20px;
+				border-radius: 0 0 $border_radius_5 $border_radius_5;
+				background: #f4f4f4;
+				border-top: 0;
+				flex-direction: row-reverse;
+
+				.swal2-confirm,
+				.swal2-cancel {
+					min-height: 36px;
+					font-size: 14px;
+					line-height: 20px;
+					font-weight: $regular;
+					padding: 0 $spacing_12px;
+					// width: 45%;
+					flex: 1;
+				}
+
+				.swal2-confirm {
+					color: var(--ur-button-text-normal-color, $white) !important;
+					background: var(--ur-button-background-normal-color, $primary_color);
+					border: $border_width solid var(--ur-button-background-normal-color, $primary_color);
+				}
+
+				.swal2-cancel {
+					background: $white;
+					color: $grey-400;
+				}
+
+				button {
+					&:focus {
+						box-shadow: none;
+					}
+
+					&:focus-visible {
+						outline: none;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+.user-registration-trashed {
+	.swal2-actions {
+		.swal2-confirm {
+			background: #ff4149;
+			border-color: #ff4149;
+		}
+	}
+}
+
+// Form Builder Keyboard Shortcut popup css
+.jconfirm {
+	&:has(.ur-shortcut-keyword) {
+		.jconfirm-cell {
+			padding-left: 35%;
+			padding-right: 35%;
+		}
+
+		.jconfirm-box {
+			border: 0 !important;
+			border-radius: $border_radius_7;
+
+			.jconfirm-title-c {
+				.jconfirm-icon-c {
+
+					.dashicons,
+					.dashicons::before {
+						width: auto;
+						height: auto;
+						font-size: 28px;
+					}
+				}
+			}
+
+			.jconfirm-content-pane {
+				.ur-shortcut-keyword {
+					.ur-shortcut-title {
+						font-size: 16px;
+						line-height: 24px;
+						color: #1f2937;
+					}
+				}
+			}
+		}
+	}
+}

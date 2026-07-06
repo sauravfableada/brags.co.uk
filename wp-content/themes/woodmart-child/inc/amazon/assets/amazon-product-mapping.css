@@ -1,0 +1,435 @@
+/**
+ * Amazon Product Mapping UI Enhancements
+ * Path: inc/amazon/assets/amazon-product-mapping.css
+ * 
+ * Enhanced styling for Amazon product mapping fields in Dokan
+ */
+
+/* Amazon Mapping Section */
+.amazon-mapping-section {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.amazon-mapping-section h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.amazon-mapping-section h3 i {
+    color: #FF9900;
+}
+
+/* ASIN Input with Validation */
+.asin-input-wrapper {
+    position: relative;
+}
+
+.asin-input-wrapper input {
+    padding-right: 40px;
+}
+
+.asin-validation-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    display: none;
+}
+
+.asin-validation-icon.valid {
+    color: #28a745;
+    display: block;
+}
+
+.asin-validation-icon.invalid {
+    color: #dc3545;
+    display: block;
+}
+
+.asin-validation-icon.checking {
+    color: #ffc107;
+    display: block;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+.asin-validation-message {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.asin-validation-message.success {
+    color: #28a745;
+}
+
+.asin-validation-message.error {
+    color: #dc3545;
+}
+
+/* Amazon Status Badge */
+.amazon-status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 10px;
+}
+
+.amazon-status-badge.status-online {
+    background: #d4edda;
+    color: #155724;
+}
+
+.amazon-status-badge.status-published {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.amazon-status-badge.status-pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.amazon-status-badge.status-failed,
+.amazon-status-badge.status-error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.amazon-status-badge.status-unlisted {
+    background: #e2e3e5;
+    color: #383d41;
+}
+
+.amazon-status-badge.status-prepared,
+.amazon-status-badge.status-linked {
+    background: #e1f0ff;
+    color: #0073aa;
+    border: 1px solid #0073aa;
+}
+
+/* Status Info Box */
+.amazon-status-info {
+    background: #f8f9fa;
+    border-left: 4px solid #0073aa;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.amazon-status-info.success {
+    border-left-color: #28a745;
+    background: #d4edda;
+}
+
+.amazon-status-info.warning {
+    border-left-color: #ffc107;
+    background: #fff3cd;
+}
+
+.amazon-status-info.error {
+    border-left-color: #dc3545;
+    background: #f8d7da;
+}
+
+.amazon-status-info strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.amazon-status-info p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Profile Selection Enhanced */
+#wpla_profile_selection {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+#wpla_profile_selection label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#wpla_profile_selection select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Quick Actions */
+.amazon-quick-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.amazon-quick-action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.amazon-quick-action-btn.primary {
+    background: #FF9900;
+    color: #fff;
+}
+
+.amazon-quick-action-btn.primary:hover {
+    background: #e68a00;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 153, 0, 0.3);
+}
+
+.amazon-quick-action-btn.secondary {
+    background: #6c757d;
+    color: #fff;
+}
+
+.amazon-quick-action-btn.secondary:hover {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+.amazon-quick-action-btn.success {
+    background: #28a745;
+    color: #fff;
+}
+
+.amazon-quick-action-btn.success:hover {
+    background: #218838;
+    transform: translateY(-2px);
+}
+
+.amazon-quick-action-btn.danger {
+    background: #dc3545;
+    color: #fff;
+}
+
+.amazon-quick-action-btn.danger:hover {
+    background: #c82333;
+    transform: translateY(-2px);
+}
+
+/* Checkbox Enhancements */
+.amazon-checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+
+.amazon-checkbox-wrapper:hover {
+    background: #e9ecef;
+}
+
+.amazon-checkbox-wrapper input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.amazon-checkbox-wrapper label {
+    margin: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Help Text */
+.amazon-help-text {
+    display: block;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+.amazon-help-text i {
+    margin-right: 4px;
+    color: #0073aa;
+}
+
+/* Loading Spinner */
+.amazon-loading {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #FF9900;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Sync Status Indicator */
+.sync-status-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.sync-status-indicator.active {
+    background: #d4edda;
+    color: #155724;
+}
+
+.sync-status-indicator.inactive {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.sync-status-indicator i {
+    font-size: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .amazon-quick-actions {
+        flex-direction: column;
+    }
+
+    .amazon-quick-action-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .amazon-mapping-section {
+        padding: 15px;
+    }
+}
+
+/* Tooltips */
+.amazon-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+}
+
+.amazon-tooltip .tooltip-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 12px;
+}
+
+.amazon-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Enhanced Form Groups */
+.dokan-form-group.amazon-enhanced {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.dokan-form-group.amazon-enhanced:hover {
+    border-color: #FF9900;
+    box-shadow: 0 2px 8px rgba(255, 153, 0, 0.1);
+}
+
+.dokan-form-group.amazon-enhanced label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Success/Error Messages */
+.amazon-message {
+    padding: 12px 15px;
+    border-radius: 6px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.amazon-message.success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.amazon-message.error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.amazon-message.info {
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+    color: #0c5460;
+}
+
+.amazon-message i {
+    font-size: 18px;
+}

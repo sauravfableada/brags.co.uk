@@ -1,0 +1,56 @@
+2026-06-12T03:00:21+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 18500): ["Home &amp; Living > Kitchenware"].
+2026-06-12T03:00:22+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 18500): ["Home &amp; Living > Kitchenware"].
+2026-06-12T03:00:22+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 18500): ["Home &amp; Living > Kitchenware"].
+2026-06-12T03:00:22+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 18500): ["Home &amp; Living > Kitchenware"].
+2026-06-12T03:00:22+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 18500): ["Home &amp; Living > Kitchenware"].
+2026-06-12T03:00:22+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 18500): ["Home &amp; Living > Kitchenware"].
+2026-06-12T03:00:22+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 18701): ["Brags Everyday"].
+2026-06-12T03:00:22+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 19038): ["BRAGDROP","Home &amp; Living","Brags Everyday > Household Essentials","Home &amp; Living > Other Home &amp; Living"].
+2026-06-12T03:00:26+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\ProductSyncer::update_by_batch_requests Submitted 8 products:
+[{"woocommerce_id":18501,"google_id":"online:en:GB:gla_18501"},{"woocommerce_id":18502,"google_id":"online:en:GB:gla_18502"},{"woocommerce_id":18503,"google_id":"online:en:GB:gla_18503"},{"woocommerce_id":18501,"google_id":"online:en:GB:gla_18501"},{"woocommerce_id":18502,"google_id":"online:en:GB:gla_18502"},{"woocommerce_id":18503,"google_id":"online:en:GB:gla_18503"},{"woocommerce_id":18701,"google_id":"online:en:GB:gla_18701"},{"woocommerce_id":19038,"google_id":"online:en:GB:gla_19038"}]
+2026-06-12T05:08:18+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\MerchantPriceBenchmarks::get_price_comparisons_data {
+  "error": {
+    "code": 400,
+    "message": "Market Insights is not enabled for account 5772175936.",
+    "errors": [
+      {
+        "message": "Market Insights is not enabled for account 5772175936.",
+        "domain": "global",
+        "reason": "failedPrecondition"
+      }
+    ],
+    "status": "FAILED_PRECONDITION",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "conditionNotMet",
+        "domain": "global"
+      }
+    ]
+  }
+}
+2026-06-12T05:08:18+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\PriceBenchmarks::update_price_benchmarks Unable to retrieve price benchmark data
+2026-06-12T13:22:46+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses::process_product_statuses Merchant Center product 17058 not found in this WooCommerce store.
+2026-06-12T13:22:46+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses::get_product_issues in remove_invalid_statuses() Merchant Center product online:en:GB:17058 not found in this WooCommerce store.
+2026-06-12T17:12:53+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\MerchantPriceBenchmarks::get_price_comparisons_data {
+  "error": {
+    "code": 400,
+    "message": "Market Insights is not enabled for account 5772175936.",
+    "errors": [
+      {
+        "message": "Market Insights is not enabled for account 5772175936.",
+        "domain": "global",
+        "reason": "failedPrecondition"
+      }
+    ],
+    "status": "FAILED_PRECONDITION",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "conditionNotMet",
+        "domain": "global"
+      }
+    ]
+  }
+}
+2026-06-12T17:12:53+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\PriceBenchmarks::update_price_benchmarks Unable to retrieve price benchmark data

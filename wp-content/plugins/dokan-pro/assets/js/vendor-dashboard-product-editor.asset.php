@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('dokan-hooks', 'dokan-product-editor-utils', 'dokan-react-components', 'dokan-stores-product-editor', 'react', 'react-dom', 'react-jsx-runtime', 'wp-data', 'wp-dom-ready', 'wp-element', 'wp-hooks', 'wp-i18n'), 'version' => 'aedb171cd60bffad4e2a');

@@ -1,0 +1,4781 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WP Data Access\n"
+"POT-Creation-Date: 2023-01-10 11:23+0100\n"
+"PO-Revision-Date: 2017-10-24 20:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-data-access.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: docs\n"
+"X-Poedit-SearchPathExcluded-3: .git\n"
+"X-Poedit-SearchPathExcluded-4: .idea\n"
+"X-Poedit-SearchPathExcluded-5: tutorials\n"
+
+#: WPDataAccess/API/WPDA_API.php:96
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_WS.php:259
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_WS.php:374
+msgid "Invalid arguments"
+msgstr ""
+
+#: WPDataAccess/API/WPDA_API.php:119
+msgid "Forbidden"
+msgstr ""
+
+#: WPDataAccess/API/WPDA_API.php:185 WPDataAccess/API/WPDA_API.php:194
+#: WPDataAccess/API/WPDA_API.php:210
+msgid "Unprocessable Entity"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:61
+msgid ""
+"You need to define and activate at least one storage device in Data Backup "
+"Settings to use this feature."
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:64
+msgid "Define and/or activate a storage device"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:80
+#: WPDataAccess/Backup/WPDA_Data_Export.php:83
+#: WPDataAccess/Backup/WPDA_Data_Export.php:88
+#: WPDataAccess/Backup/WPDA_Data_Export.php:101
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:139
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_Table.php:48
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:244
+msgid "ERROR: Wrong arguments"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:117
+#: WPDataAccess/Backup/WPDA_Data_Export.php:408
+#: WPDataAccess/Backup/WPDA_Data_Export.php:961
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2668
+msgid "Data Backup"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:137
+msgid "Database Tables"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:139
+msgid "Tables To Be Exported"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:168
+msgid "Backup Id"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:185
+msgid "Backup Interval"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:189
+msgid "Run once (no interval)"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:202
+#: WPDataAccess/Backup/WPDA_Data_Export.php:439
+msgid "Backup Location"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:226
+msgid "Backup Files Kept"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:248
+msgid "Start"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:253
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:230
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2762
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2864
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:477
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:514
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location.php:988
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:784
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:621
+#: WPDataAccess/Utilities/WPDA_Import.php:224
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:426
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:507
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:729
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:896
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1096
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1260
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:143
+msgid "Cancel"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:300
+msgid "No tables to be exported"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:304
+msgid "You must specify a backupid"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:420
+msgid "New Data Backup"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:435
+msgid "Hook Name"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:436
+msgid "Arguments"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:437
+msgid "Interval"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:438
+msgid "Next Execution"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:440
+msgid "Files Kept"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:441
+msgid "Status"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:575
+msgid "No logging information found"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:591
+msgid "No data backup jobs found"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:596
+msgid "Show plugin jobs only"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:597
+msgid "Show all WordPress jobs"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:846
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1094
+msgid "Mandatory item \"backupid\" not found"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:860
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1118
+msgid "Mandatory item \"interval\" not found"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:874
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1130
+msgid "Mandatory item \"keep\" not found"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:888
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1142
+msgid "Mandatory item \"device\" not found"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:902
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1106
+msgid "No tables defined to backup"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:935
+msgid "Could not create data backup"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:950
+msgid "Backup failed"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:973
+msgid "Data backup started. Please check backup location."
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:977
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1532
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:494
+msgid "List"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:993
+msgid "Backup id already exists"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1016
+msgid "Could not save data backup options"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1055
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1159
+msgid "Could not delete data backup schedule"
+msgstr ""
+
+#: WPDataAccess/Backup/WPDA_Data_Export.php:1064
+msgid "Deleted data backup schedule"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:65
+msgid "Import CSV "
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:89
+msgid "Upload new CSV file"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:101
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:661
+msgid "CSV file list"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:190
+msgid "Select a file and click upload"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:223
+msgid "Upload"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:313
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:544
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:559
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:212
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:259
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:110
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2356
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:274
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1924
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1979
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2107
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:31
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:49
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:416
+#: WPDataAccess/Premium/WPDAPRO_Data_Publisher/WPDAPRO_Data_Publisher_Manage_Styles.php:126
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:81
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:571
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:895
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:943
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1150
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1169
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1193
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1211
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1228
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1247
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1269
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1470
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1621
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1649
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:37
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:24
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:33
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:24
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:119
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:65
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:30
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:85
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:185
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:194
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:214
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:258
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:31
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:36
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:23
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:33
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:96
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:25
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:379
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:383
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:387
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:568
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:257
+#: WPDataAccess/Utilities/WPDA_Import.php:73
+#: WPDataAccess/Utilities/WPDA_Import.php:106
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:132
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:155
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:335
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:347
+msgid "ERROR: Not authorized"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:577
+msgid "Uploading file"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:599
+msgid "Saving file info..."
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:624
+msgid "Processing CSV file failed"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:651
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:541
+msgid "Column mapping"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Import.php:671
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:98
+#: WPDataAccess/Utilities/WPDA_Import.php:131
+msgid "File upload failed"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:94
+msgid "Map table and columns for CSV file: "
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:114
+msgid "Import CSV file: "
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:132
+msgid "Upload a newer version of CSV file: "
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:204
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:273
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1909
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1998
+msgid "ERROR: Invalid URL [missing primary key values]"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:228
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1939
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2046
+msgid "Row deleted"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:235
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1946
+msgid "Could not delete row"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:247
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1967
+msgid "Nothing to delete"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:306
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:308
+msgid "CSV files deleted"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:323
+msgid "Not all CSV files have been deleted"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:348
+msgid "ID"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:349
+msgid "Import Name"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:350
+msgid "Local file Name"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:351
+msgid "File Name"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:352
+msgid "Timestamp"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_List_Table.php:353
+msgid "Mapping"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:105
+msgid "ERROR: Missing argument"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:153
+msgid "ERROR: CSV file not found"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:254
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:299
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:398
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:433
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:579
+msgid "Drag column here..."
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:446
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:238
+msgid "Settings"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:484
+msgid "Apply settings"
+msgstr ""
+
+#: WPDataAccess/CSV_Files/WPDA_CSV_Mapping.php:491
+msgid "Destination database and table"
+msgstr ""
+
+#: WPDataAccess/Connection/WPDADB_WPDB.php:230
+msgid "Error establishing a database connection"
+msgstr ""
+
+#. translators: 1: wp-config.php, 2: Database host.
+#: WPDataAccess/Connection/WPDADB_WPDB.php:234
+#, php-format
+msgid ""
+"This either means that the username and password information in your %1$s "
+"file is incorrect or we can&#8217;t contact the database server at %2$s. "
+"This could mean your host&#8217;s database server is down."
+msgstr ""
+
+#: WPDataAccess/Connection/WPDADB_WPDB.php:240
+msgid "Are you sure you have the correct username and password?"
+msgstr ""
+
+#: WPDataAccess/Connection/WPDADB_WPDB.php:241
+msgid "Are you sure you have typed the correct hostname?"
+msgstr ""
+
+#: WPDataAccess/Connection/WPDADB_WPDB.php:242
+msgid "Are you sure the database server is running?"
+msgstr ""
+
+#. translators: %s: Support forums URL.
+#: WPDataAccess/Connection/WPDADB_WPDB.php:247
+#, php-format
+msgid ""
+"If you&#8217;re unsure what these terms mean you should probably contact "
+"your host. If you still need help you can always visit the <a href=\"%s"
+"\">WordPress Support Forums</a>."
+msgstr ""
+
+#: WPDataAccess/Connection/WPDADB_WPDB.php:248
+msgid "https://wordpress.org/support/forums/"
+msgstr ""
+
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:228
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:264
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:282
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:627
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:713
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:825
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:926
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:942
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1071
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1179
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1294
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1377
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1471
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1568
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1656
+#: WPDataAccess/Utilities/WPDA_Autocomplete.php:34
+msgid "Wrong arguments"
+msgstr ""
+
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:234
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:270
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:289
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1953
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2170
+#: WPDataAccess/Utilities/WPDA_Autocomplete.php:46
+msgid "Not authorized"
+msgstr ""
+
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:247
+msgid "Dashboard not added"
+msgstr ""
+
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:252
+msgid "Dashboard \"Default\" already exists"
+msgstr ""
+
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:902
+msgid "Remove columns outside of range? Widgets will no longer be available!"
+msgstr ""
+
+#: WPDataAccess/Dashboard/WPDA_Dashboard.php:904
+msgid ""
+"Remove columns outside of range? Widgets are not deleted! Use OPEN "
+"EXISTING WIDGETS to add widget again."
+msgstr ""
+
+#: WPDataAccess/Data_Dictionary/WPDA_Dictionary_Exist.php:107
+msgid "ERROR: Wrong arguments [schema name not found]"
+msgstr ""
+
+#: WPDataAccess/Data_Dictionary/WPDA_List_Columns.php:126
+#: WPDataAccess/Data_Dictionary/WPDA_List_Columns.php:128
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:525
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:760
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:873
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2631
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2667
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2197
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2199
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2239
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2241
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2284
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2286
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:186
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:506
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1421
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1549
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2195
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2212
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2295
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2549
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3155
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:22
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:714
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:770
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:834
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:836
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:185
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:265
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:405
+#: WPDataAccess/Utilities/WPDA_Export_Formatted.php:257
+#: WPDataAccess/Utilities/WPDA_Export_Formatted.php:259
+#: WPDataAccess/Utilities/WPDA_Export_Sql.php:154
+#: WPDataAccess/Utilities/WPDA_Import_File.php:87
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:202
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:204
+#: WPDataAccess/Utilities/WPDA_Reverse_Engineering.php:57
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:166
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1970
+#: WPDataProjects/Parent_Child/WPDP_Child_Form.php:168
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:212
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:214
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:471
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:473
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:239
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:241
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_Table.php:232
+#, php-format
+msgid "ERROR - Remote database %s not available"
+msgstr ""
+
+#: WPDataAccess/Data_Dictionary/WPDA_List_Columns.php:424
+msgid "ERROR: Wrong arguments [no columns found]"
+msgstr ""
+
+#: WPDataAccess/Data_Dictionary/WPDA_List_Columns.php:441
+msgid "key"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:61
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:385
+msgid "Table ID"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:62
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:386
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:45
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:218
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:35
+msgid "Table Name"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:63
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:387
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1812
+#: WPDataAccess/Design_Table/WPDA_Design_Table_List_Table.php:107
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3023
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:479
+msgid "Database"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:64
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:56
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:388
+msgid "Data Source"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:65
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:389
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:478
+msgid "Table/View Name"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:66
+msgid "Column Names (* = all)"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:67
+msgid "Column Labels"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:68
+msgid "* Query"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:69
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:393
+msgid "Sort Icons"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:70
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:394
+msgid "Styling"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:71
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:395
+msgid "Enable Premium Styling"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:72
+msgid "Use Custom Style"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:73
+msgid "Color"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:74
+msgid "Spacing"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:75
+msgid "Border Radius"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:76
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:400
+msgid "Modal Width"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:77
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:401
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:815
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:879
+msgid "Output"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:78
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:410
+msgid "Popup Title"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:79
+msgid "Number Of Columns"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:80
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3191
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:318
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:136
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:43
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:216
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:34
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1103
+msgid "Type"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:81
+msgid "Hyperlinks On Modal"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:82
+msgid "Show Icon"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:83
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:415
+msgid "Horizontal Scrollbar"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:84
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:57
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:230
+msgid "WHERE Clause"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:85
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:409
+msgid "Default Order By"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:86
+msgid "Allow Searching?"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:87
+msgid "Allow Ordering?"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:88
+msgid "Allow Paging?"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:89
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:405
+msgid "Server Side Processing?"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:90
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:406
+msgid "NL > BR"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:91
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:407
+msgid "Advanced Options"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:92
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:416
+msgid "Extentions"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:93
+msgid "Post type"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:94
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:418
+msgid "Custom fields"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:95
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:419
+msgid "CPT query"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:96
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:420
+msgid "Field labels"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:141
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2417
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:262
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:265
+msgid "Test"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:196
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:379
+msgid "Row details"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:207
+msgid "Select columns shown in data table"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:214
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Media.php:40
+msgid "Select"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:221
+msgid ""
+"Define columns for data table (not necessary if already defined in Data "
+"Explorer table settings)"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:229
+msgid "Click to define column labels"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:237
+msgid "Get SQL from Query Builder"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:388
+msgid "Define field labels for selected custom fields"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:393
+msgid "Click to define field labels"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:748
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:753
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:1905
+msgid "To select columns you need to save your data table first"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2001
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2079
+msgid "To format columns you need to save your data table first"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2015
+msgid "Field Name"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2016
+msgid "Field Label"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2101
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1362
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1398
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1448
+msgid "Column Name"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2102
+msgid "Column Label"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2296
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2340
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:197
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:248
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:167
+msgid "Shortcode"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2311
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:212
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:127
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:165
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:130
+msgid "Shortcode successfully copied to clipboard!"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2313
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:187
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:214
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:320
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1839
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:129
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:167
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:132
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:333
+msgid "Copy"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2319
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:220
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1654
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:135
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:173
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:153
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:138
+msgid "Close"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2335
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:246
+msgid "Get shortcode"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2359
+msgid "ERROR: Cannot test data table [wrong arguments]"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2362
+msgid "ERROR: Cannot test data table"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2363
+msgid ""
+"SOLUTION: Load jQuery DataTables: WP Data Access > Manage Plugin > Back-"
+"End Settings"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_Form.php:2418
+msgid "data table looks different on your website"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:172
+msgid "Copy table options set?\\n\\'Cancel\\' to stop, \\'OK\\' to copy."
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:184
+msgid "Copy: new table name = old table name_ + n"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:305
+msgid "Could not copy data table [source not found]"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:315
+msgid "Data table copied"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:323
+msgid "Could not copy data table [too many rows]"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:351
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:251
+msgid "ERROR: Data table not found"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:390
+msgid "Column Names"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:391
+msgid "Format"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:392
+msgid "Query"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:396
+msgid "Custom Style"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:397
+msgid "Style Color"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:398
+msgid "Style Spacing"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:399
+msgid "Style Corner"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:402
+msgid "Searching?"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:403
+msgid "Ordering?"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:404
+msgid "Paging?"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:408
+msgid "Default Where"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:411
+msgid "Responsive Cols"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:412
+msgid "Responsive Type"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:413
+msgid "Modal Hyperlinks"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:414
+msgid "Responsive Icon?"
+msgstr ""
+
+#: WPDataAccess/Data_Publisher/WPDA_Publisher_List_Table.php:417
+msgid "Custom post type"
+msgstr ""
+
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:239
+msgid ""
+"ERROR: Missing argument [need at least pub_id, pub_name or table argument]"
+msgstr ""
+
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:402
+msgid "ERROR: Invalid query?"
+msgstr ""
+
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:457
+#: WPDataAccess/List_Table/WPDA_List_Table.php:454
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:111
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:148
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:322
+#: public/class-wp-data-access-public.php:780
+msgid "ERROR: Invalid table name or not authorized"
+msgstr ""
+
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:763
+msgid "ERROR: Column"
+msgstr ""
+
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:763
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:162
+msgid "not found"
+msgstr ""
+
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:863
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:1520
+msgid "Distance"
+msgstr ""
+
+#: WPDataAccess/Data_Tables/WPDA_Data_Tables.php:1044
+msgid "Geo range search"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:248
+msgid "ERROR: Wrong arguments [page not found]"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:295
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:343
+msgid "ERROR: Wrong arguments [table not found]"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:333
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:221
+msgid "ERROR: Reverse engineering table failed [invalid structure]"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:336
+msgid "ERROR: Reverse engineering table failed [insert failed]"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:353
+msgid "ERROR: Insert failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:361
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:184
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:255
+msgid "Update failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:371
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1227
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1380
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:771
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:445
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:521
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:194
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:265
+msgid "Nothing to save"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:378
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:430
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:270
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:201
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:272
+msgid "Succesfully saved changes to database"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:747
+#, php-format
+msgid "Cannot drop WordPress table `%s`"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:768
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2081
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2368
+#, php-format
+msgid "Table `%s` dropped"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:775
+msgid "DROP TABLE failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:882
+msgid "Table created"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:889
+msgid "CREATE TABLE failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1110
+msgid "Table name cannot be empty"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1115
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1495
+msgid "Table name already used for another table design"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1122
+msgid "Column names cannot be empty"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1646
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:144
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1524
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:145
+msgid "Copy to clipboard"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1665
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:333
+msgid "SQL successfully copied to clipboard!"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1668
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:336
+msgid "Could not copy SQL to clipboard!"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1684
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1919
+msgid "Load table from database"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1725
+msgid "Dismiss"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1786
+msgid "Table definition"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1847
+msgid "Basic Design Mode"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1857
+msgid "Advanced Design Mode"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1863
+#: WPDataAccess/Design_Table/WPDA_Design_Table_List_Table.php:106
+msgid "Table name"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1879
+msgid "You cannot use a WordPress table name"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1885
+msgid "A table with this name already exists in the database"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1892
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1811
+msgid "Reconcile table? Your current modifications will be lost!"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1896
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:153
+msgid "Reconcile"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1900
+msgid "New table"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1921
+msgid "Reverse engineering"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1933
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3195
+msgid "Engine"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1967
+msgid "Show CREATE TABLE script"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1974
+msgid "Show ALTER TABLE script"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:1981
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3200
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1364
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1449
+msgid "Collation"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2024
+msgid "Show deleted columns and indexes"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2037
+msgid "Add columns"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2045
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1253
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1472
+msgid "Column name"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2048
+msgid "Column type"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2052
+msgid "Type attribute"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2056
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1366
+msgid "Key?"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2059
+msgid "Mandatory?"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2062
+msgid "Max length"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2065
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1368
+msgid "Extra"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2079
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1497
+msgid "Default value"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2082
+msgid "List values"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2128
+msgid "CREATE TABLE"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2135
+msgid "ALTER TABLE"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2154
+msgid "DROP TABLE"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2199
+msgid "Add indexes"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2206
+msgid "Index name"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2209
+msgid "Type?"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2212
+msgid "Column name(s)"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2244
+msgid "Drop all deleted indexes and recreate all changed indexes for table `"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2247
+msgid "(RE)CREATE INDEXES"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2252
+msgid "Does not drop primary key indexes and index designs!"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2252
+msgid "Drop all indexes for table `"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2255
+msgid "DROP INDEXES"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2261
+msgid "Save table design changes first!"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2264
+msgid "Save Indexes"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2282
+msgid "The following CREATE TABLE statement failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2306
+msgid "The following CREATE INDEX statement(s) failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2331
+msgid "The following ALTER TABLE statement failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2641
+#, php-format
+msgid "Index `%s` dropped"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2648
+msgid "DROP INDEX failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2705
+#, php-format
+msgid "Index `%s` created"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_Form.php:2712
+msgid "CREATE INDEX failed"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_List_Table.php:53
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2654
+msgid "Design new table"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_List_Table.php:108
+msgid "Table structure"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_List_Table.php:109
+msgid "Creation date"
+msgstr ""
+
+#: WPDataAccess/Design_Table/WPDA_Design_Table_List_Table.php:110
+msgid "Last updated"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:422
+msgid "ERROR: Wrong arguments [no table argument]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:427
+msgid "ERROR: Wrong arguments [no columns argument]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:432
+msgid "Row"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:433
+msgid "Rows"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:465
+msgid "ERROR: Wrong arguments [no page argument]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:485
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:160
+msgid "Table"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:750
+#: WPDataAccess/Plugin_Table_Models/WPDA_CSV_Uploads_Model.php:191
+msgid "No data found"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:885
+msgid "View row data"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:887
+msgid "View"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:927
+msgid "Edit row data"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:929
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:364
+msgid "Edit"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:958
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:387
+msgid ""
+"You are about to permanently delete these items from your site.\\nThis "
+"action cannot be undone.\\n\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:970
+msgid "Delete row data (this cannot be undone)"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:973
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:378
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:384
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:431
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_Table.php:127
+msgid "Delete"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1272
+#, php-format
+msgid "Output limited to %1$s characters"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1477
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3079
+msgid "Favourites"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1602
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:210
+msgid "search"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1728
+msgid "respository"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1728
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:660
+#: WPDataAccess/Utilities/WPDA_Import.php:154
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1709
+msgid "table"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1749
+#, php-format
+msgid "Add new %1$s to %2$s"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1752
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms.php:758
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:774
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:475
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_Table.php:266
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:71
+msgid "Add New"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1896
+#: WPDataAccess/List_Table/WPDA_List_Table.php:1959
+msgid "ERROR: Not authorized [delete not allowed]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2048
+msgid "rows deleted"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2063
+msgid "Not all rows have been deleted"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2087
+msgid "ERROR: Not authorized [export not allowed]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2096
+msgid "Nothing to export"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2149
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:147
+msgid "ERROR: Invalid URL"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2404
+msgid "ERROR: Invalid URL [invalid column name]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2618
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:1153
+msgid "Select All"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2733
+msgid "Delete Permanently"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2745
+msgid "Export to SQL"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2747
+msgid "Export to XML"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2748
+msgid "Export to JSON"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2749
+msgid "Export to Excel"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2750
+msgid "Export to CSV"
+msgstr ""
+
+#. translators: %s: number of items (2x)
+#. translators: %s: Number of items.
+#. translators: Number of items.
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2907
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:837
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:1430
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2966
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:879
+msgid "First page"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2984
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:890
+msgid "Previous page"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2994
+#: WPDataAccess/List_Table/WPDA_List_Table.php:2998
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:897
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:901
+msgid "Current Page"
+msgstr ""
+
+#. translators: %s: current page/total pages
+#. translators: 1: Current page, 2: Total pages.
+#: WPDataAccess/List_Table/WPDA_List_Table.php:3005
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:909
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:3017
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:920
+msgid "Next page"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table.php:3035
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:931
+msgid "Last page"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:203
+msgid "Create local database/add remote database connection"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:205
+msgid ""
+"Add remote database connection (not authorized to create local database)"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:211
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:768
+msgid "Cannot drop WordPress database"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:219
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:785
+msgid "Cannot drop MySQL database"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:222
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:230
+msgid ""
+"Delete remote database connection.\n"
+"Does not drop the database! Just deletes the connection definition."
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:224
+msgid "Drop selected database"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:232
+msgid "Cannot drop selected database [not authorized]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:360
+msgid ""
+"Fragmentation for this table is high.\n"
+"Consider: Manage>Actions>Optimize"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:386
+#, php-format
+msgid "Table %s settings"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:389
+msgid "Manage"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:401
+msgid ""
+"You are about to edit a WordPress table! Changing this table might result "
+"in corrupting the WordPress database. Are you sure you want to continue?"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:407
+msgid ""
+"You are about to edit a plugin table! Changing this table might result in "
+"corrupting the WP Data Access database. Are you sure you want to continue?"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:413
+msgid ""
+"You are about to edit a table of an external application! Changing this "
+"table might result in corrupting the external database. Are you sure you "
+"want to continue?"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:441
+msgid "Explore"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:442
+#, php-format
+msgid "Explore %s table"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:625
+msgid "Export Table(s)"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:626
+msgid "Drop Table(s)/View(s) (does not drop WordPress tables)"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:627
+msgid "Truncate Table(s) (does not truncate WordPress tables)"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:693
+msgid "Table refresh failed"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:702
+#, php-format
+msgid "Table `%s` updated"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:718
+msgid "Cannot drop database [missing argument]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:736
+#, php-format
+msgid ""
+"Cannot delete remote database connection `%s` [remote database connection "
+"not found]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:746
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:434
+#, php-format
+msgid "Cannot delete remote database connection `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:755
+#, php-format
+msgid "Remove database `%s` deleted"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:806
+#, php-format
+msgid "Error dropping database `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:815
+#, php-format
+msgid "Database `%s` dropped"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:833
+msgid "Cannot update remote database connection [missing argument]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:850
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:864
+msgid ""
+"Cannot update remote database connection [remote database connection not "
+"found]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:902
+msgid "Cannot edit remote database connection [missing arguments]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:932
+#, php-format
+msgid "Cannot update remote database connection `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:941
+#, php-format
+msgid "Remote database connection `%s` updated"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:963
+msgid "Cannot create database [missing argument]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:988
+#, php-format
+msgid "Error creating database `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:997
+#, php-format
+msgid "Database `%s` created"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1012
+msgid "Remote database connection already exists"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1049
+msgid "Cannot add remote database connection [missing argument]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1062
+msgid ""
+"Invalid database name [enter a valid database name, for example rdb:"
+"remotedb]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1088
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:529
+msgid "Cannot add remote database connection"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1097
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:540
+#, php-format
+msgid "Remote database connection `%s` added"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1122
+msgid "Menu deleted"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1129
+msgid "Cannot delete menu"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1154
+msgid "Invalid request"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1220
+#, php-format
+msgid "Saved dashboard menus for table `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1234
+#, php-format
+msgid "Cannot save dashboard menus for table `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1266
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1275
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1373
+#, php-format
+msgid "Saved settings for table `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1282
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1336
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1387
+#, php-format
+msgid "Cannot save settings for table `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1411
+#, php-format
+msgid "Cannot optimize `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1427
+#, php-format
+msgid "Table `%s` optimized"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1447
+msgid "Missing old table name"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1453
+msgid "Missing new table name"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1458
+#, php-format
+msgid "[cannot rename WordPress table `%s`]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1462
+msgid "Missing old table name value"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1472
+msgid "Missing new table name value"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1488
+#, php-format
+msgid "Cannot rename `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1499
+msgid "Cannot rename"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1510
+msgid "renamed to"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1537
+msgid "Not authorized [cannot rename WordPress tables]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1564
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1592
+msgid "Missing source table name"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1570
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1614
+msgid "Missing destination table name"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1581
+msgid "Missing source schema name"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1603
+msgid "Missing destination schema name"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1630
+#, php-format
+msgid "Cannot copy `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1650
+msgid "Cannot copy"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1661
+msgid "copied to"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1861
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2042
+msgid "Empty bulk selected"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1874
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2053
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2253
+#, php-format
+msgid "[table `%s`]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1880
+#, php-format
+msgid "Cannot export `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:1982
+msgid "Not authorized [table not found]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2050
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2336
+#, php-format
+msgid "[cannot drop WordPress table `%s`]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2059
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2346
+#, php-format
+msgid "Cannot drop `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2071
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2358
+#, php-format
+msgid "View `%s` dropped"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2219
+msgid "Not authorized [cannot drop WordPress tables]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2242
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2332
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2394
+msgid "No table defined"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2250
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2398
+#, php-format
+msgid "[cannot truncate WordPress table `%s`]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2259
+#, php-format
+msgid "Cannot truncate `%s`"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2270
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2408
+#, php-format
+msgid "Table `%s` truncated"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2302
+msgid "Not authorized [cannot truncate WordPress tables]"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2701
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:544
+msgid "Edit Remote Database Connection"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2759
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2861
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:617
+msgid "Save"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2779
+msgid "Create local database"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2780
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:2795
+msgid "Add remote database connection"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3054
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:742
+msgid "Edit remote database connection"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3054
+msgid "Not available for local database"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3063
+msgid ""
+"Delete remote database connection?\\nDoes not drop the database! Only "
+"deletes the remote database connection definition."
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3065
+msgid "Drop selected database?"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3078
+msgid ""
+"Create function wpda_get_wp_user_id()\n"
+"to get access to the WordPress user ID from database views"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3189
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:264
+msgid "Name"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3192
+msgid "Creation Date"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3193
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:483
+msgid "#Rows"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3194
+msgid "Increment"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3196
+msgid "Size"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3197
+msgid "Data Size"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3198
+msgid "Index Size"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_Table_Menu.php:3199
+msgid "Overhead"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_View.php:823
+msgid "Number of items per page"
+msgstr ""
+
+#: WPDataAccess/List_Table/WPDA_List_View.php:942
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:246
+msgid "Columns"
+msgstr ""
+
+#: WPDataAccess/Plugin_Table_Models/WPDA_Plugin_Table_Base_Model.php:34
+msgid ""
+"Wrong usage of class WPDA_Plugin_Table_Base_Model [missing BASE_TABLE_NAME]"
+msgstr ""
+
+#: WPDataAccess/Plugin_Table_Models/WPDA_Publisher_Model.php:93
+msgid "ERROR: Unable to connect to database "
+msgstr ""
+
+#: WPDataAccess/Plugin_Table_Models/WPDA_Publisher_Model.php:106
+#: WPDataAccess/Plugin_Table_Models/WPDA_Publisher_Model.php:114
+msgid "ERROR: Invalid query"
+msgstr ""
+
+#: WPDataAccess/Plugin_Table_Models/WPDP_Project_Design_Table_Model.php:321
+#: WPDataAccess/Plugin_Table_Models/WPDP_Project_Design_Table_Model.php:373
+msgid "Invalid array [missing required fields]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:406
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1709
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:105
+msgid "Export"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:436
+#: WPDataAccess/Utilities/WPDA_Import.php:181
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:333
+msgid "No file to import!"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:440
+#: WPDataAccess/Utilities/WPDA_Import.php:185
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:337
+msgid "File exceeds maximum size of"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:458
+#: WPDataAccess/Utilities/WPDA_Import.php:205
+msgid "Supports only file type"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:458
+#: WPDataAccess/Utilities/WPDA_Import.php:205
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:407
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:485
+msgid "Maximum supported file size is"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:471
+#: WPDataAccess/Utilities/WPDA_Import.php:218
+msgid "Import file"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:486
+#: WPDataAccess/Utilities/WPDA_Import.php:235
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:448
+msgid "ERROR"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:490
+#: WPDataAccess/Utilities/WPDA_Import.php:239
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:452
+msgid "Your configuration does not allow file uploads!"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:492
+#: WPDataAccess/Utilities/WPDA_Import.php:241
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:454
+msgid "Set"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:494
+#: WPDataAccess/Utilities/WPDA_Import.php:243
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:456
+msgid "file_uploads"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:496
+#: WPDataAccess/Utilities/WPDA_Import.php:245
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:458
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1709
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1842
+msgid "to"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:498
+#: WPDataAccess/Utilities/WPDA_Import.php:247
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:460
+msgid "On"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Charts/WPDAPRO_Charts.php:500
+#: WPDataAccess/Utilities/WPDA_Import.php:249
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:462
+msgid "see documentation"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:376
+msgid "ERROR: Missing argument(s) [need a valid widget_name]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:383
+msgid "ERROR: Widget not found"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:387
+msgid "ERROR: Please use shortcode wpdataaccess for data tables"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:389
+msgid ""
+"ERROR: Please use shortcode wpdadataproject or wpdadataforms for projects"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:393
+#, php-format
+msgid "ERROR: Sorry, you cannot use widget \"%s\" in a post"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:395
+#, php-format
+msgid "ERROR: Sorry, you cannot use widget \"%s\" in a page"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:404
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:417
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:427
+msgid "ERROR: Widget data corrupt"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:423
+#, php-format
+msgid "ERROR: Sorry, you cannot use widget \"%s\" in a post or page"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:499
+msgid "WP Data Access ERROR: Invalid arguments"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:509
+#, php-format
+msgid "WP Data Access ERROR: Panel \\\"%s\\\" not found"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:515
+#, php-format
+msgid ""
+"WP Data Access ERROR: Sorry, embedding panel \\\"%s\\\" is not allowed"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:736
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:745
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:754
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:764
+#: WPDataAccess/Premium/WPDAPRO_Dashboard/WPDAPRO_Dashboard.php:774
+msgid "WP Data Access: Error loading widget data"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms.php:392
+#: public/class-wp-data-access-public.php:837
+msgid ""
+"ERROR: Data Project page not found [need a valid project_id and page_id]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms.php:414
+msgid "INFO: You have no access to this page [check page roles]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms.php:763
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:497
+msgid "Add Existing"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_Init.php:134
+msgid "Sorry, you cannot use shortcode wpdadataproject in a post!"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_Init.php:140
+msgid "Sorry, you cannot use shortcode wpdadataproject in a page!"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_Init.php:148
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_Init.php:193
+msgid "Anonymous access disabled!"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_Init.php:159
+msgid "ERROR: Missing argument(s) [need a valid project_id]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_Init.php:179
+msgid "Sorry, you cannot use shortcode wpdadataforms in a post!"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_Init.php:185
+msgid "Sorry, you cannot use shortcode wpdadataforms in a page!"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_Init.php:205
+msgid "ERROR: Missing argument(s) [need a valid project_id and page_id]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:651
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:738
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:853
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:970
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1097
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1203
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1321
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1405
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1500
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1595
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1683
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_WS.php:122
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_WS.php:323
+msgid "Token expired or not authorized"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:656
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:759
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:858
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:982
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1247
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1326
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1411
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1506
+#, php-format
+msgid "Remote database %s not available"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:776
+msgid "Row succesfully updated"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:876
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:994
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1000
+msgid "Row successfully inserted"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:878
+#, php-format
+msgid "%d rows successfully inserted"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:883
+msgid "Not all rows inserted"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Forms_WS.php:1255
+msgid "Row succesfully deleted"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Project.php:49
+msgid "INFO: No pages found for this project [set add to menu to Yes]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Forms/WPDAPRO_Data_Project.php:61
+msgid "INFO: You have no access to this project [check page roles]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:366
+msgid "ERROR: Remote call failed (malformed response)"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:376
+msgid "ERROR: "
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:378
+msgid "ERROR: Remote call failed (internal error)"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:385
+msgid "ERROR: Remote call failed (response body contains no content)"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:446
+#, php-format
+msgid "Remote database `%s` deleted"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1154
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1197
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1232
+msgid "ERROR: Invalid request"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1504
+#, php-format
+msgid "Database error: %s"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1515
+msgid "Remote call failed [invalid url]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1537
+msgid "Remote call failed"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1551
+msgid " ("
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1562
+msgid "Remote call failed [invalid response]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1577
+msgid "Remote call failed [response malformed]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1590
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1609
+msgid "Internal server error"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Data_Services/WPDAPRO_Data_Services.php:1601
+#, php-format
+msgid "Table `%s` created"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:155
+msgid "Search Settings"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:158
+msgid "Define search columns [help opens in a new tab or window]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:255
+msgid ""
+"Wildcards are automatically added to CHAR, VARCHAR and TEXT columns. Users "
+"can add additional specific wildcards. All other columns must exactly "
+"match the search condition."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:268
+msgid ""
+"Performs an exact search on all columns. Allows users to add wildcards to "
+"CHAR, VARCHAR and TEXT columns."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:282
+msgid ""
+"Only available for:\n"
+"- InnoDB and MyISAM tables and columns of views containing a full-text "
+"index \n"
+"- CHAR, VARCHAR and TEXT columns"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:317
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:744
+msgid "Column"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:320
+msgid "Queryable"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:323
+msgid "Make column to queryable."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:328
+msgid "Individual"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:331
+msgid "Enable/disable individual column search."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:336
+msgid "Listbox"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:339
+msgid ""
+"Adds a listbox containing all available column values if allow column "
+"specific search is enabled. Increases load time! Do not use this options "
+"for columns with a large number of different values."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:414
+msgid "Ready to go! A full-text index for this column is available."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:421
+msgid ""
+"A full-text index for this column must be created to support full-text "
+"search. Click icon to create a full-text index for this column."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:451
+msgid ""
+"Click to calculate the number of items shown in the listbox for this "
+"column."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:476
+msgid ""
+"No rows are shown on startup. Table only shows rows that fulfill the "
+"search condition."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:494
+msgid "Adds an individual search item to every queryable column."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:508
+msgid "Save Search Settings"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:529
+msgid "..."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_FullText_Search/WPDAPRO_Search.php:530
+msgid "Search on individual columns."
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location.php:171
+msgid "Geolocation Settings"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location.php:174
+msgid "Define geolocation columns [help opens in a new tab or window]"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location.php:973
+msgid "Preview"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location.php:981
+msgid "Save Geolocation Settings"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location.php:997
+msgid "Batch update"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_Init.php:51
+msgid "ERROR - Invalid arguments"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_Init.php:55
+msgid "ERROR - Schema name not found"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_Init.php:60
+msgid "ERROR - Table not found or not authorized"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_Init.php:577
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_Init.php:605
+msgid "Range"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_Init.php:635
+msgid "Your location"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_WS.php:254
+msgid "Database connection failed"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Geo_Location/WPDAPRO_Geo_Location_WS.php:369
+msgid "Invalid response"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Inline_Editing/WPDAPRO_Data_Projects.php:65
+msgid "Inline editing (premium feature) - uncheck to disable"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Inline_Editing/WPDAPRO_Data_Projects.php:73
+msgid "Inline editing parent"
+msgstr ""
+
+#: WPDataAccess/Premium/WPDAPRO_Inline_Editing/WPDAPRO_Data_Projects.php:83
+msgid "Inline editing child"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings.php:106
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:352
+msgid "ERROR: Wrong arguments [missing page argument]"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings.php:167
+msgid "WP Data Access Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:76
+msgid "ERROR: Invalid table name"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:233
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:45
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:125
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:39
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:205
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:151
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:110
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:63
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:81
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:305
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:312
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:51
+msgid "Settings saved"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:300
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:222
+msgid "Table access"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:318
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:240
+msgid "Show WordPress tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:318
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:240
+msgid "Show all tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:330
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:252
+msgid "Hide WordPress tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:342
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:264
+msgid "Show only selected tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:375
+msgid "Restrict table management"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:404
+msgid "Row access"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:411
+msgid "Add view link to list table"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:416
+msgid "Allow transactions?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:420
+msgid "Allow insert"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:425
+msgid "Allow update"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:430
+msgid "Allow delete"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:435
+msgid "Allow exports?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:439
+msgid "Allow row export"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:444
+msgid "Export with variable WP prefix"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:449
+msgid "Allow imports?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:453
+msgid "Allow to import scripts from Data Explorer table pages"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:458
+msgid "Ask for confirmation?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:462
+msgid "When starting export"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:467
+msgid "When viewing non WPDA table"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:472
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:211
+msgid "Default pagination value"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:480
+msgid "Search box"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:486
+msgid "Remember last search"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:491
+msgid "Max row count"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:521
+msgid "Default designer mode"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:533
+msgid "Content wrap"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:539
+msgid "No content wrap"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:548
+msgid "Default database"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:622
+msgid "Hide button icons"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:628
+msgid "Hide icons on admin buttons"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:637
+msgid "Save Back-end Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:640
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:202
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:273
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:84
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:436
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:315
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1048
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:159
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:961
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:98
+msgid "Reset to defaults?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_BackEnd.php:646
+msgid "Reset Back-end Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:70
+msgid "Dashboard role access"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:94
+msgid "Dashboard user access"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:118
+msgid "Hide default tab"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:156
+msgid "Create dashboard"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:199
+msgid "Save Dashboard Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Dashboard.php:208
+msgid "Reset Dashboard Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:163
+msgid "Local file system"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:174
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:233
+msgid "Activated"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:177
+msgid ""
+"Enter the name of the folder where data backup files should be stored."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:180
+msgid "Make sure the folder exists with permission to write files."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:185
+msgid "ERROR: Invalid folder"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:189
+msgid "ERROR: Not a folder"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:196
+msgid "\"Permission\""
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:198
+msgid "\"owner\""
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:200
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:205
+msgid "\"name\""
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:201
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:206
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:210
+msgid "\"access\""
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:203
+msgid "\"group\""
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:208
+msgid "\"world\""
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:222
+msgid "Dropbox"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:237
+msgid "Create a Dropbox account"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:240
+msgid "You can skip this step if you already have an account."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:243
+msgid ""
+"Authorize the WP Data Access Dropbox app and enter the authorization code "
+"in the text box below."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:250
+msgid "Get Dropbox authorization code"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:257
+msgid ""
+"Enter the name of the folder where data backup files should be stored. If "
+"the folder doesn't exists, it'll be created for you."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:270
+msgid "Save Data Backup Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:279
+msgid "Reset Data Backup To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataBackup.php:290
+msgid "Dropbox authorization failed "
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:51
+msgid "Allow anonymous access"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:59
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:280
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:192
+msgid "Default jQuery UI theme"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:70
+msgid "Data Forms are styled according to the default jQuery UI theme"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:73
+msgid "Individual styling per shortcode will be added later"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:81
+msgid "Save Data Forms  Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataForms.php:90
+msgid "Reset Data Forms Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:260
+msgid "Data Tables global style"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:291
+msgid "JSON Editing"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:296
+msgid "Use code editor with JSON validation"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:302
+msgid "Use textarea without JSON validation"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:309
+msgid "Select WordPress roles allowed to access Data Tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:332
+msgid ""
+"Users have readonly access to tables to which you have granted access in "
+"Front-end Settings only"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:335
+msgid "Table access is automatically granted to tables used in Data Tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:342
+#, php-format
+msgid "Load jQuery DataTables (version %s) scripts and styles"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:348
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:380
+msgid "In WordPress Back-end and Front-end"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:354
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:386
+msgid "In WordPress Back-end only "
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:360
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:392
+msgid "In WordPress Front-end only"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:366
+msgid "Do not load jQuery DataTables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:374
+#, php-format
+msgid "Load jQuery DataTables Responsive (version %s) scripts and styles"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:398
+msgid "Do not load jQuery DataTables Responsive"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:403
+msgid "Front-End Language"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:419
+msgid ""
+"jQuery DataTables (+Responsive) is needed in the Front-end to support data "
+"tables on your website"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:422
+msgid ""
+"jQuery DataTables (+Responsive) is needed in the Back-end to test data "
+"tables in the WordPress dashboard"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:425
+msgid ""
+"If you have already loaded jQuery DataTables for other purposes disable "
+"loading them to prevent duplication errors"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:433
+msgid "Save DataTables Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_DataTables.php:442
+msgid "Reset DataTables Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:94
+msgid "ERROR: Table not found"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:297
+msgid "Admin toolbar"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:303
+msgid "Add projects to toolbar"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:312
+msgid "Save Front-end Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_FrontEnd.php:321
+msgid "Reset Front-end Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:40
+msgid "Repository recreation completed"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:161
+msgid "found"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:206
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:250
+msgid "Repository backup tables dropped"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:480
+msgid "On Plugin Update"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:486
+msgid "Keep backup of repository tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:487
+msgid "(creates backup tables on plugin updates)"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:499
+msgid "Download actual repository tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:580
+msgid ""
+"CAREFULL This will truncate your actual repository table before restoring "
+"the selected version. Make a backup first!"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:581
+msgid "IMPORTANT This option fails for which existing rows."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:790
+msgid "Restore"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:801
+msgid "Backup repository tables?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:803
+msgid "Create new repository backup"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:807
+msgid "Delete all backup tables?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:807
+msgid "This action cannot be undone."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:807
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:809
+msgid "Delete all ("
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:809
+msgid ") repository backup tables"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:816
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:504
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:149
+msgid "Table Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:830
+msgid "table settings defined in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:840
+msgid "Manage Media"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:854
+msgid "media columns defined in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:878
+msgid "table designs in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:916
+msgid "data projects in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:926
+msgid "project pages in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:936
+msgid "project tables in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:960
+msgid "data tables in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:984
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1008
+msgid "menus in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:994
+msgid "CSV Uploads"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1032
+msgid "logging rows in repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1045
+msgid "Save Manage Respository Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1054
+msgid "Reset Manage Repository Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1062
+msgid "Recreate"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1063
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:453
+msgid "Repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1085
+msgid "Your repository has errors!"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1087
+msgid "Recreate the WP Data Access repository to solve this problem."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRepository.php:1088
+msgid ""
+"Please leave your comments on the support forum if the problem remains."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:104
+msgid "Plugin Role Management"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:110
+msgid "Enable role management"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:116
+msgid "Use roles in Data Projects shortcodes"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:123
+msgid "Available Roles"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:156
+msgid "Save Manage Roles Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:165
+msgid "Reset Manage Roles Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:192
+msgid "Delete role?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:192
+msgid "Role will be removed from all users."
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_ManageRoles.php:192
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1908
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1954
+msgid "This action cannot be undone!"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:69
+msgid "Cannot save remote database connection [missing arguments]"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:161
+msgid "Remote database connection not found"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:439
+msgid "Delete remote database connection from plugin repository?"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:644
+msgid "Plugin menu"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:648
+msgid "Hide plugin menu in admin panel"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:653
+msgid "Plugin navigation"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:676
+msgid "Notices"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:680
+msgid ""
+"Hide notices of other themes and plugins on WP Data Access admin pages"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:685
+msgid "Panel cookies"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:693
+msgid "Clear when switching panels"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:702
+msgid "Keep when switching panels"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:707
+msgid "Secret key and IV"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:713
+msgid "Existing remote database connection settings will be converted"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:717
+msgid "Remote database connections"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:729
+msgid "Delete remote database connection from plugin repository"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:732
+msgid "Disable remote database connection"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:752
+msgid "Shortcode [wpdataaccess]"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:766
+msgid "Shortcode [wpdadiehard]"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:783
+msgid "Shortcode [wpdadataforms]"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:802
+msgid "Debug mode"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:808
+msgid "Enable debug mode"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:813
+msgid "Date format"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:818
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:882
+msgid "(WordPress format)"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:821
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:885
+msgid "Input"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:831
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:895
+msgid "(JavaScript format)"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:862
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:902
+msgid "Custom:"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:870
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:910
+msgid "Placeholder"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:873
+msgid "(user info)"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:877
+msgid "Time format"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:916
+msgid "Date/time test"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:923
+msgid "Set format"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:925
+msgid "Show columns of data type set in list table as"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:937
+msgid ""
+"The plugin uses your WordPress general settings to format your date and "
+"time output"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:941
+msgid "Output formats can be changed in WordPress general settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:945
+msgid ""
+"The plugin uses the jQuery DateTimePicker plugin for data entry validation"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:949
+msgid "Input formats can be found on the XDSoft DateTimePicker page"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:958
+msgid "Save Plugin Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Plugin.php:967
+msgid "Reset Plugin Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:123
+msgid "System info successfully copied to clipboard!"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:126
+msgid "Could not copy system info to clipboard!"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:132
+msgid "Operating System"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:149
+msgid "Release"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:155
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:180
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:337
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:447
+msgid "Version"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:161
+msgid "Machine Type"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:167
+msgid "Host Name"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:176
+msgid "Database Management System"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:193
+msgid "Pivileges"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:208
+msgid "Grants"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:228
+msgid "SQL Mode"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:242
+msgid "Web Server"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:246
+msgid "Software"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:252
+msgid "PHP Version"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:258
+msgid "Protocol"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:270
+msgid "Address"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:276
+msgid "Root DIR"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:282
+msgid "Temp DIR"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:288
+msgid "HTTP Upload"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:294
+msgid "Max Upload File Size"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:300
+msgid "Post Max Size"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:306
+msgid "Max Execution Time"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:312
+msgid "Max Input Time"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:318
+msgid "Memory Limit"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:324
+msgid "Output Buffering"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:333
+msgid "WordPress"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:343
+msgid "Home DIR"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:357
+msgid "Uploads DIR"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:371
+msgid "Home URL"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:377
+msgid "Site URL"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:383
+msgid "Upload URL"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:389
+msgid "Use MySQLi"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:404
+msgid "Database Host"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:410
+msgid "Database Name"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:416
+msgid "Database User"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:422
+msgid "Database Character Set"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:428
+msgid "Database Collate"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:434
+msgid "WP Debugging Mode"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:534
+msgid "Browser"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_SystemInfo.php:538
+msgid "Agent"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:68
+msgid "On Plugin Uninstall"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:74
+msgid "Delete plugin"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:80
+msgid "Delete plugin tables (all data will be lost)"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:86
+msgid "Delete plugin settings (all settings will be lost)"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:95
+msgid "Save Uninstall Settings"
+msgstr ""
+
+#: WPDataAccess/Settings/WPDA_Settings_Uninstall.php:104
+msgid "Reset Uninstall Settings To Defaults"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:361
+msgid "ERROR: Wrong arguments [missing action argument]"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:372
+msgid "ERROR: Wrong arguments [missing table_name argument]"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:431
+msgid "Saving changes to database failed"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:647
+msgid "Key columns have been reversed to their original values"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:656
+msgid "Add new row to"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:759
+msgid "Add new row to table"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:871
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:881
+msgid "Submit"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:949
+msgid "'Item'"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:949
+msgid "'must be entered'"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:955
+msgid "'Column'"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:955
+msgid "': max size exceeded'"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:993
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:1006
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form.php:1017
+msgid "Max size exceeded"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:317
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:323
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:464
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:481
+msgid "ERROR: Wrong arguments [missing primary key value]"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:367
+msgid "ERROR: Wrong arguments [missing key value]"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Data.php:392
+msgid "ERROR: Wrong arguments [no data found]"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item.php:305
+msgid "ERROR: Wrong arguments [missing item name]"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item.php:310
+msgid "ERROR: Wrong arguments [missing data type]"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item.php:362
+msgid "Class must be of (sub)type WPDA_Simple_Form_Item"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item.php:365
+msgid ""
+"Could not create form item instance [argument must be array or object]"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item.php:418
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item.php:985
+msgid "must be entered"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item.php:418
+msgid "is optional"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item.php:1002
+msgid "must be numeric"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Audio.php:21
+msgid "Upload or select audio from your WordPress media library"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Audio.php:22
+msgid "Remove audio"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Autocomplete.php:34
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Autocomplete.php:53
+msgid "ERROR: Invalid autocomplete lookup usage"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Autocomplete.php:70
+msgid "Start typing"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Enum.php:129
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Set.php:133
+msgid "not allowed"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Image.php:29
+msgid "Upload or select image(s) from your WordPress media library"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Image.php:30
+msgid "Remove image(s)"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Media.php:37
+msgid "Upload or select media from your WordPress media library"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Media.php:38
+msgid "Remove media"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Video.php:21
+msgid "Upload or select video(s) from your WordPress media library"
+msgstr ""
+
+#: WPDataAccess/Simple_Form/WPDA_Simple_Form_Item_Video.php:22
+msgid "Remove video(s)"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import.php:79
+msgid "ERROR: Import not possible on views"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import.php:153
+msgid "current respository table"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import.php:155
+#, php-format
+msgid "Allows only imports into %s"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import.php:162
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_Table.php:272
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:77
+msgid "Import"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import.php:211
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:493
+msgid "Hide errors"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:99
+msgid "IMPORT DATA/EXECUTE SCRIPT(S)"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:104
+msgid "Supports <strong>sql</strong> and <strong>zip</strong> file types."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:109
+msgid ""
+"Supports only file type <strong>sql</strong> (install <strong>ZipArchive</"
+"strong> for <strong>zip</strong> file type support)."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:161
+#, php-format
+msgid "Import failed [error reading ZIP file `%s`]"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:165
+#, php-format
+msgid "Import failed - ZipArchive not installed %s"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:249
+#, php-format
+msgid "Import `%s` failed [check import file]"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:254
+#, php-format
+msgid "Import `%s` completed succesfully"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:287
+#, php-format
+msgid "File upload failed %s"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:305
+msgid "Imports and scripts"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:311
+msgid "Allows to import data and execute SQL scripts"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:312
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:515
+msgid "Add a ; and a new line character at the end of every SQL statement"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:404
+msgid "Supports <strong>csv</strong> file types."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:421
+msgid "Import CSV file"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:431
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:514
+msgid "IMPORTANT"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:432
+msgid "Use reload to reused an existing column mapping."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Import_Multi.php:501
+msgid "Import file/Execute script(s)"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Message_Box.php:100
+msgid "ERROR: Wrong arguments [missing message text argument]"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Repository.php:406
+msgid "Some features of WP Data Access are currently not available."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Repository.php:408
+msgid "ACTION"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Repository.php:410
+msgid "Recreate repository"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Repository.php:412
+msgid "to to solve this problem."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Repository.php:414
+msgid "do not show this message again"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:209
+msgid "Error reading create table statement"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:231
+msgid "Actions"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:254
+msgid "Indexes"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:262
+msgid "Foreign Keys"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:270
+msgid "SQL"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:316
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1786
+msgid "Please enter a valid table name"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:491
+msgid "Please note that these settings only work within in the plugin"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:507
+msgid "Define table settings [help opens in a new tab or window]"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:512
+msgid ""
+"Row count (configurable for InnoDB tables, federated tables and views only)"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:643
+msgid "Query buffer size"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:647
+msgid "Max rows per fetch"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:663
+msgid "Access control"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:675
+msgid "Enable row level access control (adds token to row actions)"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:680
+msgid "Process hyperlink columns as"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:697
+msgid "Preformatted JSON (allows individual label and target setting)"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:712
+msgid "Plain text (column name used as link, opens a new tab or window)"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:722
+msgid "Save Table Settings"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:735
+msgid "Column Settings"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:738
+msgid ""
+"Define column labels and (media) types [help opens in a new tab or window]"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:746
+msgid "Label on List Table"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:749
+msgid "Define column labels for list tables"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:753
+msgid "Label on Data Entry Form"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:755
+msgid "Define column labels for data entry forms"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:759
+msgid "Column Type"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:761
+msgid "Featured plugin column types"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:889
+msgid "Save Column Settings"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:902
+msgid "Dynamic Hyperlinks"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:905
+#, php-format
+msgid ""
+"Add dynamic hyperlinks to table `%s` [help opens in a new tab or window]"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:912
+msgid "Hyperlink Label"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:915
+msgid "+List?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:917
+msgid "Add hyperlink to list"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:921
+msgid "+Form?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:923
+msgid "Add hyperlink to form"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:927
+msgid "+Window?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:929
+msgid "Opens URL in a new tab or window"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:933
+msgid "HTML"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:935
+msgid ""
+"Just the URL! For example:\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t  \n"
+"https://yoursite.com/services.php?name=$$column_name$$\n"
+"\n"
+"Variable $$column_name$$ will be replaced with the value of column $"
+"$column_name$$ in table `"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1005
+#, php-format
+msgid "Delete hyperlink %s?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1089
+msgid "Save Dynamic Hyperlinks"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1104
+msgid "Dashboard Menus"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1107
+#, php-format
+msgid ""
+"Add table `%s` to a WordPress dashboard menu [help opens in a new tab or "
+"window]"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1114
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:42
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:215
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:33
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:40
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:178
+msgid "Menu Name"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1116
+msgid "Name of your sub menu item"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1120
+msgid "Menu Slug"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1122
+msgid "Menu slug of the main menu to which your sub menu should be added"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1126
+msgid "Roles Authorized"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1128
+msgid "User roles authorized to see sub menu item"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1172
+#, php-format
+msgid "Delete menu %s?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1252
+msgid "Save Dashboard Menus"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1363
+msgid "Data Type"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1365
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1451
+msgid "Null?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1367
+msgid "Default Value"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1395
+msgid "Constraint Name"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1401
+msgid "Referenced Table Name"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1404
+msgid "Referenced Column Name"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1409
+msgid "No foreign keys defined for this table"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1445
+msgid "Index Name"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1446
+msgid "Unique?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1450
+msgid "Index Prefix?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1453
+msgid "Index Type"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1457
+msgid "No indexes defined for this table"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1622
+msgid "Refresh table"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1625
+msgid "REFRESH"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1632
+msgid "Refresh"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1636
+msgid "Reloads remote data set and updates local table."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1705
+msgid "EXPORT"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1734
+msgid "Include table settings (SQL only)"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1786
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1793
+msgid "Rename"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1789
+msgid "RENAME"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1835
+msgid "COPY"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1866
+msgid "Copy data"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1897
+msgid "Truncate table?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1900
+msgid "TRUNCATE"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1904
+msgid "Permanently delete all data from"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1921
+msgid "Drop view?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1923
+msgid "Drop table?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1946
+msgid "DROP"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1950
+msgid "Permanently delete"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:1953
+msgid "and all table data from the database."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2002
+msgid "Optimize table?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2020
+msgid "OPTIMIZE"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2030
+msgid "Optimize"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2036
+msgid "MySQL locks the table during the time OPTIMIZE TABLE is running!"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2040
+msgid "Table optimization not considered useful! But you can..."
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2079
+msgid "Alter table?"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2082
+msgid "ALTER"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2086
+msgid "Loads"
+msgstr ""
+
+#: WPDataAccess/Utilities/WPDA_Table_Actions.php:2089
+msgid "into the Data Designer."
+msgstr ""
+
+#: WPDataAccess/WPDA.php:362
+msgid "WordPress table"
+msgstr ""
+
+#: WPDataAccess/WPDA.php:365
+msgid "plugin table"
+msgstr ""
+
+#: WPDataAccess/WPDA.php:492
+msgid "ERROR: No WordPress table found"
+msgstr ""
+
+#: WPDataAccess/WPDA.php:1350
+msgid ""
+"Schema, table or column name(s) restricting plugin features (click to read "
+"more and fix)"
+msgstr ""
+
+#: WPDataAccess/WPDA.php:1359
+msgid ""
+"Schema, table or column name validation not possible (click to read more "
+"and fix)"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:183
+msgid "List View"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:184
+msgid "Excerpt View"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:349
+msgid "No items found."
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:484
+msgid "Select bulk action"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:486
+msgid "Bulk Actions"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:497
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:499
+msgid "Apply"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:553
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:1405
+msgid "Show more details"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:621
+msgid "Filter by date"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:623
+msgid "All dates"
+msgstr ""
+
+#. translators: 1: Month name, 2: 4-digit year.
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:638
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#. translators: %s: Number of comments.
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:694
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Number of comments.
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:700
+#, php-format
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: Number of comments.
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:706
+#, php-format
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:714
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:736
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:759
+msgid "No comments"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:736
+msgid "No approved comments"
+msgstr ""
+
+#: WPDataAccess/Wordpress_Original/WP_List_Table.php:759
+msgid "No pending comments"
+msgstr ""
+
+#: WPDataProjects/Data_Dictionary/WPDP_List_Columns.php:124
+#: WPDataProjects/Data_Dictionary/WPDP_List_Columns.php:176
+msgid "ERROR: Wrong arguments [no table columns]"
+msgstr ""
+
+#: WPDataProjects/List_Table/WPDP_List_View.php:136
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_View.php:172
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:92
+msgid "Data Project page not found [need a valid project_id and page_id]"
+msgstr ""
+
+#: WPDataProjects/List_Table/WPDP_List_View.php:214
+#: WPDataProjects/List_Table/WPDP_List_View.php:226
+msgid "ERROR: Action not allowed"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_Form.php:67
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:78
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:134
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:49
+msgid "ERROR: Wrong arguments [missing mode]"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_Form.php:73
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:84
+msgid "ERROR: Wrong arguments [missing parent]"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_Form.php:79
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:90
+msgid "ERROR: Wrong arguments [missing child]"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_Form.php:188
+msgid "Error create relationship (insert failed)"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:320
+msgid "ERROR: No value for parent key found"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:381
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:429
+msgid "Delete Relationship"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:382
+msgid "Delete child row (this only affects the relationship table)"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table.php:385
+msgid "Delete child row"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:67
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:316
+msgid "Child List"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:109
+msgid "Add selected rows"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:123
+msgid "Nothing selected"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:193
+msgid "Row added"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:195
+msgid "rows added"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Child_List_Table_Selection.php:209
+msgid "Not all rows have been added"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:140
+msgid "ERROR: Wrong arguments [missing child_request]"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:155
+msgid "Parent List"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:526
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:533
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:536
+msgid "show more"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Parent_Form.php:534
+msgid "show less"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_Table.php:56
+msgid ""
+"Delete current item and all its relationships?\\nThis action cannot be "
+"undone.\\n\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_Table.php:112
+msgid "Delete parent row and its child rows"
+msgstr ""
+
+#: WPDataProjects/Parent_Child/WPDP_Parent_List_View.php:230
+msgid "Back"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:39
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:212
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:31
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:36
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:174
+msgid "Project ID"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:40
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:213
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:32
+msgid "Page ID"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:41
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:214
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:39
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:177
+msgid "Add To Menu"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:44
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:217
+msgid "Schema Name"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:46
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:219
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:480
+msgid "Template Set Name"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:47
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:220
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:36
+msgid "Mode"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:48
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:221
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:37
+msgid "Allow insert?"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:49
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:222
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:38
+msgid "Allow delete?"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:50
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:223
+msgid "Allow import?"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:51
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:224
+msgid "Allow bulk actions?"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:52
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:225
+msgid "Allow full table export?"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:53
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:226
+msgid "Post"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:54
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:227
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:40
+msgid "Title"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:55
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:228
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:41
+msgid "Subtitle"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:56
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:229
+msgid "Role"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:58
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:231
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:764
+msgid "Default ORDER BY"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_Form.php:59
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:232
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:42
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:41
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:179
+msgid "Seq#"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_List.php:108
+msgid "Shortcodes"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Page_List_View.php:39
+msgid "Content"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:37
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:175
+msgid "Project Name"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:38
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:176
+msgid "Project Description"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:164
+msgid "Info copied to clipboard!"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Project_Form.php:167
+msgid "Could not copy info to clipboard!"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:43
+msgid "IMPORT DATA PROJECTS"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:115
+msgid "Data Forms shortcode"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Project_List.php:165
+msgid "Get Data Forms shortcode"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:137
+#: WPDataProjects/WPDP.php:521
+msgid "ERROR: Wrong arguments [missing page]"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:150
+msgid "Relationships"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:151
+msgid "List Table"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:152
+msgid "Data Entry"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:230
+msgid "ERROR: Reverse engineering table failed"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:239
+msgid "Table added to respository"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:325
+msgid "ERROR: Argument wpda_table_name not found"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:525
+msgid "Template list"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:642
+msgid "Hyperlinks - uncheck to disable"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:659
+msgid "Manage table settings for table "
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:670
+msgid "Template set name"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:685
+msgid "Tab label"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:713
+msgid "Hyperlinks parent"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:723
+msgid "Hyperlinks child"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:741
+msgid "Child table setting only"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:750
+msgid "Default WHERE"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:789
+msgid "Save table info"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:793
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1158
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1433
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1760
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1818
+msgid "Back to list"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1091
+msgid "Manage relationships for table"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1106
+msgid "Source column name"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1110
+msgid "Target table name"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1113
+msgid "Target column name"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1117
+msgid "Relation table name (only n:m)"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1121
+msgid ""
+"Table shown on the other end of the n:m relationship (instead of target "
+"table shown for 1:n relationships). Not available for 1:n relationships."
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1154
+msgid "Save relationships"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1227
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1446
+msgid "Invalid structure"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1241
+msgid "Manage columns for list table of table"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1256
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1475
+msgid "Data type"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1259
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1478
+msgid "Key"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1262
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1481
+msgid "Mandatory"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1265
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1484
+msgid "Visible"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1268
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1493
+msgid "Label"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1272
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1501
+msgid "Lookup"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1429
+msgid "Save list table columns"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1460
+msgid "Manage columns for data entry form for table"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1487
+msgid "Read only"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1490
+msgid "Less"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1505
+msgid "ID?"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1509
+msgid "Enable to hide ID in lookup"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1756
+msgid "Save data entry form columns"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1775
+msgid "Reconcile columns for table"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_Form.php:1814
+msgid "Reconcile Table"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:104
+msgid "Add Project Template To Repository"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:140
+msgid "Add Template For Selected Table To Repository"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:224
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:241
+msgid "N/A"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:228
+msgid "Yes"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:230
+msgid "No"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:319
+msgid "Copy project template set?\\n\\'Cancel\\' to stop, \\'OK\\' to copy."
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:385
+msgid "Could not copy table options [source not found]"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:395
+msgid "Table options copied"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:403
+msgid "Could not copy table options [too many rows]"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:481
+msgid "Exists in DB?"
+msgstr ""
+
+#: WPDataProjects/Project/WPDP_Project_Table_List.php:482
+msgid "Has Relationships?"
+msgstr ""
+
+#: WPDataProjects/WPDP.php:230 WPDataProjects/WPDP.php:249
+msgid "ERROR: Repository table(s) not found!"
+msgstr ""
+
+#: WPDataProjects/WPDP.php:538
+msgid "ERROR: Project page initialization failed"
+msgstr ""
+
+#: WPDataRoles/WPDA_Roles.php:97
+msgid "Role(s)"
+msgstr ""
+
+#: admin/class-wp-data-access-admin.php:1109
+#: admin/class-wp-data-access-admin.php:1179
+msgid "ERROR: Repository table not found!"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:585
+msgid "Sorry, you cannot use shortcode wpdataaccess in a post!"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:591
+msgid "Sorry, you cannot use shortcode wpdataaccess in a page!"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:652
+msgid "Sorry, you cannot use shortcode wpdadiehard in a post!"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:658
+msgid "Sorry, you cannot use shortcode wpdadiehard in a page!"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:686
+msgid "ERROR: Missing argument(s) [(project_id and page_id) or table_name]"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:767
+msgid "ERROR: No access to MySQL meta data"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:773
+msgid "ERROR: Missing argument [table_name]"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:845
+msgid "ERROR: No access [could not determine user role]"
+msgstr ""
+
+#: public/class-wp-data-access-public.php:860
+msgid "ERROR: No access [missing role]"
+msgstr ""
+
+#: wp-data-access-diehard.php:116
+msgid "Save Changes"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Data Access"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wpdataaccess.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The best WordPress table plugin with an intuitive table builder and a "
+"highly customizable form builder to support data entry"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Passionate Programmers B.V."
+msgstr ""

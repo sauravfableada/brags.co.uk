@@ -1,0 +1,171 @@
+/* Wrapper */
+.dokan-customer-invoice-list {
+    max-width: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Filter form */
+  #date-filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: flex-end;
+  }
+  
+  #date-filter-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  #date-filter-form input[type="date"] {
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  #date-filter-form button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007cba;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #date-filter-form button:hover {
+    background-color: #005f8d;
+  }
+  
+  /* Table */
+  #invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  #invoice-table thead {
+    background-color: #f5f5f5;
+  }
+  
+  #invoice-table th,
+  #invoice-table td {
+    padding: 12px 14px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  #invoice-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  #invoice-table tr:hover {
+    background-color: #f1f9ff;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    #date-filter-form {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #invoice-table th,
+    #invoice-table td {
+      font-size: 13px;
+    }
+  }
+
+  
+  /* Header styling */
+.dokan-finance-invoice-list h3,
+.dokan-customer-invoice-list h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+/* Invoice List Table */
+.dokan-finance-invoice-list table,
+.dokan-customer-invoice-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin-top: 10px;
+}
+
+.dokan-finance-invoice-list th,
+.dokan-customer-invoice-list th,
+.dokan-finance-invoice-list td,
+.dokan-customer-invoice-list td {
+  padding: 14px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+}
+
+.dokan-finance-invoice-list thead,
+.dokan-customer-invoice-list thead {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+.dokan-finance-invoice-list tr:hover,
+.dokan-customer-invoice-list tr:hover {
+  background-color: #f5faff;
+}
+
+/* Button Styling */
+.dokan-btn.dokan-btn-theme {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: #007cba;
+  border-radius: 6px;
+  color: #fff !important;
+  font-weight: 500;
+  font-size: 13px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.dokan-btn.dokan-btn-theme:hover {
+  background-color: #005f8d;
+}
+
+/* Dashicons align fix */
+.dashicons-media-document {
+  font-size: 16px;
+  line-height: 1;
+  margin-right: 2px;
+}
+
+/* Alert box */
+.dokan-alert.dokan-alert-info {
+  background-color: #f0f6ff;
+  border-left: 4px solid #007cba;
+  padding: 14px 16px;
+  border-radius: 6px;
+  color: #333;
+  font-size: 14px;
+  margin-top: 20px;
+}

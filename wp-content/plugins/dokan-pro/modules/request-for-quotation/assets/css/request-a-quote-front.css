@@ -1,0 +1,499 @@
+.my_account_quotes td {
+    vertical-align: middle;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content .my_account_quotes td:first-child a {
+    color: #6d6d6d;
+    transition: .2s linear;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content .my_account_quotes td:first-child a:hover {
+    color: #000;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content .my_account_quotes .action-delete {
+    padding: 6px 8px;
+    border-radius: 5px;
+    align-items: center;
+    display: inline-flex;
+    border: 1px solid #E9E9E9;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content .my_account_quotes .action-delete:hover {
+    background-color: #ef4444;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content .my_account_quotes .action-delete:hover svg {
+    stroke: #fff;
+}
+
+.my_account_quotes .quote-id {
+    display: block;
+}
+
+.my_account_quotes .expiry-time {
+    color: #931222;
+}
+
+div.dokan_accept_to_order_button button,
+div.dokan_convert_to_order_button button {
+    float: right;
+    color: white;
+    background: green;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+div.dokan_accept_to_order_button button:hover,
+div.dokan_convert_to_order_button button:hover {
+    color: white;
+    background: #14532d;
+}
+
+tr.woocommerce-cart-form__quote-item input[type=number],
+div.quote_fields .announcement-meta-options input[type=text],
+div.quote_fields .announcement-meta-options input[type=email] {
+    width: 100%;
+}
+
+#dokan-quote-form .woocommerce-MyAccount-content {
+    width: 100% !important;
+}
+
+.woocommerce-MyAccount-content ul.subsubsub {
+    margin: 0 0 20px;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content #dokan-quote-form .dokan-quote-status-filter.dokan-w12 {
+    display: flex;
+    align-items: center;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content #dokan-quote-form .dokan-quote-search.dokan-w4 {
+    gap: 6px;
+    float: right;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content #dokan-quote-form .dokan-quote-actions {
+    gap: 6px;
+    display: flex;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content #dokan-quote-form .quote-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content #dokan-quote-form .dokan-quote-actions select.dokan-form-control {
+    width: 160px;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content #dokan-quote-form tr th:first-child {
+    width: 0;
+    vertical-align: middle;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content #dokan-quote-form .bulk-selection-column {
+    display: inline-flex;
+}
+
+.woocommerce-MyAccount-content .quote-statuses-filter.subsubsub {
+    list-style: none;
+    display: inline-flex;
+}
+
+table.cart.quote_details #quote-total td,
+table.cart.quote_details #shipping-info td {
+    vertical-align: middle;
+}
+
+table.cart.quote_details #shipping-info .shipping-warning-info {
+    font-size: 12px;
+}
+
+table.cart.quote_details #shipping-info td label,
+table.cart.quote_details #quote-total td #total-label {
+    padding-left: 20px;
+}
+
+table.cart.quote_details #shipping-info td label {
+    display: block;
+    margin: 20px 0;
+}
+
+table.cart.quote_details #shipping-info #shipping-cost {
+    display: block;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+table.cart.quote_details #shipping-info strong#shipping-cost {
+    text-align: right;
+}
+
+table.cart.quote_details #quote-total td #total {
+    display: block;
+    min-height: 40px;
+    margin-top: 16px;
+    text-align: right;
+}
+
+table.cart.quote_details #quote-total td .total-amount {
+    display: block;
+    min-width: 170px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.woocommerce .store-info {
+    float: right;
+    margin: 10px 0;
+}
+
+.woocommerce div#quote-heading,
+.woocommerce div#customer-info-container {
+    margin-bottom: 20px;
+}
+
+.woocommerce div#quote-heading .submission-area {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.woocommerce div#quote-heading .submission-area button {
+    border-radius: 3px;
+}
+
+.woocommerce div#customer-info-container {
+    gap: 20px;
+    display: flex;
+}
+
+#customer-info-container .info-field {
+    gap: 16px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    border: 1px solid #E9E9E9;
+}
+
+#customer-info-container .info-field .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#customer-info-container .info-field .title h3 {
+    color: #25252D;
+    font-size: 14px;
+    margin: 4px 0 0;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+#customer-info-container .info-field .title label {
+    color: #828282;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.dokan-quote-form .quote-info-table,
+.dokan-quote-form .shipping-info-table {
+    margin-bottom: 30px;
+}
+
+.dokan-quote-form .quote-info-table .required {
+    color: #ca1010;
+}
+
+.dokan-quote-form .shipping-info-table .wc-enhanced-select {
+    border: 0;
+    width: 100%;
+    outline: none;
+    padding: 11px 6px;
+    background-color: #f2f2f2;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .125);
+}
+
+.dokan-quote-form .quote_fields .fields-heading {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.dokan-quote-form .quote_fields .fields-heading .icon {
+    display: flex;
+}
+
+.dokan-quote-form .quote_fields .fields-heading .heading h3 {
+    margin: 0;
+}
+
+.dokan-quote-form .quote_fields .shipping-fields-heading .heading {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.dokan-quote-form .quote_fields .shipping-fields-heading .heading p {
+    margin: 4px 0 0;
+}
+
+.dokan-quote-form #dokan-states-box {
+    display: block !important;
+}
+
+#quote-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quote-heading .details-area {
+    gap: 10px;
+    display: flex;
+}
+
+#quote-heading .details-area a {
+    margin-top: 14px;
+}
+
+#quote-details-container .shipping-details .text-contents,
+#quote-heading .details-area .quote-contents .title-contents {
+    display: flex;
+    align-items: center;
+}
+
+#quote-details-container .shipping-details .text-contents {
+    gap: 10px;
+}
+
+#quote-heading .details-area .quote-contents .title-contents {
+    gap: 20px;
+}
+
+.quote_details .product-name {
+    width: 25%;
+}
+
+.quote_details .product-name.hide-product-price,
+.dokan-quote-form .product-name.hide-product-price {
+    width: 70%;
+}
+
+.dokan-dashboard-wrap .dokan-dashboard-content .quote-statuses-filter li {
+    display: inline-block;
+    padding: 0 5px !important;
+}
+
+#quote-details-container .shipping-details .text-contents p {
+    margin: 4px 0 0;
+}
+
+#quote-heading .details-area .quote-contents .date-contents label {
+    color: #6C6C72;
+    font-size: 14px;
+}
+
+#quote-heading .details-area .quote-contents .quote-no {
+    margin: 0;
+}
+
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-pending {
+    color: #7B5C03;
+    background-color: #FFF9CF;
+}
+
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-approve {
+    color: #181894;
+    background-color: #D8D8FE;
+}
+
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-updated {
+    color: #7c2d12;
+    background: #fed7aa;
+}
+
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-trash,
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-cancel {
+    color: #931222;
+    background-color: #FFE8D7;
+}
+
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-converted {
+    color: #008864;
+    background-color: #E6FBD9;
+}
+
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-expired {
+    color: #A5A5AA;
+    background-color: #F1F1F4;
+}
+
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-accepted {
+    color: #1B6384;
+    background: #C0E1F8;
+}
+
+#quote-heading .details-area .quote-contents span.dokan-label.dokan-label-rejected {
+    color: #242D35;
+    border: 1px solid #F1F1F1;
+    background-color: #FFFFFF;
+}
+
+#dokan-quote-notice .quote-notice {
+    color: #393939;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    border-left: 3px solid;
+}
+
+#dokan-quote-notice .accepted-notice {
+    border-color: #1B6384;
+    background-color: #C0E1F8;
+}
+
+#dokan-quote-notice .update-notice {
+    border-color: #7c2d12;
+    background-color: #fed7aa;
+}
+
+#dokan-quote-notice .cancel-notice,
+#dokan-quote-notice .expired-notice,
+#dokan-quote-notice .rejected-notice {
+    border-color: #E64B5F;
+    background-color: #FFE5E5;
+}
+
+#dokan-quote-notice .pending-notice {
+    border-color: #7047EB;
+    background-color: #F4F1FE;
+}
+
+#dokan-quote-notice .approved-notice {
+    border-color: #EFBB40;
+    background-color: #FFF8E6;
+}
+
+#dokan-quote-notice .converted-notice {
+    border-color: #00BC8B;
+    background-color: #E3FFF1;
+}
+
+#quote-details-container section {
+    margin-bottom: 30px;
+}
+
+#quote-details-container section:last-child {
+    margin-bottom: 0;
+}
+
+#quote-details-container .heading {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#quote-details-container .heading h3 {
+    margin: 0;
+}
+
+#quote-details-container .details {
+    line-height: 26px;
+    border-radius: 5px;
+    padding: 14px 20px;
+    border: 1px solid #E9E9E9;
+}
+
+#quote-details-container .details label {
+    color: #6C6C72;
+    font-size: 14px;
+}
+
+#quote-details-container .details .store-name a {
+    color: #25252D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#quote-details-container .quote-user-name {
+    color: #25252D;
+    font-weight: 600;
+}
+
+#quote-details-container .details .expected-date {
+    gap: 6px;
+    display: flex;
+    align-items: center;
+}
+
+#quote-details-container .additional-msg .details {
+    display: grid;
+    row-gap: 10px;
+}
+
+#quote-details-container .additional-msg .details hr {
+    margin: 0;
+    background: #E9E9E9;
+}
+
+#quote-details-container .details #vendor-additional-msg,
+#quote-details-container .details #customer-additional-msg {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#quote-details-container .details #vendor-additional-msg .customer-profile,
+#quote-details-container .details #customer-additional-msg .customer-profile {
+    width: 42px;
+    height: 42px;
+}
+
+#quote-details-container .details #vendor-additional-msg .customer-profile img,
+#quote-details-container .details #customer-additional-msg .customer-profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#quote-details-container .details #vendor-additional-msg .customer-content .customer-msg p,
+#quote-details-container .details #customer-additional-msg .customer-content .customer-msg p {
+    margin: 0;
+    color: #6C6C72;
+    font-size: 14px;
+}
+
+#quote-details-container .details #vendor-additional-msg .customer-name label,
+#quote-details-container .details #customer-additional-msg .customer-name label {
+    color: #25252D;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#quote-heading .submission-area .cart-collaterals {
+    display: flex;
+}
+
+@media (max-width: 430px) {
+    tr.woocommerce-cart-form__quote-item .product-remove {
+        z-index: 1;
+    }
+
+    tr.woocommerce-cart-form__quote-item .offered-price .offered-price-input {
+        width: 50%;
+    }
+}

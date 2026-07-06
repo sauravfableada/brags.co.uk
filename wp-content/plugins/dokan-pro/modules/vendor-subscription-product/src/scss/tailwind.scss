@@ -1,0 +1,53 @@
+.dokan-react-user-subscription {
+    button,
+    .menu-toggle,
+    .button,
+    .ast-custom-button,
+    input[type=reset],
+    input#submit,
+    input[type="button"],
+    input[type="submit"] {
+        &:focus,
+        &:hover {
+            background-color: transparent;
+            border-color: transparent;
+        }
+    }
+
+    button {
+        box-shadow: none;
+        border: none;
+    }
+
+    table,
+    th,
+    td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        border-spacing: 0;
+        border-collapse: collapse;
+        font-size: inherit;
+        font-weight: inherit;
+        text-align: inherit;
+        vertical-align: inherit;
+        box-sizing: border-box;
+    }
+}
+
+#dokan-vendor-subscription-data-view {
+    &.dokan-dashboard-datatable {
+        .dataviews-wrapper {
+            .dataviews__view-actions {
+                display: none;
+            }
+
+            .dataviews-view-table {
+                thead {
+                    z-index: 0;
+                }
+            }
+        }
+    }
+}
+

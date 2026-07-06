@@ -1,0 +1,41 @@
+<?php
+
+namespace WCML\Options;
+
+use WPML\Settings\PostType\Automatic;
+class WPML {
+
+	/**
+	 * @param string $postType
+	 * @param bool   $state
+	 */
+	public static function setAutomatic( $postType, $state ) {
+		/** @phpstan-ignore-next-line function.alreadyNarrowedType */
+		if ( method_exists( Automatic::class, 'set' ) ) {
+			Automatic::set( $postType, $state );
+		}
+	}
+
+	/**
+	 * @param string $postType
+	 *
+	 * @return bool
+	 */
+	public static function isAutomatic( $postType ) {
+		/** @phpstan-ignore-next-line function.alreadyNarrowedType */
+		if ( method_exists( Automatic::class, 'isAutomatic' ) ) {
+			return Automatic::isAutomatic( $postType );
+		}
+
+		return false;
+	}
+
+	/**
+	 * @return bool
+	 */
+	public static function useAte() {
+		/** @phpstan-ignore-next-line function.alreadyNarrowedType */
+		return method_exists( \WPML_TM_ATE_Status::class, 'is_enabled_and_activated' )
+			&& \WPML_TM_ATE_Status::is_enabled_and_activated();
+	}
+}

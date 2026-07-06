@@ -1,0 +1,44 @@
+.user-registration-MyAccount-content {
+    text-align: unset !important;
+  }
+
+
+  @media screen and (max-width: 600px) {
+
+    #user-registration.vertical .user-registration-MyAccount-content {
+      padding: 24px  25px !important;
+  }
+
+}
+
+#user-registration .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper  label {
+  margin-top: 15px;
+}
+
+div#ur-multi-step-form fieldset input[name="product_ids_1"],
+div#ur-multi-step-form fieldset input[name="product_ids_2"],
+div#ur-multi-step-form fieldset input[name="product_ids_3"],
+div#ur-multi-step-form fieldset input[name="product_ids_4"],
+div#ur-multi-step-form fieldset input[name="product_ids_5"] {
+  margin-bottom: 20px;
+}
+
+#user-registration .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper input[name="phone_number"] {
+  margin-left: 10px;
+}
+
+#user-registration .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper button,
+#user-registration .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper button[type=submit],
+#user-registration .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper input[type=submit] {
+    margin-top: 20px;
+    background-color: var(--btn-accented-bgcolor);
+    color: #fff;
+    float: right;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+#user-registration .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper button:hover {
+    color: var(--btn-accented-color-hover);
+    background-color: var(--btn-accented-bgcolor-hover);
+}

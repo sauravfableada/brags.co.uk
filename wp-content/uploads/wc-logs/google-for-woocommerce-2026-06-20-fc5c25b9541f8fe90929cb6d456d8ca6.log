@@ -1,0 +1,46 @@
+2026-06-20T05:34:51+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\MerchantPriceBenchmarks::get_price_comparisons_data {
+  "error": {
+    "code": 400,
+    "message": "Market Insights is not enabled for account 5772175936.",
+    "errors": [
+      {
+        "message": "Market Insights is not enabled for account 5772175936.",
+        "domain": "global",
+        "reason": "failedPrecondition"
+      }
+    ],
+    "status": "FAILED_PRECONDITION",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "conditionNotMet",
+        "domain": "global"
+      }
+    ]
+  }
+}
+2026-06-20T05:34:51+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\PriceBenchmarks::update_price_benchmarks Unable to retrieve price benchmark data
+2026-06-20T13:28:39+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses::process_product_statuses Merchant Center product 17058 not found in this WooCommerce store.
+2026-06-20T13:28:39+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses::get_product_issues in remove_invalid_statuses() Merchant Center product online:en:GB:17058 not found in this WooCommerce store.
+2026-06-20T17:35:08+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\MerchantPriceBenchmarks::get_price_comparisons_data {
+  "error": {
+    "code": 400,
+    "message": "Market Insights is not enabled for account 5772175936.",
+    "errors": [
+      {
+        "message": "Market Insights is not enabled for account 5772175936.",
+        "domain": "global",
+        "reason": "failedPrecondition"
+      }
+    ],
+    "status": "FAILED_PRECONDITION",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "conditionNotMet",
+        "domain": "global"
+      }
+    ]
+  }
+}
+2026-06-20T17:35:08+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\PriceBenchmarks::update_price_benchmarks Unable to retrieve price benchmark data

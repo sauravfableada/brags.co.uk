@@ -1,0 +1,25 @@
+div#dokan_printful .dokan-settings-field-type-warning .dokan-printful-shipping-warning {
+  background-color: #f7dade !important;
+  margin-bottom: 15px;
+}
+div#dokan_printful .dokan-settings-field-type-warning .dokan-printful-shipping-warning h3.dokan-setting-warning span.dokan-setting-warning-label {
+  display: none;
+}
+div#dokan_printful .dokan-settings-field-type-warning .dokan-printful-shipping-warning h3.dokan-setting-warning span.field_desc {
+  font-weight: 500;
+}
+div#dokan_printful .dokan-settings-field-type-warning .dokan-printful-currency-warning {
+  background-color: #f7dade !important;
+  margin-bottom: 10px;
+}
+div#dokan_printful .dokan-settings-field-type-warning .dokan-printful-currency-warning h3.dokan-setting-warning span.dokan-setting-warning-label {
+  display: block;
+  margin-bottom: 5px;
+}
+div#dokan_printful .dokan-settings-field-type-warning .dokan-printful-currency-warning h3.dokan-setting-warning span.dokan-setting-warning-label span.dashicons-warning {
+  display: none;
+}
+div#dokan_printful .dokan-settings-field-type-warning .dokan-printful-currency-warning h3.dokan-setting-warning span.field_desc {
+  font-weight: 500;
+}
+

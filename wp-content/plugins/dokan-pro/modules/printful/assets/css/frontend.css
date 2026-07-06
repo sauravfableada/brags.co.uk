@@ -1,0 +1,75 @@
+.dokan-printful-size-guide-popup-wrapper .ui-widget-header {
+  border: none;
+  border-bottom: 1px solid #AAAAAA;
+  background: none;
+}
+.dokan-printful-size-guide-popup-wrapper .iziModal-wrap .iziModal-content {
+  background-color: var(--popup-bg-color) !important;
+}
+.dokan-printful-size-guide-popup-wrapper .iziModal-wrap .iziModal-content * {
+  color: var(--popup-text-color) !important;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs {
+  background-color: var(--popup-bg-color) !important;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs ul {
+  border-color: var(--tab-active-bg-color) !important;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs ul li {
+  border: none;
+  background: none;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs ul li a {
+  background-color: var(--tab-bg-color) !important;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs ul li a:focus {
+  outline: none;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs ul li.ui-tab.ui-tabs-active.ui-state-active a {
+  background-color: var(--tab-active-bg-color) !important;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab {
+  background-color: var(--popup-bg-color) !important;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab .dokan-printful-measurement-title {
+  margin: 0 auto 10px;
+  font-size: 18px;
+  font-weight: 600 !important;
+  line-height: 30px;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab .dokan-printful-measurement-desc {
+  font-size: 16px;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab .dokan-printful-measurement-img-wrapper {
+  margin: 20px auto 30px;
+  display: flex;
+  gap: 20px;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab .dokan-printful-measurement-img-wrapper .dokan-printful-measurement-img-desc p {
+  font-size: 14px;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab .dokan-printful-size-table-title {
+  margin: 0 auto 20px;
+  font-size: 18px;
+  font-weight: 600 !important;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab .dokan-printful-size-table-wrapper {
+  border: none;
+  background-color: var(--popup-bg-color) !important;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab .dokan-printful-size-table-wrapper ul li a:focus {
+  outline: none;
+}
+.dokan-printful-size-guide-popup-wrapper #dokan-printful-size-guide-tabs .dokan-printful-single-size-tab .dokan-printful-size-table-wrapper .dokan-printful-single-size-table-tab {
+  padding: 0;
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  .dokan-printful-size-guide-popup-wrapper .dokan-printful-measurement-img-wrapper {
+    flex-direction: column;
+  }
+  .dokan-printful-size-guide-popup-wrapper .dokan-printful-size-table-wrapper {
+    margin-bottom: 50px;
+  }
+}
+

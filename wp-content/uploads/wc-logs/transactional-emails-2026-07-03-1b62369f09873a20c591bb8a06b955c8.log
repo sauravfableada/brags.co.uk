@@ -1,0 +1,4 @@
+2026-07-03T07:50:36+00:00 INFO Email "dokan_new_seller" for WeDevs\Dokan\Vendor\Vendor #5326 sent CONTEXT: {"email_type":"dokan_new_seller","status":"sent","recipient":"guest","WeDevs\Dokan\Vendor\Vendor":5326}
+2026-07-03T07:50:36+00:00 NOTICE Email "customer_new_account" for user #5326 not sent: email type is disabled CONTEXT: {"email_type":"customer_new_account","status":"disabled","recipient":"guest","user":5326}
+2026-07-03T07:56:16+00:00 INFO Email "customer_reset_password" for user #5326 sent CONTEXT: {"email_type":"customer_reset_password","status":"sent","recipient":"saurav.fablead","user":5326}
+2026-07-03T07:58:27+00:00 INFO Email "dokan_announcement" sent CONTEXT: {"email_type":"dokan_announcement","status":"sent","recipient":"guest"}

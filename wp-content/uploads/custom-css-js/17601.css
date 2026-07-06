@@ -1,0 +1,44 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.custom .mobile-sidebar-toggle,
+.close-sidebar-btn {
+    display: none;
+  }
+
+
+@media only screen and (max-width: 767px) {
+  .custom .mobile-sidebar-toggle {
+    display: block !important;
+  }
+
+#top-categories-sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Initially hidden */
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  z-index: 9999;
+  transition: left 0.3s ease;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#top-categories-sidebar.open {
+  left: 0; /* Slide in */
+}
+
+#close-sidebar-btn {
+  padding: 10px;
+  text-align: right;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+
+  }
+</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,275 @@
+/* Full-screen overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Popup container */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 25px;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show popup with fade-in effect */
+.popup.show {
+    opacity: 1;
+}
+
+.float-right {
+    float: right;
+}
+
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Popup header */
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Close button */
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Input fields */
+.popup label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.popup select,
+.popup input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Buttons */
+.popup-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.primary-btn {
+    background: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.primary-btn:hover {
+    background: #005bb5;
+}
+
+.secondary-btn {
+    background: #ddd;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.secondary-btn:hover {
+    background: #bbb;
+}
+
+
+/* Container */
+.category-requests-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    /* background: #f9f9f9; */
+    border-radius: 8px;
+}
+
+/* Card Layout */
+.request-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 5px solid #0073e6;
+}
+
+/* Header */
+.request-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.request-header h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Status Badge */
+.status-badge {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+/* Status Colors */
+.status-badge.pending {
+    background: #ffcc00;
+    color: #333;
+}
+
+.status-badge.approved {
+    background: #28a745;
+    color: white;
+}
+
+.status-badge.rejected {
+    background: #dc3545;
+    color: white;
+}
+
+/* Document Links */
+.document-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.doc-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.doc-link:hover {
+    background: #005bb5;
+    color: white;
+}
+
+/* No Requests Message */
+.no-requests {
+    text-align: center;
+    font-size: 16px;
+    color: #888;
+    padding: 20px;
+}
+
+/* Request Actions */
+.request-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.edit-btn {
+    background: #0073e6;
+    color: white;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.edit-btn:hover {
+    background: #005bb5;
+}
+
+.delete-btn:hover {
+    background: #b32430;
+}
+
+/* Edit Form */
+.edit-form {
+    /* background: #f9f9f9; */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: none;
+}
+
+.approve-btn {
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+.reject-btn {
+    background-color: #c92b2b;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pull-right {
+    float: right !important;
+}

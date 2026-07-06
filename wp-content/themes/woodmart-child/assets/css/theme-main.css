@@ -1,0 +1,1388 @@
+.wd-switch-to-register {
+
+    background-color: rgb(255, 152, 0) !important;
+
+    color: #fff !important;
+
+    width: 100%;
+
+}
+
+
+
+.searchform .searchsubmit {
+
+    background-color: #ff9c00 !important;
+
+    border-radius: 3px !important;
+
+    color: #000 !important;
+
+}
+
+
+
+.searchform[class*="wd-style-with-bg"] .searchsubmit:hover {
+
+    color: #fff;
+
+    box-shadow: none;
+
+}
+
+
+
+.mobile-nav.wd-opened li.wd-active {
+
+    background: #6ec1e4;
+
+}
+
+
+
+.summary.entry-summary p.variation-barcode {
+
+    display: none;
+
+}
+
+
+
+.wd-switch-to-register:hover {
+
+    background-color: rgb(8, 23, 40);
+
+    color: #fff;
+
+}
+
+
+
+.dokan-store-support-btn-product {
+
+    background-color: rgb(255, 152, 0);
+
+    color: #fff;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.dokan-store-support-btn-product:hover {
+
+    background-color: rgb(8, 23, 40);
+
+    color: #fff;
+
+}
+
+
+
+.wd-header-search-form-mobile .searchform input[type="text"] {
+
+    background-color: white;
+
+    color: black;
+
+}
+
+
+
+input[type='email']:focus,
+input[type='date']:focus,
+input[type='search']:focus,
+input[type='number']:focus,
+input[type='text']:focus,
+input[type='tel']:focus,
+input[type='url']:focus,
+input[type='password']:focus,
+textarea:focus,
+select:focus {
+
+    outline: none;
+
+    border-color: var(--wd-form-brd-color-focus);
+
+    transition: border-color .4s ease;
+
+    background-color: white !important;
+
+    color: black;
+
+}
+
+.autocomplete-suggestions {
+
+    display: inline !important;
+
+    margin-top: -1px;
+
+    margin-right: -1px;
+
+    align-content: center;
+
+}
+
+.autocomplete-suggestion {
+
+    padding: 0px !important;
+
+}
+
+input[type="search"] {
+
+    box-sizing: border-box !important;
+
+    background-color: white !important;
+
+    color: black !important;
+
+}
+
+@media (max-width: 767px) {
+
+    :is([style*="col-sm:2"], [style*="col-sm: 2"]) .wd-product {
+
+        --title-line-height: 1.2em;
+
+        --wd-prod-gap: 10px;
+
+        font-size: 90%;
+
+        /* border: 1px solid gray; */
+
+        margin-top: 5px;
+
+        border-radius: 2px;
+
+    }
+
+    .wd-grid-g {
+
+        display: block;
+
+        grid-template-columns: repeat(var(--wd-col), minmax(0, 1fr));
+
+        gap: var(--wd-gap);
+
+    }
+
+    .content-product-imagin {
+
+        border: 1px solid !important;
+
+    }
+
+    header {
+
+        position: sticky;
+
+        top: 0;
+
+        z-index: 999;
+
+        background-color: white;
+
+    }
+
+
+
+    input[type="search"] {
+
+        width: 100%;
+
+        box-sizing: border-box !important;
+
+        background-color: white !important;
+
+        color: black !important;
+
+        padding: 10px;
+
+        border: 1px solid #ccc;
+
+    }
+
+    .mobile-nav.wd-side-hidden.wd-side-hidden-nav.wd-left.wd-opener-arrow.wd-opened {
+
+        z-index: 9999 !important;
+
+        position: fixed !important;
+        /* or absolute depending on your layout */
+
+
+
+    }
+
+    .whb-main-header {
+
+        opacity: 0.9;
+        /* Change this to your desired level (0 = transparent, 1 = fully visible) */
+
+        transition: opacity 0.3s ease;
+        /* Optional: smooth fade effect */
+
+    }
+
+    .cart-widget-side.wd-side-hidden.wd-right.wd-opened {
+
+        z-index: 9999 !important;
+
+        position: fixed !important;
+        /* Ensure z-index works properly */
+
+    }
+
+    .login-form-side.wd-side-hidden.woocommerce.wd-right.wd-opened {
+
+        z-index: 9999 !important;
+
+        position: fixed !important;
+
+    }
+
+
+
+}
+
+
+
+#country_code {
+
+    padding-left: 0px !important;
+
+    border: 1px solid #e5e5e5 !important;
+
+}
+
+
+.form-row.form-row-wide.half-width.passport_upload {
+
+    background: transparent;
+
+    width: 100%;
+
+    border: 1px solid #dfdfdf;
+
+    border-radius: 4px;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload label {
+
+    border: 1px solid #f4f4f4;
+
+    border-radius: 4px;
+
+    padding: 10px;
+
+    background-color: #f4f4f4;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload label .required {
+
+    font-size: 12px;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload .custom-file-upload {
+
+    margin: 6px;
+
+}
+
+.form-row.form-row-wide.half-width.passport_upload small {
+
+    padding: 0 10px;
+
+    display: inline-block;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload p {
+
+    padding: 0 10px;
+
+    display: inline-block;
+
+    margin-bottom: 0;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload .passport_upload_button {
+
+    background: #f4f4f4;
+
+    font-size: 13px;
+
+    line-height: 25px !important;
+
+    color: #333;
+
+    min-height: 0 !important;
+
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+
+    padding: 5px 10px !important;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    border-radius: 4px;
+
+    box-shadow: none;
+
+    transition: 0.3s;
+
+    width: 100%;
+
+    border: 1px solid #dfdfdf;
+
+}
+
+
+
+
+
+
+
+
+.page.page-id-3050 .wd-product.wd-hover-base .fade-in-block {
+
+    top: 0%;
+
+    padding: 0 10px 10px 10px;
+
+    position: relative;
+
+}
+
+
+
+/* .role-seller .dokan-product-listing .dokan-product-listing-area .product-listing-top span.dokan-add-product-link a.dokan-btn.dokan-btn-theme:nth-child(2),
+.role-seller .dokan-product-listing .dokan-product-listing-area .product-listing-top span.dokan-add-product-link a.dokan-btn.dokan-btn-theme:nth-child(3) {
+
+    display: none;
+
+} */
+
+
+
+span.select2-container.select2-container--default.select2-container--open span.select2-dropdown.select2-dropdown--below {
+
+    width: 465px !important;
+
+    margin-top: 0px;
+
+}
+
+
+
+.active-plan-seller-plan-start-up.role-seller ul.dokan-dashboard-menu li.staffs,
+
+.no-active-plan.role-seller ul.dokan-dashboard-menu li.staffs {
+
+    display: none;
+
+}
+
+
+
+.wd-sidebar-opener.wd-on-shop.wd-filter-icon.wd-tools-element.wd-on-toolbar {
+
+    display: none;
+
+}
+
+
+
+aside.sidebar-container.col-lg-3.col-md-3.col-12.order-last.order-md-first.sidebar-left.area-sidebar-shop.wd-side-hidden.wd-left.wd-inited.wd-scroll.wd-opened {
+
+    z-index: 999;
+
+}
+
+
+
+.review-delivery-time span.cell-title {
+
+    display: block !important;
+
+    margin-right: 20px;
+
+    margin-bottom: 0;
+
+}
+
+
+
+
+
+.page.page-id-3050 .wd-hover-with-fade .content-product-imagin {
+
+    visibility: visible;
+
+    opacity: 1;
+
+    position: relative;
+
+    inset: 0;
+
+    margin-bottom: 0 !important;
+
+    transform: scale(0) !important;
+
+}
+
+
+
+
+
+
+
+.woocommerce-form-register .split-row.form-row-wide {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    width: 100%;
+
+}
+
+.woocommerce-form-register .split-row.form-row-wide .form-row.form-group {
+
+    width: 67%;
+
+    margin-right: 5px;
+
+}
+
+
+
+.woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(7) {
+
+    float: left;
+
+    width: 25% !important;
+
+}
+
+
+
+.woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(3) {
+
+    position: absolute;
+
+    right: 4px;
+
+    top: 62px;
+
+    width: 49% !important;
+
+}
+
+
+
+.woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(2) {
+
+    width: 49% !important;
+
+}
+
+
+
+.woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(8) {
+
+    float: right;
+
+    width: 75% !important;
+
+    position: absolute;
+
+    right: 0px;
+
+    margin-top: 26px;
+
+    left: 120px;
+
+}
+
+
+
+.woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(9) {
+
+    width: 100% !important;
+
+}
+
+
+
+.woocommerce-form-register p.form-row.form-group.form-row-wide {
+
+    width: 100% !important;
+    /* Set each field to 48% width */
+
+    box-sizing: border-box;
+    /* Include padding/borders in the width calculation */
+
+    margin-right: 0% !important;
+    /* Add spacing between fields */
+
+}
+
+.woocommerce-form-register .show_if_seller {
+
+    position: relative;
+
+}
+
+
+
+.woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:last-child,
+p.woocommerce-form-row.woocommerce-form-row--wide.form-row.form-row-wide:last-child {
+
+    width: 99% !important;
+
+}
+
+.woocommerce-form-register .field-row p.form-row.form-row-wide.half-width {
+
+    width: 50%;
+
+    margin-right: 5px;
+
+}
+
+.woocommerce-form-register .field-row {
+
+    display: flex;
+
+}
+
+.woocommerce-form-register p.woocommerce-form-row.woocommerce-form-row--wide.form-row.form-row-wide:nth-child(2) {
+
+    position: absolute;
+
+    right: 0px;
+
+    top: 0px;
+
+    width: 49%;
+
+}
+
+.woocommerce-form-register.register {
+
+    position: relative;
+
+}
+
+p.woocommerce-form-row.woocommerce-form-row--wide.form-row.form-row-wide:first-child {
+
+    width: 50%;
+
+}
+
+.woocommerce-form-register.register .vendor-label {
+
+    display: none;
+
+}
+
+
+
+.uap-user-page-wrapper {
+
+    width: 100%;
+
+}
+
+
+
+.woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(5) {
+
+    width: 100% !important;
+
+}
+
+
+
+.woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(5) a {
+
+    /*     color: #ff9800; */
+
+    text-decoration: underline;
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .home .wd-product.wd-hover-base .fade-in-block,
+
+    .archive .wd-product.wd-hover-base .fade-in-block,
+
+    .page-template-top-sellers .wd-product.wd-hover-base .fade-in-block,
+
+    .product-category .wd-product.wd-hover-base .fade-in-block {
+
+        top: 0%;
+
+        padding: 0 10px 10px 10px;
+
+        position: relative;
+
+        visibility: visible;
+
+        opacity: 1;
+
+    }
+
+    body.home .main-page-wrapper .container div#brags-shipping {
+
+        right: 30px !important;
+
+        top: 5px !important;
+
+    }
+
+
+
+    body.home .main-page-wrapper .container div#brags-shipping .shipping-notice {
+
+        font-size: 16px;
+
+        font-weight: 400;
+
+    }
+
+
+
+
+
+    .dokan-dashboard .dokan-dash-sidebar #dokan-navigation ul.dokan-dashboard-menu {
+
+        height: 100% !important;
+
+
+
+    }
+
+
+    body.role-customer .whb-lxbkan5zvee3nsumfug2.wd-button-wrapper {
+        display: none !important;
+    }
+
+
+
+}
+
+
+
+body.role-seller .dokan-form-horizontal .dokan-form-group.multiple-location,
+
+body.role-seller .dokan-form-horizontal .dokan-form-group.enable-support,
+
+form#store-form .dokan-form-group.biography div#wp-vendor_biography-wrap #wp-vendor_biography-editor-tools #wp-vendor_biography-media-buttons {
+
+    display: none;
+
+}
+
+
+
+
+
+
+
+.home .woocommerce-shop .wd-hover-with-fade .content-product-imagin,
+
+.archive .woocommerce-shop .wd-hover-with-fade .content-product-imagin,
+
+.page-template-top-sellers .woocommerce-shop .wd-hover-with-fade .content-product-imagin,
+
+.product-category .woocommerce-shop .wd-hover-with-fade .content-product-imagin {
+
+    position: relative;
+
+    inset: 0;
+
+    visibility: visible;
+
+    box-shadow: none !important;
+
+    opacity: 1;
+
+    transform: scale(0) !important;
+
+    margin-bottom: 0 !important;
+
+}
+
+
+
+.page-template-top-sellers .wd-hover-with-fade .fade-in-block {
+
+    position: relative;
+
+    top: 0;
+
+}
+
+
+
+
+
+.home .wd-hover-with-fade .fade-in-block,
+
+.archive .wd-hover-with-fade .fade-in-block,
+
+.page-template-top-sellers .wd-hover-with-fade .fade-in-block,
+
+.product-category .wd-hover-with-fade .fade-in-block {
+
+    visibility: visible;
+
+    opacity: 1;
+
+}
+
+
+
+body.home .main-page-wrapper .container div#brags-shipping .shipping-notice {
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+}
+
+
+
+body.home .main-page-wrapper .container .content-layout-wrapper {
+
+    margin-top: 30px;
+
+}
+
+
+
+body.home .main-page-wrapper .container div#brags-shipping {
+
+    position: absolute;
+
+    left: auto;
+
+    z-index: 99;
+
+    right: 150px;
+
+    top: 0;
+
+}
+
+
+
+body.home .main-page-wrapper .container {
+
+    position: relative;
+
+}
+
+
+
+body.page.page-id-11 label[for="dokan-vat-number"]::before {
+
+    content: "VAT Number";
+
+}
+
+
+
+body.page.page-id-11 label[for="dokan-subscription-pack"]::before {
+
+    content: "Choose Seller Plan";
+
+}
+
+
+
+body.page.page-id-11 label[for="dokan-company-id-number"]::before {
+
+    content: "Company Registration Number";
+
+}
+
+
+
+body.role-seller label[for="settings_dokan_company_id_number"]::before {
+
+    content: "Companies House Number";
+
+}
+
+
+
+
+body.page.page-id-11 label[for="dokan-vat-number"]::before,
+
+body.page.page-id-11 label[for="dokan-subscription-pack"]::before,
+
+body.page.page-id-11 label[for="dokan-company-id-number"]::before,
+
+body.role-seller label[for="settings_dokan_company_id_number"]::before {
+
+    visibility: visible;
+
+    font-size: 15px;
+
+}
+
+
+
+body.page.page-id-11 label[for="dokan-vat-number"],
+
+body.page.page-id-11 label[for="dokan-company-id-number"],
+
+body.page.page-id-11 label[for="dokan-subscription-pack"],
+
+body.role-seller label[for="settings_dokan_company_id_number"] {
+
+    font-size: 0;
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+    .role-seller div#block-19 figure.wp-block-image.size-large {
+
+        text-align: center;
+
+    }
+
+
+
+    .role-seller div#block-19 figure.wp-block-image.size-large a img {
+
+        margin-top: 40px;
+
+        width: 90%;
+
+        text-align: center;
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+    .dokan-dashboard .dokan-dash-sidebar #dokan-navigation {
+
+        height: 33px !important;
+
+        min-height: auto;
+
+    }
+
+}
+
+
+
+.role-seller .row.content-layout-wrapper.align-items-start .site-content {
+
+    margin-bottom: 0 !important;
+
+}
+
+
+
+.role-seller .page-title.page-title-default.title-size-default {
+
+    margin-bottom: 10px !important;
+
+}
+
+
+
+.role-seller.dokan-dashboard .dokan-dashboard-content .dokan-page-help p:last-child,
+
+.role-seller #shipping_method option[value="local_pickup"],
+
+.role-seller.dokan-dashboard div#dokan-shipping-zone .dokan-form-group:nth-child(4) {
+
+    display: none;
+
+}
+
+
+
+
+.role-seller.dokan-dashboard .dokan-dash-sidebar #dokan-navigation #mobile-menu-icon {
+
+    right: 10px !important;
+
+    width: fit-content !important;
+
+}
+
+.role-seller.dokan-dashboard .dokan-dash-sidebar #dokan-navigation #mobile-menu-icon:after {
+
+    content: "Menu";
+
+    margin-left: 5px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+}
+
+
+
+
+
+
+.role-seller.dokan-dashboard .main-page-wrapper .wd-page-title .container {
+    align-items: baseline !important;
+    text-align: left !important;
+}
+
+
+.role-seller .main-page-wrapper .dokan-dashboard-message {
+    text-align: left;
+    position: absolute;
+    margin-top: 100px;
+}
+
+
+
+.bragsy-label {
+
+    padding: 13px;
+
+    font-size: 11px;
+
+    width: 60px;
+
+    height: 60px;
+
+}
+
+
+
+.woocommerce-checkout #dokan-delivery-time-box {
+
+    display: none !important;
+
+}
+
+
+
+.dokan-form-group.support-enable-check {
+
+    display: none !important;
+
+}
+
+
+.role-seller.dokan-dashboard.dokan-theme-woodmart .main-page-wrapper .wd-page-title .title,
+.role-seller.dokan-dashboard.dokan-theme-woodmart .main-page-wrapper .wd-breadcrumbs {
+     text-align: center;
+    width: 100%;
+}
+
+
+.role-seller.dokan-dashboard.dokan-theme-woodmart .main-page-wrapper .dokan-dashboard-message p:first-child {
+
+    margin-bottom: 5px;
+
+}
+
+
+
+@media only screen and (max-width: 1930px) {
+
+    .role-seller.dokan-dashboard.dokan-theme-woodmart .main-page-wrapper .container {
+
+        max-width: 1920px;
+
+    }
+
+}
+
+
+
+/*
+
+	.role-seller.dokan-dashboard.dokan-theme-woodmart .main-page-wrapper .container {
+
+		max-width: 1920px;
+
+	}
+
+ */
+
+@media only screen and (max-width: 1200px) {
+
+    .role-seller.dokan-dashboard.dokan-theme-woodmart .main-page-wrapper .dokan-dashboard-message {
+
+        position: relative;
+        text-align: center;
+        top: 10px;
+
+    }
+
+    .role-seller.dokan-dashboard.dokan-theme-woodmart .main-page-wrapper .breadcrumbs {
+
+        position: absolute;
+
+        width: 100%;
+
+        top: 60%;
+
+        left: 0;
+
+    }
+
+    .dokan-spmv-add-new-product-search-box-area .info-section .sub-header {
+
+        width: 100%;
+
+        margin: 0 auto;
+
+        font-size: 14px;
+
+    }
+
+    .role-seller.dokan-dashboard.dokan-theme-woodmart .main-page-wrapper .page-title {
+
+        --wd-title-sp: 50px !important;
+
+    }
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload {
+
+    background: transparent;
+
+    width: 100%;
+
+    border: 1px solid #dfdfdf;
+
+    border-radius: 4px;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload label {
+
+    border: 1px solid #f4f4f4;
+
+    border-radius: 4px;
+
+    padding: 10px;
+
+    background-color: #f4f4f4;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload label .required {
+
+    font-size: 12px;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload .custom-file-upload {
+
+    margin: 6px;
+
+}
+
+.form-row.form-row-wide.half-width.passport_upload small {
+
+    padding: 0 10px;
+
+    display: inline-block;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload p {
+
+    padding: 0 10px;
+
+    display: inline-block;
+
+    margin-bottom: 0;
+
+}
+
+
+
+.form-row.form-row-wide.half-width.passport_upload .passport_upload_button {
+
+    background: #f4f4f4;
+
+    font-size: 13px;
+
+    line-height: 25px !important;
+
+    color: #333;
+
+    min-height: 0 !important;
+
+    font-weight: bold;
+
+    letter-spacing: 0.5px;
+
+    padding: 5px 10px !important;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    border-radius: 4px;
+
+    box-shadow: none;
+
+    transition: 0.3s;
+
+    width: 100%;
+
+    border: 1px solid #dfdfdf;
+
+}
+
+
+
+.dokan-spmv-add-new-product-search-box-area .info-section .main-header:before {
+
+    content: "Is your product already in Brags Catalogue?";
+
+    font-size: 24px;
+
+}
+
+
+
+.dokan-spmv-add-new-product-search-box-area .info-section .main-header {
+
+    font-size: 0;
+
+}
+
+
+
+.dokan-spmv-add-new-product-search-box-area .info-section .sub-header {
+
+    width: 600px;
+
+    margin: 0 auto;
+
+    font-size: 14px;
+
+}
+
+
+
+.dokan-dashboard-content button.btn.btn-seller,
+
+.dokan-dashboard-content button.btn.btn-report,
+
+.dokan-dashboard-content button.btn.btn-report-product {
+
+    background: #ff9800;
+
+    color: #fff;
+
+}
+
+
+
+.dokan-dashboard-content button.btn.btn-seller:hover,
+
+.dokan-dashboard-content button.btn.btn-report:hover,
+
+.dokan-dashboard-content button.btn.btn-report-product:hover {
+
+    color: var(--btn-accented-color-hover);
+
+    background-color: var(--btn-accented-bgcolor-hover);
+
+}
+
+
+
+
+
+.role-seller.dokan-dashboard .dokan-dashboard-content .dokan-page-help p:nth-child(2),
+
+.role-seller.dokan-dashboard .dokan-dashboard-content .dokan-page-help p:nth-child(3),
+
+.role-seller.dokan-dashboard .dokan-dashboard-content .dokan-page-help p:nth-child(4) {
+
+    display: none !important;
+}
+
+
+
+.woocommerce-add-payment-method.role-customer li.woocommerce-PaymentMethod.woocommerce-PaymentMethod--dokan-stripe-connect.payment_method_dokan-stripe-connect {
+
+    display: none;
+
+}
+
+.dokan-other-vendor-camparison-table .table-cell.action-area a:nth-child(2) {
+
+    display: flex !important;
+
+    margin-top: 10px;
+
+    width: 100%;
+
+}
+
+
+
+.dokan-other-vendor-camparison-table .table-cell.action-area a:nth-child(1) {
+
+    width: 100%;
+
+}
+
+.dokan-ajax-response .dokan-alert.dokan-alert-success p:before {
+
+    content: "Your Store Settings have been submitted to Brags for approval. Please ensure all updates comply with our Seller Policies";
+
+    font-size: 14px;
+
+}
+
+.dokan-ajax-response .dokan-alert.dokan-alert-success p {
+
+    font-size: 0;
+
+}
+
+
+
+input[type="search"] {
+
+    box-sizing: border-box !important;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+
+
+    .woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(8) {
+
+
+
+        width: 70% !important;
+
+        margin-top: -62px !important;
+
+        left: 110px !important;
+
+    }
+
+
+
+
+
+    .woocommerce-form-register .show_if_seller p.form-row.form-group.form-row-wide:nth-child(7) {
+
+        float: none !important;
+
+        width: 30% !important;
+
+    }
+
+}
+
+
+
+.products.wd-products.wd-grid-g.grid-columns-4 .wd-add-btn.wd-action-btn.wd-style-icon.wd-add-cart-icon.wd-tooltip-inited {
+    border: none !important;
+}
+
+.products.wd-products.wd-grid-g.grid-columns-4 .wd-add-cart-icon>a:before , .wd-action-btn.wd-style-icon>a:after {
+    display: none;
+}
+
+
+.products.wd-products.wd-grid-g.grid-columns-4 .wd-add-btn.wd-style-icon.wd-add-cart-icon>a {
+    border-radius: var(--btn-accented-brd-radius) !important;
+    color: var(--btn-accented-color) !important;
+    box-shadow: var(--btn-accented-box-shadow) !important;
+    background-color: var(--btn-accented-bgcolor) !important;
+    text-transform: var(--btn-accented-transform, var(--btn-transform)) !important;
+    font-weight: var(--btn-accented-font-weight, var(--btn-font-weight)) !important;
+    font-family: var(--btn-accented-font-family, var(--btn-font-family)) !important;
+    font-style: var(--btn-accented-font-style, var(--btn-font-style)) !important;
+    min-height: unset !important;
+    font-size: 12px !important;
+    width: fit-content !important;
+    padding: 20px 20px !important;
+    line-height: 14px !important;
+}
+
+
+.products.wd-products.wd-grid-g.grid-columns-4 .wd-add-btn.wd-style-icon.wd-add-cart-icon>a span {
+        padding: 10px 5px !important;
+        min-height: auto !important;
+        height: auto !important;
+        letter-spacing: 0.75px;
+        font-size: 12px !important;
+        white-space: nowrap;
+        width: 100% !important;
+    }

@@ -1,0 +1,727 @@
+{
+  "products": [
+    {
+      "title": "Advanced Fields",
+      "slug": "user-registration-advanced-fields",
+      "name": "User Registration-Advanced Fields",
+      "image": "extensions-json/sections/icons/advanced_fields.png",
+      "excerpt": "Add customizable fields for collecting complex user data during registration.",
+      "category": "Smart Fields",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-advanced-fields/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "X1h7xCLfIPA",
+      "released_date": "25/06/2018"
+    },
+    {
+      "title": "WooCommerce Integration",
+      "slug": "user-registration-woocommerce",
+      "name": "User Registration - WooCommerce",
+      "image": "extensions-json/sections/icons/woocommerce.png",
+      "excerpt": "Sync the user registration form and processes with WooCommerce for seamless user data collection.",
+      "category": "Integrations",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-woocommerce/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=woocommerce",
+      "demo_video_url": "HxjWtQb0p6Q",
+      "released_date": "22/09/2017"
+    },
+    {
+      "title": "Repeater Fields",
+      "slug": "user-registration-repeater-fields",
+      "name": "User Registration Repeater Fields",
+      "image": "extensions-json/sections/icons/advanced_fields.png",
+      "excerpt": "Allow repeating fields for dynamic data input (e.g., multiple addresses or phone numbers).",
+      "category": "Smart Fields",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-repeater-fields/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "hEqKzHUl-34",
+      "released_date": "01/08/2024"
+    },
+    {
+      "title": "Customize My Account",
+      "slug": "user-registration-customize-my-account",
+      "name": "User Registration customize my account",
+      "image": "extensions-json/sections/icons/customize_my_account.png",
+      "excerpt": "Personalize the frontend \"My Account\" dashboard by adding tabs and designs.",
+      "category": "Design",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-customize-my-account/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=my_account&section=customize-my-account",
+      "demo_video_url": "xOeV8JkE_es",
+      "released_date": "09/04/2020"
+    },
+    {
+      "title": "File Upload",
+      "slug": "user-registration-file-upload",
+      "name": "User Registration - File Upload",
+      "image": "extensions-json/sections/icons/file_upload.png",
+      "excerpt": "Allow users to upload files during registration (e.g., documents, images).",
+      "category": "Smart Fields",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-file-upload/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=registration_login&section=file-upload",
+      "demo_video_url": "pzhJ3qjQfC4",
+      "released_date": "22/09/2017"
+    },
+    {
+      "title": "Style Customizer",
+      "slug": "user-registration-style-customizer",
+      "name": "User Registration Style Customizer",
+      "image": "extensions-json/sections/icons/email_templates.png",
+      "excerpt": "Customize the style of registration and login forms to match your website's branding.",
+      "category": "Design",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-style-customizer/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "0w2hLmCMESU",
+      "released_date": "17/09/2019"
+    },
+    {
+      "title": "Conditional Logic",
+      "slug": "user-registration-conditional-logic",
+      "name": "User Registration Conditional Logic",
+      "image": "extensions-json/sections/icons/conditional_logic.png",
+      "excerpt": "Build dynamic forms with conditions (e.g., fields shown/hidden based on user inputs).",
+      "category": "Smart Fields",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-conditional-logic/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "HucdikluFzA",
+      "released_date": "10/07/2018"
+    },
+    {
+      "title": "Multi Step Forms",
+      "slug": "user-registration-multi-part",
+      "name": "User Registration Multi Part",
+      "image": "extensions-json/sections/icons/multi_step_forms.png",
+      "excerpt": "Divide forms into multiple steps to enhance the user experience for longer forms.",
+      "category": "Design",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-multi-part/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "P71ONJnCelI",
+      "released_date": "16/09/2019"
+    },
+    {
+      "title": "Field Visibility",
+      "slug": "user-registration-field-visibility",
+      "name": "User Registration Field Visibility",
+      "image": "extensions-json/sections/icons/field_visibility.png",
+      "excerpt": "Control the visibility of specific fields depending on user input from other fields.",
+      "category": "Smart Fields",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-field-visibility/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "82sFkrqt3w8",
+      "released_date": "30/04/2019"
+    },
+    {
+      "title": "Email Templates",
+      "slug": "user-registration-email-templates",
+      "name": "User Registration Email Templates",
+      "image": "extensions-json/sections/icons/email_templates.png",
+      "excerpt": "Customize the registration-related email templates for a more personalized experience.",
+      "category": "Design",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-email-templates/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=email&section=templates",
+      "demo_video_url": "VYskBuhwpek",
+      "released_date": "19/11/2020"
+    },
+    {
+      "title": "Social Connect",
+      "slug": "user-registration-social-connect",
+      "name": "User Registration - Social Connect",
+      "image": "extensions-json/sections/icons/social_connect.png",
+      "excerpt": "Allow users to log in or register using social media accounts (Facebook, Twitter, LinkedIn).",
+      "category": "User Management",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-social-connect/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=registration_login&section=social-connect",
+      "demo_video_url": "3fkboDBOujY",
+      "released_date": "22/09/2017"
+    },
+    {
+      "title": "Profile Connect",
+      "slug": "user-registration-profile-connect",
+      "name": "User Registration Profile Connect",
+      "image": "extensions-json/sections/icons/profile_connect.png",
+      "excerpt": "Link users' existing accounts with the User Registration form.",
+      "category": "User Management",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-profile-connect/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=registration_login&section=profile-connect",
+      "demo_video_url": "EOAWGqe1HbA",
+      "released_date": "18/07/2018"
+    },
+    {
+      "title": "MailChimp",
+      "slug": "user-registration-mailchimp",
+      "name": "User Registration - Mailchimp",
+      "image": "extensions-json/sections/icons/mailchimp.png",
+      "excerpt": "Automatically send registration data to Mailchimp to create and manage email campaigns.",
+      "category": "Email Marketing",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-mailchimp/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=email-marketing",
+      "demo_video_url": "iyCByez_7U8",
+      "released_date": "22/09/2017"
+    },
+    {
+      "title": "Invite Codes",
+      "slug": "user-registration-invite-codes",
+      "name": "User Registration Invite Codes",
+      "image": "extensions-json/sections/icons/invite_codes.png",
+      "excerpt": "Allow users to register using an exclusive code.",
+      "category": "Membership",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-invite-codes/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=registration_login&section=invite-code",
+      "demo_video_url": "IhqQLAc-yuQ",
+      "released_date": "20/09/2018"
+    },
+    {
+      "title": "PDF Form Submission",
+      "slug": "user-registration-pdf-form-submission",
+      "name": "User Registration PDF Form Submission",
+      "image": "extensions-json/sections/icons/pdf_form_submission.png",
+      "excerpt": "Export or send registration data as downloadable PDFs in Emails or from dashboards.",
+      "category": "Others",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-pdf-form-submission/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=pdf-submission",
+      "demo_video_url": "O0SJdXEyfjE",
+      "released_date": "02/08/2018"
+    },
+    {
+      "title": "Two Factor Authentication",
+      "slug": "user-registration-two-factor-authentication",
+      "name": "User Registration Two Factor Authentication",
+      "image": "extensions-json/sections/icons/two_factor_authentication.png",
+      "excerpt": "Add an extra layer of security by requiring a second authentication factor.",
+      "category": "Security",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-two-factor-authentication/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=security&section=2fa",
+      "demo_video_url": "yjWR0IwbtOQ",
+      "released_date": "10/11/2022"
+    },
+    {
+      "title": "Import Users",
+      "slug": "user-registration-import-users",
+      "name": "User Registration Import Users",
+      "image": "extensions-json/sections/icons/import_users.png",
+      "excerpt": "Import user data in bulk from CSV or other formats.",
+      "category": "User Management",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-import-users/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=advanced&section=import-export&part=import-users",
+      "demo_video_url": "1acA7OBPxQs",
+      "released_date": "15/10/2020"
+    },
+    {
+      "title": "Geolocation",
+      "slug": "user-registration-geolocation",
+      "name": "User Registration Geolocation",
+      "image": "extensions-json/sections/icons/geolocation.png",
+      "excerpt": "Collect geolocation data from users, either through automatic detection or via Google Maps integration.",
+      "category": "Others",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-geolocation/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=geolocation",
+      "demo_video_url": "02S7XuLgbUM",
+      "released_date": "20/09/2018"
+    },
+    {
+      "title": "LearnDash",
+      "slug": "user-registration-learndash",
+      "name": "User Registration LearnDash",
+      "image": "extensions-json/sections/icons/learndash.png",
+      "excerpt": "Automatically assign users to specific LearnDash courses based on their registration.",
+      "category": "Integrations",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-learndash/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "XGAC_KQppdE",
+      "released_date": "10/10/2018"
+    },
+    {
+      "title": "Profile Completeness",
+      "slug": "user-registration-profile-completeness",
+      "name": "User Registration Profile Completeness",
+      "image": "extensions-json/sections/icons/profile_completeness.png",
+      "excerpt": "Track and encourage users to complete their profiles with progress bars.",
+      "category": "User Management",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-profile-completeness/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "o04c-4a8kwY",
+      "released_date": "31/05/2023"
+    },
+    {
+      "title": "Stripe",
+      "slug": "user-registration-stripe",
+      "name": "User Registration Stripe",
+      "image": "extensions-json/sections/icons/stripe.png",
+      "excerpt": "Enable Stripe to process credit card payments securely.",
+      "category": "E-Commerce",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-stripe/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=payment&section=payment-method",
+      "demo_video_url": "IhAuojzys8k",
+      "released_date": "16/07/2020"
+    },
+    {
+      "title": "Private Notes",
+      "slug": "user-registration-private-notes",
+      "name": "User Registration Private Notes",
+      "image": "extensions-json/sections/icons/private_notes.png",
+      "excerpt": "Allow administrators to add private notes for specific users for better management.",
+      "category": "User Management",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-private-notes/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-private-notes",
+      "demo_video_url": "xk_9LgJDuK4",
+      "released_date": "06/01/2023"
+    },
+    {
+      "title": "Zapier",
+      "slug": "user-registration-zapier",
+      "name": "User Registration Zapier",
+      "image": "extensions-json/sections/icons/zapier.png",
+      "excerpt": "Automate workflows and connect User Registration with hundreds of other apps via Zapier.",
+      "category": "Integrations",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-zapier/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "zxl2nsXyOmw",
+      "released_date": "19/11/2020"
+    },
+    {
+      "title": "Save and Continue",
+      "slug": "user-registration-save-and-continue",
+      "name": "User Registration Save and Continue",
+      "image": "extensions-json/sections/icons/save_and_continue.png",
+      "excerpt": "Enable users to save progress on long forms and continue later.",
+      "category": "Others",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-save-and-continue/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "P1X2uSV_OuA",
+      "released_date": "31/05/2023"
+    },
+    {
+      "title": "ActiveCampaign",
+      "slug": "user-registration-activecampaign",
+      "name": "User Registration ActiveCampaign",
+      "image": "extensions-json/sections/icons/active_campaign.png",
+      "excerpt": "Connect with ActiveCampaign to automate user engagement and marketing tasks.",
+      "category": "Email Marketing",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-activecampaign/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=email-marketing",
+      "demo_video_url": "AfapJxM9klk",
+      "released_date": "06/06/2022"
+    },
+    {
+      "title": "Post Submissions",
+      "slug": "user-registration-post-submissions",
+      "name": "User Registration Post Submissions",
+      "image": "extensions-json/sections/icons/post_submission.png",
+      "excerpt": "Allow users to create posts directly from the registration form while registering.",
+      "category": "Others",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-post-submission/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "_FEvRzobL3c",
+      "released_date": "31/05/2023"
+    },
+    {
+      "title": "MailerLite",
+      "slug": "user-registration-mailerlite",
+      "name": "User Registration MailerLite",
+      "image": "extensions-json/sections/icons/mailerlite.png",
+      "excerpt": "Sync user registration data to MailerLite for effective email marketing.",
+      "category": "Email Marketing",
+      "link": "https://docs.wpuserregistration.com/docs/mailerlite/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=email-marketing",
+      "demo_video_url": "4f1lGgFuJx4",
+      "released_date": "16/03/2021"
+    },
+    {
+      "title": "Conversational Forms",
+      "slug": "user-registration-conversational-forms",
+      "name": "User Registration Conversational Forms",
+      "image": "extensions-json/sections/icons/conversational_forms.png",
+      "excerpt": "Turn traditional forms into interactive, chat-like experiences for users.",
+      "category": "Design",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-conversational-forms/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "gyIBPHwBojk",
+      "released_date": "13/10/2023"
+    },
+    {
+      "title": "Form Restriction",
+      "slug": "user-registration-form-restriction",
+      "name": "User Registration Form Restriction",
+      "image": "extensions-json/sections/icons/form_restriction.png",
+      "excerpt": "Restrict access with custom conditions and optimize your website's user registration system.",
+      "category": "Membership",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-form-restriction/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "",
+      "demo_video_url": "G8JSFu7bFU0",
+      "released_date": "12/12/2023"
+    },
+    {
+      "title": "Klaviyo",
+      "slug": "user-registration-klaviyo",
+      "name": "User Registration Klaviyo",
+      "image": "extensions-json/sections/icons/klaviyo.png",
+      "excerpt": "Integrate Klaviyo to sync registration data for email marketing automation.",
+      "category": "Email Marketing",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-klaviyo/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=email-marketing",
+      "demo_video_url": "nKOMqrkNK3Y",
+      "released_date": "31/05/2023"
+    },
+    {
+      "title": "Kit (formerly ConvertKit)",
+      "slug": "user-registration-convertkit",
+      "name": "User Registration convertkit",
+      "image": "extensions-json/sections/icons/convertkit.png",
+      "excerpt": "Sync registration data with ConvertKit to manage email marketing and automate campaigns.",
+      "category": "Email Marketing",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-convertkit/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=email-marketing",
+      "demo_video_url": "",
+      "released_date": "18/11/2024"
+    },
+    {
+      "title": "Google Sheets",
+      "slug": "user-registration-google-sheets",
+      "name": "User Registration Google Sheets",
+      "image": "extensions-json/sections/icons/google_sheets.png",
+      "excerpt": "Export registration data to Google Sheets for easy management and analysis.",
+      "category": "Integrations",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-google-sheets/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=google-sheets",
+      "demo_video_url": "woqZwCw2r-g",
+      "released_date": "30/05/2024"
+    },
+    {
+      "title": "Cloud Storage",
+      "slug": "user-registration-cloud-storage",
+      "name": "User Registration Cloud Storage",
+      "image": "extensions-json/sections/icons/cloud_storage.png",
+      "excerpt": "Send file upload data to the Integrated Cloud after registration form submission.",
+      "category": "Integrations",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-cloud-storage/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "personal",
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=cloud-storage",
+      "demo_video_url": "xZr2R5CmVF8",
+      "released_date": "01/08/2024"
+    },
+    {
+      "title": "Authorize.net Payment",
+      "slug": "user-registration-authorize-net",
+      "name": "User Registration Authorize.net",
+      "image": "extensions-json/sections/icons/authorize_net.png",
+      "excerpt": "Use Authorize.net to handle secure transactions and process payments.",
+      "category": "E-Commerce",
+      "link": "https://docs.wpuserregistration.com/docs/authorize-net/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=payment&section=payment-method",
+      "demo_video_url": "tNj6yg9okMQ",
+      "released_date": "01/08/2024"
+    },
+    {
+      "title": "Mollie Payment",
+      "slug": "user-registration-mollie",
+      "name": "User Registration Mollie",
+      "image": "extensions-json/sections/icons/mollie.png",
+      "excerpt": "Integrate Mollie to accept payments from various gateways (credit cards, SEPA, etc.).",
+      "category": "E-Commerce",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-mollie/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "setting_url": "admin.php?page=user-registration-settings&tab=payment&section=payment-method",
+      "demo_video_url": "",
+      "released_date": "19/05/2025"
+    },
+    {
+      "title": "MailPoet",
+      "slug": "user-registration-mailpoet",
+      "name": "User Registration MailPoet",
+      "image": "extensions-json/sections/icons/mailpoet.png",
+      "excerpt": "Manage newsletters and automate email communications with MailPoet.",
+      "category": "Email Marketing",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-mailpoet/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "released_date": "09/09/2024",
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=email-marketing",
+      "demo_video_url": "4uFlZoXlye4"
+    },
+    {
+      "title": "Brevo",
+      "slug": "user-registration-brevo",
+      "name": "User Registration Brevo",
+      "image": "extensions-json/sections/icons/brevo.png",
+      "excerpt": "Sync registration data to Sendinblue to manage email marketing, SMS campaigns, and automation.",
+      "category": "Email Marketing",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-brevo-sendinblue/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "released_date": "07/10/2024",
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=email-marketing",
+      "demo_video_url": ""
+    },
+    {
+      "title": "Salesforce",
+      "slug": "user-registration-salesforce",
+      "name": "User Registration Salesforce",
+      "image": "extensions-json/sections/icons/salesforce.png",
+      "excerpt": "Integrate user registration with Salesforce to manage leads, contacts, and customer data.",
+      "category": "Integrations",
+      "link": "https://docs.wpuserregistration.com/docs/salesforce/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "released_date": "14/08/2024",
+      "setting_url": "admin.php?page=user-registration-settings&tab=integration&section=salesforce",
+      "demo_video_url": ""
+    },
+    {
+      "title": "Membership",
+      "slug": "user-registration-membership",
+      "name": "User Registration Membership",
+      "image": "extensions-json/sections/icons/membership.png",
+      "excerpt": "Create custom membership plans and control website access for user registrations.",
+      "category": "Membership",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-membership/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "released_date": "01/01/2024",
+      "setting_url": "admin.php?page=user-registration-settings&tab=membership",
+      "demo_video_url": ""
+    },
+    {
+      "title": "Content Restriction",
+      "slug": "user-registration-content-restriction",
+      "name": "User Registration Content Restriction",
+      "image": "extensions-json/sections/icons/content_restriction.png",
+      "excerpt": "Restrict access to specific pages or content sections based on user data.",
+      "category": "Membership",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-content-restriction/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "personal",
+        "professional",
+        "themegrill agency"
+      ],
+      "released_date": "01/01/2024",
+      "setting_url": "admin.php?page=user-registration-settings&tab=membership&section=content-rules",
+      "demo_video_url": ""
+    },
+    {
+      "title": "Member Directory",
+      "slug": "user-registration-frontend-listing",
+      "name": "User Registration Member Directory",
+      "image": "extensions-json/sections/icons/frontend_listing.png",
+      "excerpt": "Display users registered on the site as a directory (for community sites or directories).",
+      "category": "User Management",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-frontend-listing/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "released_date": "01/01/2024",
+      "demo_video_url": ""
+    },
+    {
+      "title": "Calculations",
+      "slug": "user-registration-calculations",
+      "name": "User Registration Calculations",
+      "image": "extensions-json/sections/icons/calculations.png",
+      "excerpt": "Performs calculations based on user input during registration.",
+      "category": "Smart Fields",
+      "link": "https://docs.wpuserregistration.com/docs/user-registration-calculations/?utm_source=dashboard-all-features&utm_medium=card-documentation-link",
+      "plan": [
+        "plus",
+        "professional",
+        "themegrill agency"
+      ],
+      "released_date": "01/01/2024",
+      "demo_video_url": ""
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+#dokan-pro-printful-vendor-settings .general-details {
+  padding-bottom: 0;
+}
+#dokan-pro-printful-vendor-settings div.dokan-pro-printful-vendor-settings-section-content .dokan-form-group button.dokan-btn {
+  float: right !important;
+}
+#dokan-pro-printful-vendor-settings div.dokan-pro-printful-vendor-settings-section-content .dokan-form-group .printful-description {
+  float: none;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+#dokan-pro-printful-vendor-settings div.dokan-panel-heading {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+#dokan-pro-printful-vendor-settings #dokan-pro-printful-shipping-inputs-wrapper {
+  display: block;
+  overflow: hidden;
+}
+#dokan-pro-printful-vendor-settings #dokan-pro-printful-shipping-inputs-wrapper .dokan-form-group .dokan-switch.printful-settings-overlay {
+  opacity: 0.4;
+}
+

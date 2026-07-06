@@ -1,0 +1,54 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.form-row.form-row-wide.half-width.passport_upload {
+    background: transparent;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+	border-radius: 4px;    
+}
+
+.form-row.form-row-wide.half-width.passport_upload label {
+	border: 1px solid #f4f4f4;
+	border-radius: 4px;
+	padding: 10px;
+	background-color: #f4f4f4;
+}
+
+.form-row.form-row-wide.half-width.passport_upload label .required {
+    font-size: 12px;
+}
+
+.form-row.form-row-wide.half-width.passport_upload .custom-file-upload {
+	margin: 6px;
+}
+.form-row.form-row-wide.half-width.passport_upload small {
+    padding: 0 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.form-row.form-row-wide.half-width.passport_upload p {
+    padding: 0 10px;
+    display: inline-block;
+	margin-bottom: 0;
+}
+
+.form-row.form-row-wide.half-width.passport_upload .passport_upload_button {
+    background: #f4f4f4;
+    font-size: 13px;
+    line-height: 25px !important;
+    color: #333;
+    min-height: 0 !important;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 5px 10px !important;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: 0.3s;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+}</style>
+<!-- end Simple Custom CSS and JS -->

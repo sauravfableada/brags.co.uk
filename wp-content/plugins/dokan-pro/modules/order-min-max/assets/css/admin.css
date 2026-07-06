@@ -1,0 +1,27 @@
+/**
+ * Quick and bulk edit design
+ *
+ * @since 3.12.0
+ */
+.dokan-min-max-wrapper {
+  float: left;
+  width: 100%;
+}
+.dokan-min-max-wrapper input[type=number] {
+  /*border: 1px solid red;*/
+  max-width: 125px;
+}
+.dokan-min-max-wrapper .title {
+  /*border: 1px solid green;*/
+  min-width: 150px;
+}
+.dokan_simple_product_min_max_wrapper #dokan_simple_product_message_section {
+  padding: 0px 0 12px 11px;
+  color: #5f5e5e;
+  font-weight: 400;
+}
+.dokan_variation_product_min_max_wrapper .dokan-min-max-warning-message.dokan_variation_product_message_section {
+  color: #5f5e5e;
+  font-weight: 700;
+}
+

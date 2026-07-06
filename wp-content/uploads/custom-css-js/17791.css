@@ -1,0 +1,128 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.wd-switch-to-register{
+	background-color: rgb(255, 152, 0) !important;
+    color: #fff !important;
+    width: 100%;
+}
+
+.searchform .searchsubmit {
+    background-color: #ff9c00 !important;
+    border-radius: 3px !important;
+    color: #000 !important;
+}
+
+.searchform[class*="wd-style-with-bg"] .searchsubmit:hover {
+    color: #fff;
+    box-shadow: none;
+}
+
+.mobile-nav.wd-opened li.wd-active {
+    background: #6ec1e4;
+}
+
+.summary.entry-summary p.variation-barcode {
+    display: none;
+}
+
+.wd-switch-to-register:hover{
+	background-color: rgb(8,23,40);
+    color: #fff;
+}
+
+.dokan-store-support-btn-product{
+	background-color: rgb(255, 152, 0);
+    color: #fff;
+	margin-bottom:10px;
+}
+
+.dokan-store-support-btn-product:hover{
+	background-color: rgb(8,23,40);
+  color: #fff;
+}
+
+.wd-header-search-form-mobile .searchform input[type="text"] {
+    background-color: white;
+    color: black;
+}
+
+input[type='email']:focus, input[type='date']:focus, input[type='search']:focus, input[type='number']:focus, input[type='text']:focus, input[type='tel']:focus, input[type='url']:focus, input[type='password']:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: var(--wd-form-brd-color-focus);
+    transition: border-color .4s ease;
+    background-color: white !important;
+    color: black;
+}
+.autocomplete-suggestions {
+    display: block;
+    margin-top: -1px;
+    margin-right: -1px;
+    align-content: center; /* Optional — can probably be removed too */
+}
+.autocomplete-suggestion {
+    padding: 0px !important;
+}
+input[type="search"] {
+    box-sizing: border-box !important;
+    background-color: white !important;
+    color: black !important;
+}
+@media (max-width: 767px) {
+    :is([style*="col-sm:2"],[style*="col-sm: 2"]) .wd-product {
+        --title-line-height: 1.2em;
+        --wd-prod-gap: 10px;
+        font-size: 90%;
+        /* border: 1px solid gray; */
+        margin-top: 5px;
+        border-radius: 2px;
+    }
+.wd-grid-g {
+    display: block;
+    grid-template-columns: repeat(var(--wd-col), minmax(0, 1fr));
+    gap: var(--wd-gap);
+}
+.content-product-imagin{
+	border: 1px solid !important;
+}
+ header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: white;
+    }
+
+    input[type="search"] {
+        width: 100%;
+        box-sizing: border-box !important;
+        background-color: white !important;
+        color: black !important;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+.mobile-nav.wd-side-hidden.wd-side-hidden-nav.wd-left.wd-opener-arrow.wd-opened {
+    z-index: 9999 !important;
+    position: fixed !important; /* or absolute depending on your layout */
+
+}
+.whb-main-header {
+    opacity: 0.9; /* Change this to your desired level (0 = transparent, 1 = fully visible) */
+    transition: opacity 0.3s ease; /* Optional: smooth fade effect */
+}
+.cart-widget-side.wd-side-hidden.wd-right.wd-opened {
+    z-index: 9999 !important;
+    position: fixed !important; /* Ensure z-index works properly */
+}
+	.login-form-side.wd-side-hidden.woocommerce.wd-right.wd-opened {
+    z-index: 9999 !important;
+    position: fixed !important;
+}
+
+}
+
+#country_code{
+	 padding-left: 0px !important;
+   border: 1px solid #e5e5e5 !important;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,164 @@
+.dokan-store-support-btn {
+  margin-top: 3px;
+  width: 100%;
+}
+.dokan-support-login-wrapper {
+  width: 430px !important;
+  padding: 16px !important;
+  margin: 0 auto !important;
+}
+
+.dokan-form-group.login-to-chat {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dokan-support-login-wrapper h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.dokan-support-table .dokan-support-customer-name img {
+  float: left;
+  margin-right: 10px;
+}
+
+.dokan-support-intro-text {
+  padding: 10px 0px;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.dokan-support-topic-counts {
+    padding-left: 0px !important;
+}
+.dokan-support-topic-counts li{
+    display: inline-block;
+}
+.dokan-support-topic-counts li.active a {
+  color: #999;
+}
+.dokan-support-topic-wrapper .dokan-support-single-title {
+  margin-bottom: 30px;
+}
+.dokan-support-topic-wrapper .dokan-support-topic-header {
+  background: #222;
+  color: #fff;
+  padding: 10px;
+}
+.dokan-support-topic-wrapper .dokan-suppport-topic-body {
+  margin-top: 20px;
+  border: 2px solid #eee;
+  margin-bottom: 0px;
+}
+.dokan-support-topic-wrapper .dokan-suppport-topic-body * {
+  box-sizing: border-box;
+}
+
+.dokan-support-topic-wrapper .dokan-support-user-image {
+  text-align: center;
+  padding: 15px 0px;
+  background: #eee;
+}
+.dokan-support-topic-wrapper .dokan-support-user-image img {
+  margin-bottom: 6px;
+}
+.dokan-support-topic-wrapper .dokan-support-user-image h4,
+.dokan-support-topic-wrapper .dokan-support-user-image p {
+  margin: 0;
+}
+.dokan-support-topic-wrapper .dokan-support-date-time {
+  font-size: 12px;
+  font-style: italic;
+}
+.dokan-support-topic-wrapper .dokan-support-reply {
+  padding: 0px 20px;
+}
+.dokan-support-topic-wrapper .dokan-support-user-image {
+  _border-right: 2px solid #eee;
+}
+.dokan-support-topic-wrapper ul.dokan-support-commentlist {
+  padding-left: 0px;
+  list-style: none;
+}
+.dokan-support-topic-wrapper ul.dokan-support-commentlist li {
+  padding: 0;
+  margin: 0;
+}
+
+.dokan-support-topic-wrapper .comment-reply-title {
+  display: none;
+}
+.dokan-support-topic-wrapper .comment-textarea {
+  width: 100%;
+}
+.dokan-support-topic-wrapper .dokan-support-topic-select {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.dokan-support-reply-form #respond,
+.dokan-support-reply-form #respond form {
+  margin: 0;
+}
+
+.dokan-single-store .dokan-store-tabs ul li.dokan-store-support-btn-wrap{
+    margin-right: 5px;
+}
+
+.dokan-live-chat, .dokan-live-chat-login {
+    position: relative;
+    margin-top: 3px;
+}
+
+/**
+ * Customer Chat Inbox
+ */
+/* Note: the talkjs sdk v1 use initial height: 479px; and current version v3 use height: 100%;, so we use the initial value with min-height to resolve height issue on various theme */
+#customer-inbox #dokan-inbox iframe {
+    min-height: 479px;
+}
+
+@media only screen and ( min-width: 850px ) {
+    #customer-inbox {
+        width: 500px;
+    }
+}
+
+/* Hide the unread badge until the JS listener fills it. */
+.sidebar-menu-bubble:empty {
+	display: none !important;
+}
+
+/* Inbox iframe height: fills its capped parent on desktop, falls back to a
+ * viewport-based min-height on narrow screens where the parent is unbounded.
+ */
+body.dokan-live-chat-inbox-page #dokan-inbox {
+	height: 100%;
+	min-height: calc(100vh - 200px);
+}
+
+/* Desktop only: cap the dashboard at the viewport so chat fits without a
+ * trailing page scroll. Narrow viewports use Dokan's responsive layout.
+ */
+@media ( min-width: 901px ) {
+
+	body.dokan-live-chat-inbox-page #dokan-dashboard-fullwidth-wrapper {
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		overflow: hidden;
+	}
+
+	body.dokan-live-chat-inbox-page .dokan-dashboard-wrap {
+		flex: 1 1 auto;
+		min-height: 0;
+		overflow: hidden;
+	}
+
+	body.dokan-live-chat-inbox-page .dokan-dash-sidebar {
+		height: 100%;
+		overflow-y: auto;
+	}
+}

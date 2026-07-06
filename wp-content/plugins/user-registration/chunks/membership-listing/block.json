@@ -1,0 +1,127 @@
+{
+  "$schema": "https://schemas.wp.org/block-json/1.1",
+  "apiVersion": 3,
+  "name": "user-registration/membership-listing",
+  "version": "1.0.0",
+  "title": "Membership Pricing",
+  "category": "user-registration",
+  "description": "Display the membership pricing in various layouts.",
+  "keywords": [
+    "user registration membership pricing",
+    "urm membership pricing",
+    "membership pricing"
+  ],
+  "textdomain": "user-registration",
+  "example": {
+    "attributes": {}
+  },
+  "supports": {
+    "reusable": false,
+    "className": true,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "__experimentalSkipSerialization": true,
+      "gradients": true,
+      "__experimentalDefaultControls": {
+        "text": true
+      }
+    }
+  },
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "redirection_page_id": {
+      "type": "string",
+      "default": ""
+    },
+    "thank_you_page_id": {
+      "type": "string",
+      "default": ""
+    },
+    "group_id": {
+      "type": "string",
+      "default": ""
+    },
+    "new_group_id": {
+      "type": "string",
+      "default": ""
+    },
+    "selected_membership_ids": {
+      "type": "array",
+      "default": []
+    },
+    "type": {
+      "type": "string",
+      "default": "list"
+    },
+    "button_text": {
+      "type": "string",
+      "default": "Sign Up"
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "columnNumber": {
+      "type": "number",
+      "default": 3
+    },
+    "buttonTextColor": {
+      "type": "string"
+    },
+    "buttonBgColor": {
+      "type": "string"
+    },
+    "buttonTextHoverColor": {
+      "type": "string"
+    },
+    "buttonBgHoverColor": {
+      "type": "string"
+    },
+    "radioColor": {
+      "type": "string"
+    },
+    "buttonWidth": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonFontSize": {
+      "type": "string"
+    },
+    "buttonTypography": {
+      "type": "object",
+      "default": {
+        "fontWeight": "",
+        "fontStyle": ""
+      }
+    },
+    "buttonPadding": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "buttonMargin": {
+      "type": "object",
+      "default": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "editorScript": "user-registration-blocks-editor",
+  "editorStyle": "user-registration-blocks-editor"
+}

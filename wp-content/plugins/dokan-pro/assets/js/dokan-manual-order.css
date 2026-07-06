@@ -1,0 +1,1 @@
+body.dokan-dashboard .dokan-dashboard-wrap:has(.manual-order-root),body.dokan-dashboard .dokan-dashboard-content:has(.manual-order-root){overflow:visible}body.dokan-dashboard .dokan-edit-order-button{margin-right:5.5%}@media screen and (max-width: 767px){body.dokan-dashboard .dokan-edit-order-button{margin-right:0}}

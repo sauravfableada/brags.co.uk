@@ -1,0 +1,54 @@
+.user-registration-MyAccount-content {
+    text-align: unset !important;
+  }
+
+
+  @media screen and (max-width: 600px) {
+
+    #user-registration.vertical .user-registration-MyAccount-content {
+      padding: 24px  10px 20px 10px !important;
+  }
+  div#ur-multi-step-form fieldset {
+
+    padding: 20px 20px;
+
+}
+}
+
+
+
+div#ur-multi-step-form fieldset  label {
+    margin-top: 15px;
+}
+
+div#ur-multi-step-form fieldset input[name="product_ids_1"],
+div#ur-multi-step-form fieldset input[name="product_ids_2"],
+div#ur-multi-step-form fieldset input[name="product_ids_3"],
+div#ur-multi-step-form fieldset input[name="product_ids_4"],
+div#ur-multi-step-form fieldset input[name="product_ids_5"] {
+  margin-bottom: 20px;
+}
+
+div#ur-multi-step-form fieldset input[name="product_ids_1"] {
+  margin-top: 15px;
+}
+
+div#ur-multi-step-form fieldset input#phone {
+    margin-left: 10px;
+}
+
+.user-registration-MyAccount-content div#ur-multi-step-form button,
+.user-registration-MyAccount-content div#ur-multi-step-form button[type=submit],
+.user-registration-MyAccount-content div#ur-multi-step-form input[type=submit] {
+    background-color: var(--btn-accented-bgcolor);
+    color: #fff;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.user-registration-MyAccount-content.ur-frontend-form div#ur-multi-step-form button:hover {
+    color: var(--btn-accented-color-hover);
+    background-color: var(--btn-accented-bgcolor-hover);
+
+}

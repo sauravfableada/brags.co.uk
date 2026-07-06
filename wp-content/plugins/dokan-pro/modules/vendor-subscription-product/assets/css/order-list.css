@@ -1,0 +1,51 @@
+.dashboard-user-subscription-area .dokan-form-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dashboard-user-subscription-area .dokan-form-group button,
+.dashboard-user-subscription-area .dokan-form-group a,
+.dashboard-user-subscription-area .dokan-form-group input,
+.dashboard-user-subscription-area .dokan-form-group select,
+.dashboard-user-subscription-area .dokan-form-group .select2-container,
+.dashboard-user-subscription-area .dokan-form-group .select2-selection--single {
+    height: 35px !important;
+}
+
+.dashboard-user-subscription-area .dokan-form-group input,
+.dashboard-user-subscription-area .dokan-form-group select,
+.dashboard-user-subscription-area .dokan-form-group .select2-container {
+    margin-right: 10px;
+}
+
+.dashboard-user-subscription-area .dokan-form-group .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 32px;
+}
+
+.dashboard-user-subscription-area .dokan-form-group .select2-container--default  .select2-selection--single .select2-selection__arrow {
+    height: 32px;
+}
+
+.select2-container,
+.select2-container .select2-search__field {
+    max-width: 230px;
+}
+
+@media (max-width: 490px) {
+    .dashboard-user-subscription-area .dokan-form-group button,
+    .dashboard-user-subscription-area .dokan-form-group a,
+    .dashboard-user-subscription-area .dokan-form-group input,
+    .dashboard-user-subscription-area .dokan-form-group select,
+    .dashboard-user-subscription-area .dokan-form-group .select2-container,
+    .dashboard-user-subscription-area .dokan-form-group .select2-selection--single  {
+        display: block;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .select2-container,
+    .select2-container .select2-search__field {
+        max-width: 100%;
+    }
+}

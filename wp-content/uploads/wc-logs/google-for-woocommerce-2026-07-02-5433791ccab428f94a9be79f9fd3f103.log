@@ -1,0 +1,51 @@
+2026-07-02T06:17:18+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\MerchantPriceBenchmarks::get_price_comparisons_data {
+  "error": {
+    "code": 400,
+    "message": "Market Insights is not enabled for account 5772175936.",
+    "errors": [
+      {
+        "message": "Market Insights is not enabled for account 5772175936.",
+        "domain": "global",
+        "reason": "failedPrecondition"
+      }
+    ],
+    "status": "FAILED_PRECONDITION",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "conditionNotMet",
+        "domain": "global"
+      }
+    ]
+  }
+}
+2026-07-02T06:17:18+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\PriceBenchmarks::update_price_benchmarks Unable to retrieve price benchmark data
+2026-07-02T10:59:55+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\WCProductAdapter::map_product_categories Product category (ID: 18701): ["Brags Everyday"].
+2026-07-02T10:59:57+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\Product\ProductSyncer::update_by_batch_requests Submitted 1 products:
+[{"woocommerce_id":18701,"google_id":"online:en:GB:gla_18701"}]
+2026-07-02T13:49:16+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses::process_product_statuses Merchant Center product 17058 not found in this WooCommerce store.
+2026-07-02T13:49:16+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses::get_product_issues in remove_invalid_statuses() Merchant Center product online:en:GB:17058 not found in this WooCommerce store.
+2026-07-02T18:18:25+00:00 ERROR Automattic\WooCommerce\GoogleListingsAndAds\API\Google\MerchantPriceBenchmarks::get_price_comparisons_data {
+  "error": {
+    "code": 400,
+    "message": "Market Insights is not enabled for account 5772175936.",
+    "errors": [
+      {
+        "message": "Market Insights is not enabled for account 5772175936.",
+        "domain": "global",
+        "reason": "failedPrecondition"
+      }
+    ],
+    "status": "FAILED_PRECONDITION",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "conditionNotMet",
+        "domain": "global"
+      }
+    ]
+  }
+}
+2026-07-02T18:18:25+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\PriceBenchmarks::update_price_benchmarks Unable to retrieve price benchmark data
+2026-07-02T22:18:19+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses::process_product_statuses Merchant Center product 17058 not found in this WooCommerce store.
+2026-07-02T22:18:21+00:00 DEBUG Automattic\WooCommerce\GoogleListingsAndAds\MerchantCenter\MerchantStatuses::get_product_issues in remove_invalid_statuses() Merchant Center product online:en:GB:17058 not found in this WooCommerce store.
