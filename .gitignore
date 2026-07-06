@@ -6,4 +6,9 @@ uploads/wc-logs/
 
 # Or if uploads is inside wp-content
 wp-content/uploads/wc-logs/
+wp-content/wflogs/
+
+# Ignore all log files
+*.log
+
 
