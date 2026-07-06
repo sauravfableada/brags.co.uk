@@ -1,0 +1,9 @@
+# Wordfence logs
+wflogs/
+
+# WooCommerce logs
+uploads/wc-logs/
+
+# Or if uploads is inside wp-content
+wp-content/uploads/wc-logs/
+
