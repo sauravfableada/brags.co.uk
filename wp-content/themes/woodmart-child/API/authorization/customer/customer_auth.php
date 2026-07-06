@@ -53,18 +53,18 @@ function brags_customer_register_callback(WP_REST_Request $request) {
         $params = $request->get_body_params();
     }
 
-    $first_name   = isset($params['first_name']) ? sanitize_text_field($params['first_name']) : '';
-    $last_name    = isset($params['last_name']) ? sanitize_text_field($params['last_name']) : '';
+    $full_name    = isset($params['full_name']) ? sanitize_text_field($params['full_name']) : '';
     $email        = isset($params['email']) ? sanitize_email($params['email']) : '';
+    $phone        = isset($params['phone']) ? sanitize_text_field($params['phone']) : '';
     $password     = isset($params['password']) ? $params['password'] : '';
     $account_type = isset($params['account_type']) ? sanitize_text_field($params['account_type']) : '';
 
     // Validation: Missing fields
-    if (empty($first_name) || empty($last_name) || empty($email) || empty($password) || empty($account_type)) {
+    if (empty($full_name) || empty($email) || empty($phone) || empty($password) || empty($account_type)) {
         return new WP_REST_Response([
             'status'  => 'error',
             'code'    => 'missing_fields',
-            'message' => 'First name, last name, email, password, and account type are required.',
+            'message' => 'Full name, email, phone, password, and account type are required.',
         ], 400);
     }
 
@@ -108,26 +108,32 @@ function brags_customer_register_callback(WP_REST_Request $request) {
         ], 500);
     }
 
-    // Update first name, last name, and account type meta
+    // Split full name into first and last name for default WordPress fields
+    $name_parts = explode(' ', trim($full_name), 2);
+    $first_name = isset($name_parts[0]) ? $name_parts[0] : '';
+    $last_name  = isset($name_parts[1]) ? $name_parts[1] : '';
+
+    // Update profile info
     wp_update_user([
         'ID'         => $user_id,
         'first_name' => $first_name,
         'last_name'  => $last_name,
-        'display_name'=> $first_name . ' ' . $last_name,
+        'display_name'=> $full_name,
         'role'       => 'customer', // Assign customer role
     ]);
 
+    update_user_meta($user_id, 'phone', $phone);
+    update_user_meta($user_id, 'billing_phone', $phone);
     update_user_meta($user_id, 'account_type', strtolower($account_type));
 
-    // Optional: Log the user in or return success response with user details
     return new WP_REST_Response([
         'status'  => 'success',
         'message' => 'Customer registered successfully.',
         'data'    => [
             'user_id'      => $user_id,
-            'first_name'   => $first_name,
-            'last_name'    => $last_name,
+            'full_name'    => $full_name,
             'email'        => $email,
+            'phone'        => $phone,
             'account_type' => $account_type,
         ]
     ], 201);

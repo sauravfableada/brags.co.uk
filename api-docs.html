@@ -707,9 +707,9 @@
                 path: '/wp-json/brags/v1/customer/register',
                 description: 'Registers a new Customer (User role) and automatically establishes profile parameters.',
                 params: [
-                    { name: 'first_name', type: 'string', required: 'Yes', desc: 'First name of the customer.' },
-                    { name: 'last_name', type: 'string', required: 'Yes', desc: 'Last name of the customer.' },
+                    { name: 'full_name', type: 'string', required: 'Yes', desc: 'Full name of the customer.' },
                     { name: 'email', type: 'string', required: 'Yes', desc: 'Unique email address (must not exist).' },
+                    { name: 'phone', type: 'string', required: 'Yes', desc: 'Phone/contact number.' },
                     { name: 'password', type: 'string', required: 'Yes', desc: 'Must be at least 8 characters.' },
                     { name: 'account_type', type: 'string', required: 'Yes', desc: 'Are you an Individual or Business? Acceptable values: "individual", "business".' }
                 ],
@@ -719,9 +719,9 @@
                         message: 'Customer registered successfully.',
                         data: {
                             user_id: 12,
-                            first_name: 'Alice',
-                            last_name: 'Customer',
+                            full_name: 'Alice Customer',
                             email: 'alice@example.com',
+                            phone: '07123456789',
                             role: 'customer',
                             account_type: 'individual'
                         }
@@ -729,7 +729,7 @@
                     '400 Bad Request': {
                         status: 'error',
                         code: 'missing_fields',
-                        message: 'First name, last name, email, password, and account type are required.'
+                        message: 'Full name, email, phone, password, and account type are required.'
                     },
                     '409 Conflict': {
                         status: 'error',
