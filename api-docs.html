@@ -607,6 +607,11 @@
                 <span class="badge badge-post">POST</span>
                 <span>/customer/change-password</span>
             </a>
+            
+            <a href="#" class="nav-item" id="nav-categories" onclick="showEndpoint('categories', this)">
+                <span class="badge badge-get">GET</span>
+                <span>/customer/categories</span>
+            </a>
         </div>
     </aside>
 
@@ -832,6 +837,37 @@
                         message: 'User not found.'
                     }
                 }
+            },
+            categories: {
+                method: 'GET',
+                path: '/wp-json/brags/v1/customer/categories',
+                description: 'Retrieves a list of all product categories from WooCommerce, including subcategory hierarchy and image thumbnails.',
+                params: [],
+                responses: {
+                    '200 OK': {
+                        status: 'success',
+                        data: [
+                            {
+                                id: 101,
+                                name: 'Fashion & Apparel',
+                                slug: 'fashion-apparel',
+                                parent: 0,
+                                description: 'Trendy clothes and dress wear.',
+                                count: 124,
+                                image: 'http://localhost/brags.co.uk/wp-content/uploads/2026/07/fashion-cat.jpg'
+                            },
+                            {
+                                id: 102,
+                                name: 'Shoes',
+                                slug: 'shoes',
+                                parent: 101,
+                                description: 'Running shoes and casual footwear.',
+                                count: 48,
+                                image: null
+                            }
+                        ]
+                    }
+                }
             }
         };
 
@@ -847,7 +883,13 @@
             if (el) el.classList.add('active');
 
             // Card routes
-            document.getElementById('card-method').innerText = data.method;
+            const methodBadge = document.getElementById('card-method');
+            methodBadge.innerText = data.method;
+            if (data.method === 'GET') {
+                methodBadge.className = 'method-badge get';
+            } else {
+                methodBadge.className = 'method-badge post';
+            }
             document.getElementById('card-route').innerText = data.path;
             document.getElementById('card-description').innerText = data.description;
 
